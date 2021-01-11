@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout>
-    <io.digibyte.presenter.customviews.BRLinearLayout
+    <org.noirofficial.presenter.customviews.BRLinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/activity_intro_set_pit"
@@ -31,5 +31,5 @@
             android:clipToPadding="false"
             android:layout_weight="1"/>
 
-    </io.digibyte.presenter.customviews.BRLinearLayout>
+    </org.noirofficial.presenter.customviews.BRLinearLayout>
 </layout>

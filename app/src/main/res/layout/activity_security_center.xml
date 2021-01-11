@@ -1,8 +1,8 @@
 <layout>
     <data>
-        <variable name="adapter" type="io.digibyte.presenter.activities.settings.SecurityCenterActivity.SecurityCenterListAdapter"/>
+        <variable name="adapter" type="org.noirofficial.presenter.activities.settings.SecurityCenterActivity.SecurityCenterListAdapter"/>
     </data>
-    <io.digibyte.presenter.customviews.BRLinearLayout
+    <org.noirofficial.presenter.customviews.BRLinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/layout"
@@ -38,5 +38,5 @@
 
         </ListView>
 
-    </io.digibyte.presenter.customviews.BRLinearLayout>
+    </org.noirofficial.presenter.customviews.BRLinearLayout>
 </layout>

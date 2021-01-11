@@ -7,14 +7,14 @@
         <import type="android.text.TextUtils"/>
 
         <variable name="callback"
-                  type="io.digibyte.presenter.fragments.interfaces.TransactionDetailsCallback"/>
+                  type="org.noirofficial.presenter.fragments.interfaces.TransactionDetailsCallback"/>
 
         <variable
             name="data"
-            type="io.digibyte.presenter.fragments.models.TransactionDetailsViewModel"/>
+            type="org.noirofficial.presenter.fragments.models.TransactionDetailsViewModel"/>
     </data>
 
-    <io.digibyte.presenter.customviews.BRRelativeLayout
+    <org.noirofficial.presenter.customviews.BRRelativeLayout
         android:id="@+id/background_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -246,6 +246,6 @@
 
         </FrameLayout>
 
-    </io.digibyte.presenter.customviews.BRRelativeLayout>
+    </org.noirofficial.presenter.customviews.BRRelativeLayout>
 </layout>
 

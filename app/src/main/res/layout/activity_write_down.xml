@@ -6,17 +6,17 @@
     <data>
 
         <variable name="callback"
-                  type="io.digibyte.presenter.activities.callbacks.ActivityWriteDownCallback"/>
+                  type="org.noirofficial.presenter.activities.callbacks.ActivityWriteDownCallback"/>
     </data>
 
-    <io.digibyte.presenter.customviews.BRLinearLayout
+    <org.noirofficial.presenter.customviews.BRLinearLayout
         android:id="@+id/activity_write_down"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:filterTouchesWhenObscured="true"
         android:textDirection="locale"
-        tools:context="io.digibyte.presenter.activities.introactivities.WriteDownActivity">
+        tools:context="org.noirofficial.presenter.activities.introactivities.WriteDownActivity">
 
         <include layout="@layout/toolbar"/>
 
@@ -66,5 +66,5 @@
             android:onClick="@{() -> callback.onWriteDownButtonClick()}"
             android:text="@string/StartPaperPhrase.buttonTitle"/>
 
-    </io.digibyte.presenter.customviews.BRLinearLayout>
+    </org.noirofficial.presenter.customviews.BRLinearLayout>
 </layout>

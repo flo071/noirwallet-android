@@ -5,11 +5,11 @@
 
         <variable
             name="data"
-            type="io.digibyte.presenter.activities.models.RecurringPayment" />
+            type="org.noirofficial.presenter.activities.models.RecurringPayment" />
 
         <variable
             name="callback"
-            type="io.digibyte.presenter.activities.callbacks.ActivityRecurringPaymentCallback" />
+            type="org.noirofficial.presenter.activities.callbacks.ActivityRecurringPaymentCallback" />
     </data>
 
     <LinearLayout

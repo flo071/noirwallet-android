@@ -9,11 +9,11 @@
 
         <variable
             name="data"
-            type="io.digibyte.presenter.fragments.models.FragmentSignalViewModel"/>
+            type="org.noirofficial.presenter.fragments.models.FragmentSignalViewModel"/>
 
     </data>
 
-    <io.digibyte.presenter.customviews.BRRelativeLayout
+    <org.noirofficial.presenter.customviews.BRRelativeLayout
         android:id="@+id/background"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -105,6 +105,6 @@
 
         </LinearLayout>
 
-    </io.digibyte.presenter.customviews.BRRelativeLayout>
+    </org.noirofficial.presenter.customviews.BRRelativeLayout>
 </layout>
 

@@ -3,10 +3,10 @@
 
     <data>
         <variable name="callback"
-                  type="io.digibyte.presenter.fragments.interfaces.MenuDialogCallback"/>
+                  type="org.noirofficial.presenter.fragments.interfaces.MenuDialogCallback"/>
     </data>
 
-    <io.digibyte.presenter.customviews.BRRelativeLayout
+    <org.noirofficial.presenter.customviews.BRRelativeLayout
         android:id="@+id/background"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -48,6 +48,6 @@
 
         </LinearLayout>
 
-    </io.digibyte.presenter.customviews.BRRelativeLayout>
+    </org.noirofficial.presenter.customviews.BRRelativeLayout>
 
 </layout>

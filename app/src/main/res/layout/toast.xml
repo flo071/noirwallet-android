@@ -9,7 +9,7 @@
               android:padding="8dp"
               android:showDividers="middle">
 
-    <io.digibyte.presenter.customviews.BRText
+    <org.noirofficial.presenter.customviews.BRText
         android:id="@+id/toast_text"
         android:textSize="@dimen/sub_header"
         android:layout_width="wrap_content"

@@ -5,9 +5,9 @@
 
         <variable
             name="callback"
-            type="io.digibyte.presenter.activities.callbacks.SettingsCallback" />
+            type="org.noirofficial.presenter.activities.callbacks.SettingsCallback" />
         <variable name="adapter"
-                  type="io.digibyte.presenter.activities.settings.SettingsActivity.SettingsListAdapter"/>
+                  type="org.noirofficial.presenter.activities.settings.SettingsActivity.SettingsListAdapter"/>
     </data>
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"

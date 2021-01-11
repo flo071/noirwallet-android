@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout>
     <data>
-        <variable name="callback" type="io.digibyte.presenter.activities.callbacks.IntroActivityCallback"/>
+        <variable name="callback" type="org.noirofficial.presenter.activities.callbacks.IntroActivityCallback"/>
     </data>
 
-    <io.digibyte.presenter.customviews.BRRelativeLayout
+    <org.noirofficial.presenter.customviews.BRRelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/intro_layout"
         android:filterTouchesWhenObscured="true"
@@ -84,6 +84,6 @@
             android:scaleType="fitCenter"
             android:src="@drawable/intro_dgb"/>
 
-    </io.digibyte.presenter.customviews.BRRelativeLayout>
+    </org.noirofficial.presenter.customviews.BRRelativeLayout>
 
 </layout>

@@ -1,4 +1,4 @@
-<io.digibyte.presenter.customviews.BRRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<org.noirofficial.presenter.customviews.BRRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                                                         xmlns:app="http://schemas.android.com/apk/res-auto"
                                                         android:id="@+id/layout"
                                                         android:layout_width="match_parent"
@@ -35,7 +35,7 @@
             app:layout_constraintTop_toTopOf="parent">
         </LinearLayout>
 
-        <io.digibyte.presenter.customviews.BRText
+        <org.noirofficial.presenter.customviews.BRText
             android:id="@+id/BRText3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -52,7 +52,7 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/linearLayout4"/>
 
-        <io.digibyte.presenter.customviews.BRText
+        <org.noirofficial.presenter.customviews.BRText
             android:id="@+id/BRText4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -70,7 +70,7 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/BRText3"/>
 
-        <io.digibyte.presenter.customviews.BRButton
+        <org.noirofficial.presenter.customviews.BRButton
             android:id="@+id/ok"
             android:layout_width="0dp"
             android:layout_height="80dp"
@@ -95,4 +95,4 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-</io.digibyte.presenter.customviews.BRRelativeLayout>
+</org.noirofficial.presenter.customviews.BRRelativeLayout>

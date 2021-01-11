@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <string name="digi_wallet_name">DigiByte</string>
-    <string name="digi_share">https://r.digibyteservers.io/?address=%s&amp;amount=%s
+    <string name="digi_wallet_name">NoirWallet</string>
+    <string name="digi_share">https://qr.noirofficial.org/?address=%s&amp;amount=%s
     </string>
     <string name="msg_default_status">""</string>
 </resources>

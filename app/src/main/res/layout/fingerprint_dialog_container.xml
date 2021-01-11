@@ -24,14 +24,14 @@
         <import type="android.view.View"/>
 
         <variable name="data"
-                  type="io.digibyte.presenter.fragments.models.FingerprintFragmentViewModel"/>
+                  type="org.noirofficial.presenter.fragments.models.FingerprintFragmentViewModel"/>
 
         <variable name="callback"
-                  type="io.digibyte.presenter.fragments.interfaces.FingerprintFragmentCallback"/>
+                  type="org.noirofficial.presenter.fragments.interfaces.FingerprintFragmentCallback"/>
 
     </data>
 
-    <io.digibyte.presenter.customviews.BRRelativeLayout
+    <org.noirofficial.presenter.customviews.BRRelativeLayout
         android:id="@+id/background"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -160,5 +160,5 @@
 
         </LinearLayout>
 
-    </io.digibyte.presenter.customviews.BRRelativeLayout>
+    </org.noirofficial.presenter.customviews.BRRelativeLayout>
 </layout>

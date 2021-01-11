@@ -1,5 +1,5 @@
 <layout>
-    <io.digibyte.presenter.customviews.BRLinearLayout
+    <org.noirofficial.presenter.customviews.BRLinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/layout"
@@ -91,6 +91,6 @@
         </ScrollView>
 
 
-    </io.digibyte.presenter.customviews.BRLinearLayout>
+    </org.noirofficial.presenter.customviews.BRLinearLayout>
 
 </layout>

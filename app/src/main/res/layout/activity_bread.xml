@@ -10,7 +10,7 @@
 
     </data>
 
-    <io.digibyte.presenter.customviews.HorizontalDrawerLayout
+    <org.noirofficial.presenter.customviews.HorizontalDrawerLayout
         android:id="@+id/drawer_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -174,7 +174,7 @@
                         android:gravity="center_horizontal"
                         android:layout_height="wrap_content" />
 
-                    <io.digibyte.presenter.customviews.BRTabLayout
+                    <org.noirofficial.presenter.customviews.BRTabLayout
                         android:id="@+id/tab_layout"
                         style="@style/MyCustomTabLayout"
                         android:layout_width="match_parent"
@@ -192,7 +192,7 @@
 
             </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
-            <io.digibyte.presenter.customviews.BRRelativeLayout
+            <org.noirofficial.presenter.customviews.BRRelativeLayout
                 android:id="@+id/bottom_navigation_layout"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
@@ -274,7 +274,7 @@
                     android:foreground="?android:attr/selectableItemBackground"
                     android:src="@drawable/ic_qrcode" />
 
-            </io.digibyte.presenter.customviews.BRRelativeLayout>
+            </org.noirofficial.presenter.customviews.BRRelativeLayout>
         </FrameLayout>
 
         <FrameLayout
@@ -495,6 +495,6 @@
         </FrameLayout>
 
 
-    </io.digibyte.presenter.customviews.HorizontalDrawerLayout>
+    </org.noirofficial.presenter.customviews.HorizontalDrawerLayout>
 
 </layout>

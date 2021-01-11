@@ -7,11 +7,11 @@
         <import type="android.text.TextUtils"/>
         <import type="android.view.View"/>
         <variable name="callback"
-                  type="io.digibyte.presenter.fragments.interfaces.PinFragmentCallback"/>
-        <variable name="data" type="io.digibyte.presenter.fragments.models.PinFragmentViewModel"/>
+                  type="org.noirofficial.presenter.fragments.interfaces.PinFragmentCallback"/>
+        <variable name="data" type="org.noirofficial.presenter.fragments.models.PinFragmentViewModel"/>
     </data>
 
-    <io.digibyte.presenter.customviews.BRLinearLayout
+    <org.noirofficial.presenter.customviews.BRLinearLayout
         android:id="@+id/mainLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -159,7 +159,7 @@
                 android:text="@string/RecoverWallet.next"/>
         </LinearLayout>
 
-        <io.digibyte.presenter.customviews.BRKeyboard
+        <org.noirofficial.presenter.customviews.BRKeyboard
             android:id="@+id/brkeyboard"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -170,6 +170,6 @@
             app:setBRButtonTextColor="@{data.keyboardTextColor}"
             app:setShowDot="@{false}"/>
 
-    </io.digibyte.presenter.customviews.BRLinearLayout>
+    </org.noirofficial.presenter.customviews.BRLinearLayout>
 
 </layout>

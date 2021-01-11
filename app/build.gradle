@@ -28,7 +28,7 @@ android {
 
     defaultConfig {
         testInstrumentationRunner = 'androidx.test.runner.AndroidJUnitRunner'
-        applicationId = 'io.digibyte'
+        applicationId = 'org.noirofficial'
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 2579
@@ -46,9 +46,9 @@ android {
 
     productFlavors {
         digibyte {
-            applicationId "io.digibyte"
+            applicationId "org.noirofficial"
             dimension "mode"
-            resValue "string", "app_name", "DigiByte"
+            resValue "string", "app_name", "NoirWallet"
             buildConfigField "boolean", "BITCOIN_TESTNET", "false"
 
             externalNativeBuild {
@@ -64,9 +64,9 @@ android {
         }
 
         digibyteTestnet {
-            applicationId "io.digibytetestnet"
+            applicationId "org.noirofficialtestnet"
             dimension "mode"
-            resValue "string", "app_name", "digibyte-testnet"
+            resValue "string", "app_name", "NoirWallet-testnet"
             buildConfigField "boolean", "BITCOIN_TESTNET", "true"
 
             externalNativeBuild {

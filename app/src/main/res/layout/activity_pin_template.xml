@@ -6,7 +6,7 @@
         <import type="android.view.View"/>
         <variable
             name="data"
-            type="io.digibyte.presenter.activities.models.PinActivityModel"/>
+            type="org.noirofficial.presenter.activities.models.PinActivityModel"/>
 
         <variable name="confirmPin" type="boolean"/>
 
@@ -98,7 +98,7 @@
 
         </LinearLayout>
 
-        <io.digibyte.presenter.customviews.BRKeyboard
+        <org.noirofficial.presenter.customviews.BRKeyboard
             android:id="@+id/brkeyboard"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -4,11 +4,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
-        <variable name="data" type="io.digibyte.tools.list.items.ListItemTransactionData"/>
+        <variable name="data" type="org.noirofficial.tools.list.items.ListItemTransactionData"/>
 
         <variable
             name="callback"
-            type="io.digibyte.presenter.activities.callbacks.TransactionClickCallback" />
+            type="org.noirofficial.presenter.activities.callbacks.TransactionClickCallback" />
     </data>
 
     <RelativeLayout
@@ -41,7 +41,7 @@
                 android:layout_marginTop="4dp"
                 app:drawable="@{data.arrowIcon}" />
 
-            <io.digibyte.presenter.customviews.BRText
+            <org.noirofficial.presenter.customviews.BRText
                 android:id="@+id/amount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -57,7 +57,7 @@
             <View android:layout_width="0dp" android:layout_height="wrap_content"
                   android:layout_weight="1"/>
 
-            <io.digibyte.presenter.customviews.BRText
+            <org.noirofficial.presenter.customviews.BRText
                 android:id="@+id/timestamp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

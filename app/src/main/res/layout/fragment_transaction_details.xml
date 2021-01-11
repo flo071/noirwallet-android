@@ -6,7 +6,7 @@
         <variable name="transactionNumber" type="Integer"/>
     </data>
 
-    <io.digibyte.presenter.customviews.BRLinearLayout
+    <org.noirofficial.presenter.customviews.BRLinearLayout
 
         android:id="@+id/background_layout"
         android:layout_width="match_parent"
@@ -26,7 +26,7 @@
             app:setOffscreenPageLimit="@{5}"
             app:setPageMargin="@{-42}"/>
 
-    </io.digibyte.presenter.customviews.BRLinearLayout>
+    </org.noirofficial.presenter.customviews.BRLinearLayout>
 
 </layout>
 

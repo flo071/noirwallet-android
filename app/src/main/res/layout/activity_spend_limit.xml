@@ -4,11 +4,11 @@
     <data>
 
         <variable name="adapter"
-                  type="io.digibyte.presenter.activities.settings.SpendLimitActivity.LimitAdaptor"/>
+                  type="org.noirofficial.presenter.activities.settings.SpendLimitActivity.LimitAdaptor"/>
 
     </data>
 
-    <io.digibyte.presenter.customviews.BRLinearLayout
+    <org.noirofficial.presenter.customviews.BRLinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/activity_intro_set_pit"
@@ -33,6 +33,6 @@
             android:layout_weight="1"
             android:adapter="@{adapter}"/>
 
-    </io.digibyte.presenter.customviews.BRLinearLayout>
+    </org.noirofficial.presenter.customviews.BRLinearLayout>
 
 </layout>

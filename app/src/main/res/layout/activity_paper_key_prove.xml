@@ -4,16 +4,16 @@
     <data>
 
         <variable name="textWatcher"
-                  type="io.digibyte.presenter.activities.PaperKeyProveActivity.BRTextWatcher"/>
+                  type="org.noirofficial.presenter.activities.PaperKeyProveActivity.BRTextWatcher"/>
 
         <variable name="editorActionListener"
                   type="android.widget.TextView.OnEditorActionListener"/>
 
         <variable name="callback"
-                  type="io.digibyte.presenter.activities.callbacks.ActivityPaperKeyProveCallback"/>
+                  type="org.noirofficial.presenter.activities.callbacks.ActivityPaperKeyProveCallback"/>
 
     </data>
-    <io.digibyte.presenter.customviews.BRLinearLayout
+    <org.noirofficial.presenter.customviews.BRLinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
@@ -23,7 +23,7 @@
         android:focusable="true"
         android:focusableInTouchMode="true"
         android:orientation="vertical"
-        tools:context="io.digibyte.presenter.activities.introactivities.WriteDownActivity">
+        tools:context="org.noirofficial.presenter.activities.introactivities.WriteDownActivity">
 
         <include layout="@layout/toolbar"/>
 
@@ -115,7 +115,7 @@
 
         </LinearLayout>
 
-    </io.digibyte.presenter.customviews.BRLinearLayout>
+    </org.noirofficial.presenter.customviews.BRLinearLayout>
 
 </layout>
 

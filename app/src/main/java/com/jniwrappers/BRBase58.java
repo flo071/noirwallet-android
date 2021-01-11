@@ -1,11 +1,5 @@
 package com.jniwrappers;
 
-import android.app.Activity;
-
-import io.digibyte.wallet.BRWalletManager;
-
-import static okhttp3.internal.Internal.instance;
-
 /**
  * BreadWallet
  * <p/>

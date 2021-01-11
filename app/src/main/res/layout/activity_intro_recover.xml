@@ -4,10 +4,10 @@
     <data>
 
         <variable name="callback"
-                  type="io.digibyte.presenter.activities.callbacks.ActivityRecoverCallback"/>
+                  type="org.noirofficial.presenter.activities.callbacks.ActivityRecoverCallback"/>
 
     </data>
-    <io.digibyte.presenter.customviews.BRLinearLayout
+    <org.noirofficial.presenter.customviews.BRLinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context="io.digibyte.presenter.activities.introactivities.RecoverActivity">
+        tools:context="org.noirofficial.presenter.activities.introactivities.RecoverActivity">
 
         <include layout="@layout/toolbar"/>
 
@@ -67,7 +67,7 @@
                 app:layout_constraintTop_toTopOf="@+id/imageView4"/>
 
 
-            <io.digibyte.presenter.customviews.BRText
+            <org.noirofficial.presenter.customviews.BRText
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -99,7 +99,7 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-        <io.digibyte.presenter.customviews.BRText
+        <org.noirofficial.presenter.customviews.BRText
             android:id="@+id/textView8"
             style="@style/Text.Description.Top"
             android:layout_width="wrap_content"
@@ -121,6 +121,6 @@
             android:onClick="@{() -> callback.onNextClick()}"
             android:text="@string/RecoverWallet.next"/>
 
-    </io.digibyte.presenter.customviews.BRLinearLayout>
+    </org.noirofficial.presenter.customviews.BRLinearLayout>
 
 </layout>

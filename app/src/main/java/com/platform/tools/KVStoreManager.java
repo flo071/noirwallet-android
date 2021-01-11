@@ -17,10 +17,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import io.digibyte.tools.crypto.CryptoHelper;
-import io.digibyte.tools.manager.BRReportsManager;
-import io.digibyte.tools.util.BRCompressor;
-import io.digibyte.tools.util.Utils;
+import org.noirofficial.tools.crypto.CryptoHelper;
+import org.noirofficial.tools.manager.BRReportsManager;
+import org.noirofficial.tools.util.BRCompressor;
+import org.noirofficial.tools.util.Utils;
 
 /**
  * BreadWallet

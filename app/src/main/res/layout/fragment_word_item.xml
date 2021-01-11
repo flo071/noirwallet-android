@@ -5,7 +5,7 @@
                 android:filterTouchesWhenObscured="true"
                 android:orientation="horizontal">
 
-    <io.digibyte.presenter.customviews.BRText
+    <org.noirofficial.presenter.customviews.BRText
         android:id="@+id/word_button"
         android:layout_width="136dp"
         android:layout_height="96dp"

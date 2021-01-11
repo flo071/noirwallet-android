@@ -7,15 +7,15 @@
 
         <variable
             name="callback"
-            type="io.digibyte.presenter.fragments.interfaces.FragmentReceiveCallbacks"/>
+            type="org.noirofficial.presenter.fragments.interfaces.FragmentReceiveCallbacks"/>
 
         <variable
             name="data"
-            type="io.digibyte.presenter.fragments.models.ReceiveFragmentModel"/>
+            type="org.noirofficial.presenter.fragments.models.ReceiveFragmentModel"/>
 
     </data>
 
-    <io.digibyte.presenter.customviews.BRRelativeLayout
+    <org.noirofficial.presenter.customviews.BRRelativeLayout
         android:id="@+id/background_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -117,7 +117,7 @@
                 android:orientation="vertical"
                 android:visibility="@{data.showKeyboard ? View.VISIBLE : View.GONE}">
 
-                <io.digibyte.presenter.customviews.BRKeyboard
+                <org.noirofficial.presenter.customviews.BRKeyboard
                     android:id="@+id/keyboard"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -148,7 +148,7 @@
                     android:orientation="vertical"
                     android:padding="12dp">
 
-                    <io.digibyte.presenter.customviews.BRText
+                    <org.noirofficial.presenter.customviews.BRText
                         android:id="@+id/address_text"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -261,6 +261,6 @@
 
         </LinearLayout>
 
-    </io.digibyte.presenter.customviews.BRRelativeLayout>
+    </org.noirofficial.presenter.customviews.BRRelativeLayout>
 
 </layout>

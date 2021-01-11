@@ -8,10 +8,10 @@
     android:textDirection="locale"
     android:layout_height="match_parent"
     android:background="@drawable/bread_gradient"
-    tools:context="io.digibyte.presenter.activities.DisabledActivity">
+    tools:context="org.noirofficial.presenter.activities.DisabledActivity">
 
 
-    <io.digibyte.presenter.customviews.BRButton
+    <org.noirofficial.presenter.customviews.BRButton
         android:id="@+id/reset_button"
         android:layout_width="200dp"
         android:layout_height="60dp"
@@ -29,7 +29,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
-    <io.digibyte.presenter.customviews.BRText
+    <org.noirofficial.presenter.customviews.BRText
         android:id="@+id/disabled"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499"/>
 
-    <io.digibyte.presenter.customviews.BRText
+    <org.noirofficial.presenter.customviews.BRText
         android:id="@+id/until_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -59,7 +59,7 @@
         app:layout_constraintEnd_toEndOf="@+id/disabled"
         app:layout_constraintTop_toBottomOf="@+id/disabled"/>
 
-    <io.digibyte.presenter.customviews.BRText
+    <org.noirofficial.presenter.customviews.BRText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="0dp"

@@ -1,8 +1,6 @@
 package com.jniwrappers;
 
-import android.util.Log;
-
-import io.digibyte.tools.util.Utils;
+import org.noirofficial.tools.util.Utils;
 
 import java.util.Arrays;
 

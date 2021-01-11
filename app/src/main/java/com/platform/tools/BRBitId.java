@@ -25,14 +25,14 @@ import java.nio.ByteOrder;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-import io.digibyte.R;
-import io.digibyte.presenter.activities.callbacks.BRAuthCompletion;
-import io.digibyte.tools.security.AuthManager;
-import io.digibyte.tools.security.BRKeyStore;
-import io.digibyte.tools.threads.BRExecutor;
-import io.digibyte.tools.util.BRConstants;
-import io.digibyte.tools.util.TypesConverter;
-import io.digibyte.wallet.BRWalletManager;
+import org.noirofficial.R;
+import org.noirofficial.presenter.activities.callbacks.BRAuthCompletion;
+import org.noirofficial.tools.security.AuthManager;
+import org.noirofficial.tools.security.BRKeyStore;
+import org.noirofficial.tools.threads.BRExecutor;
+import org.noirofficial.tools.util.BRConstants;
+import org.noirofficial.tools.util.TypesConverter;
+import org.noirofficial.wallet.BRWalletManager;
 import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
@@ -64,7 +64,7 @@ import okhttp3.Response;
  */
 public class BRBitId {
     public static final String TAG = BRBitId.class.getName();
-    public static final String BITCOIN_SIGNED_MESSAGE_HEADER = "DigiByte Signed Message:\n";
+    public static final String BITCOIN_SIGNED_MESSAGE_HEADER = "Noir Signed Message:\n";
 
     public static boolean isBitId(String uri) {
         try {

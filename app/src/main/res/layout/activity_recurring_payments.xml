@@ -5,11 +5,11 @@
 
         <variable
             name="data"
-            type="io.digibyte.presenter.activities.models.RecurringPaymentModel" />
+            type="org.noirofficial.presenter.activities.models.RecurringPaymentModel" />
 
         <variable
             name="callback"
-            type="io.digibyte.presenter.activities.callbacks.ActivityRecurringPaymentCallback" />
+            type="org.noirofficial.presenter.activities.callbacks.ActivityRecurringPaymentCallback" />
     </data>
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"

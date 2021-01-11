@@ -4,7 +4,7 @@
 
         <variable
             name="callback"
-            type="io.digibyte.presenter.activities.callbacks.ActivityAssetImageCallback" />
+            type="org.noirofficial.presenter.activities.callbacks.ActivityAssetImageCallback" />
     </data>
 
     <LinearLayout
