@@ -5,7 +5,7 @@
 (https://play.google.com/store/apps/details?id=org.noirofficial)
 
 # Noir done right
-
+Supports all address types of Noir. p2pkh(z), p2sh(n), p2wpkh(nor) 
 
 ## A completely standalone Noir wallet
 
