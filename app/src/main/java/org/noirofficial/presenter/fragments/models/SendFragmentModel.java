@@ -26,7 +26,7 @@ public class SendFragmentModel extends BaseObservable implements Parcelable {
     private String enteredAddress = "";
     private String memo = "";
     private boolean showSendWaiting = false;
-    private boolean dandelionChecked = true;
+    private boolean dandelionChecked = false;
 
     public SendFragmentModel(){}
 
