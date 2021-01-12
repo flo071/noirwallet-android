@@ -39,8 +39,8 @@ public class TransactionDetailsViewModel extends BaseObservable {
         } else {
             boolean received = item.getSent() == 0;
             long satoshisAmount = received ? item.getReceived() : (item.getSent() - item.getReceived());
-            return BRCurrency.getFormattedCurrencyString(NoirWallet.getContext(), "DGB",
-                    BRExchange.getAmountFromSatoshis(NoirWallet.getContext(), "DGB",
+            return BRCurrency.getFormattedCurrencyString(NoirWallet.getContext(), "NOR",
+                    BRExchange.getAmountFromSatoshis(NoirWallet.getContext(), "NOR",
                             new BigDecimal(satoshisAmount)));
         }
     }
@@ -137,8 +137,8 @@ public class TransactionDetailsViewModel extends BaseObservable {
         if (item.getSent() == 0) {
             return "";
         }
-        String approximateFee = BRCurrency.getFormattedCurrencyString(NoirWallet.getContext(), "DGB",
-                BRExchange.getAmountFromSatoshis(NoirWallet.getContext(), "DGB",
+        String approximateFee = BRCurrency.getFormattedCurrencyString(NoirWallet.getContext(), "NOR",
+                BRExchange.getAmountFromSatoshis(NoirWallet.getContext(), "NOR",
                         new BigDecimal(item.getFee())));
         if (TextUtils.isEmpty(approximateFee)) {
             approximateFee = "";

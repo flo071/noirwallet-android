@@ -65,7 +65,7 @@ public class DisplayCurrencyActivity extends BRActivity {
         if (entity != null) {
             String finalExchangeRate = BRCurrency.getFormattedCurrencyString(DisplayCurrencyActivity.this, BRSharedPrefs.getIso(this), new BigDecimal(entity.rate));
             boolean bits = BRSharedPrefs.getCurrencyUnit(this) == BRConstants.CURRENT_UNIT_BITS;
-            binding.exchangeText.setText(BRCurrency.getFormattedCurrencyString(this, "DGB", new BigDecimal(bits ? 1000000 : 1)) + " = " + finalExchangeRate);
+            binding.exchangeText.setText(BRCurrency.getFormattedCurrencyString(this, "NOR", new BigDecimal(bits ? 1000000 : 1)) + " = " + finalExchangeRate);
         }
         adapter.notifyDataSetChanged();
     }

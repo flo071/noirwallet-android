@@ -145,9 +145,9 @@ public class BreadActivity extends BRActivity implements BRWalletManager.OnBalan
             bindings.rootBanner.setVisibility(View.VISIBLE);
         }
         bindings.assetRefresh.setOnRefreshListener(this);
-        bindings.digiSymbolBackground.
+        /*bindings.digiSymbolBackground.
                 setBackground(AppCompatResources.getDrawable(NoirWallet.getContext(),
-                        R.drawable.nav_drawer_header));
+                        R.drawable.nav_drawer_header));*/
         bindings.balanceVisibility.setImageResource(
                 BRSharedPrefs.getBalanceVisibility(this) ? R.drawable.show_balance : R.drawable.hide_balance);
         bindings.setPagerAdapter(adapter = new TxAdapter(this));
@@ -158,7 +158,7 @@ public class BreadActivity extends BRActivity implements BRWalletManager.OnBalan
                 .enableTransitionType(LayoutTransition.CHANGING);
         ViewUtils.increaceClickableArea(bindings.qrButton);
         ViewUtils.increaceClickableArea(bindings.navDrawer);
-        ViewUtils.increaceClickableArea(bindings.digiidButton);
+        /*ViewUtils.increaceClickableArea(bindings.digiidButton);*/
         unbinder = ButterKnife.bind(this);
         Animator animator = AnimatorInflater.loadAnimator(this, R.animator.from_bottom);
         animator.setTarget(bindings.bottomNavigationLayout);
@@ -189,10 +189,10 @@ public class BreadActivity extends BRActivity implements BRWalletManager.OnBalan
             txDataExecutor.execute(() -> {
 
                 try {
-                    int currentBlockHeight = BRWalletManager.getLatestBlockData().getInt("height");
+                    //int currentBlockHeight = BRWalletManager.getLatestBlockData().getInt("height");
                     int walletBlockHeight = BRSharedPrefs.getLastBlockHeight(BreadActivity.this);
-                    heightsMatch = walletBlockHeight == currentBlockHeight;
-                    heights = String.format(getString(R.string.block_heights), currentBlockHeight, walletBlockHeight);
+                    //heightsMatch = walletBlockHeight == currentBlockHeight;
+                    heights = String.format(getString(R.string.block_heights), walletBlockHeight);
                 } catch (Exception e) {
                     heightsMatch = false;
                     handler.post(() -> {
@@ -203,8 +203,7 @@ public class BreadActivity extends BRActivity implements BRWalletManager.OnBalan
                 handler.post(() -> {
                     bindings.heightCheck.setVisibility(View.VISIBLE);
                     bindings.heightCheck.setText(heights);
-                    bindings.heightCheck.setTextColor(
-                            heightsMatch ? getResources().getColor(R.color.blue) : getResources().getColor(R.color.red_text));
+                    bindings.heightCheck.setTextColor(getResources().getColor(R.color.white));
                     switch (connectionStatus) {
                         case 1:
                             if (!bindings.nodeConnectionStatus.isAnimating()) {
@@ -485,7 +484,7 @@ public class BreadActivity extends BRActivity implements BRWalletManager.OnBalan
     }
 
     private void updateAmounts() {
-        handler.post(() -> ActivityUtils.updateDigibyteDollarValues(
+        handler.post(() -> ActivityUtils.updateNoirDollarValues(
                 BreadActivity.this,
                 bindings.primaryPrice,
                 bindings.secondaryPrice
@@ -560,20 +559,20 @@ public class BreadActivity extends BRActivity implements BRWalletManager.OnBalan
         }
     }
 
-    @OnClick(R.id.assets_action)
+    /*@OnClick(R.id.assets_action)
     public void onAssetsButtonClick(View view) {
         bindings.drawerLayout.openDrawer(GravityCompat.END);
-    }
+    }*/
 
     @OnClick(R.id.main_action)
     void onMenuButtonClick(View view) {
         BRAnimator.showMenuFragment(BreadActivity.this);
     }
 
-    @OnClick(R.id.digiid_button)
+    /*@OnClick(R.id.digiid_button)
     void onDigiIDButtonClick(View view) {
         BRAnimator.openScanner(this);
-    }
+    }*/
 
     @OnClick(R.id.primary_price)
     void onPrimaryPriceClick(View view) {

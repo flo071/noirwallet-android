@@ -27,6 +27,7 @@
         <TextView
             android:id="@+id/description"
             style="@style/Text.Description.Top"
+            android:textColor="@color/noir_jupiter_grey"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@{description}"/>

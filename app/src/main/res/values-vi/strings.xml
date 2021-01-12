@@ -2,21 +2,21 @@
 <resources>
   <!-- App name -->
     <!-- About screen blog label -->
-  <string name="About.blog">https://digibyte.io/</string>
+  <string name="About.blog">https://noirofficial.org/</string>
   <!-- About screen footer -->
-  <string name="About.footer">Phát triển bởi đội ngũ DigiWallet. Phiên bản %1$s</string>
+  <string name="About.footer">Phát triển bởi đội ngũ NoirWallet. Phiên bản %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Chính sách bảo mật</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/Noirofficial/</string>
   <!-- Terms of Use button label -->
     <!--
     Terms of Use button label
     About screen title
     -->
-  <string name="About.title">DigiWallet cho Android là ví  DigiByte trên điện thoại di động</string>
+  <string name="About.title">NoirWallet cho Android là ví  Noir trên điện thoại di động</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/Noircoin</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">Đóng</string>
   <!-- Support center accessibiliy label -->
@@ -27,9 +27,9 @@
   <!-- Error alert title -->
   <string name="Alert.error">Lỗi</string>
   <!-- Keystore error -->
-  <string name="Alert.keystore.generic.android">Có sự cố với kho lưu trữ mật khẩu hệ điều hành Android, vui lòng liên hệ support@digibyte.io</string>
+  <string name="Alert.keystore.generic.android">Có sự cố với kho lưu trữ mật khẩu hệ điều hành Android, vui lòng liên hệ support@noirofficial.org</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">Dữ liệu đã mã hóa DigiWallet của bạn gần đây đã bị vô hiệu vì màn hình khóa Android của bạn đã bị tắt.</string>
+  <string name="Alert.keystore.invalidated.android">Dữ liệu đã mã hóa NoirWallet của bạn gần đây đã bị vô hiệu vì màn hình khóa Android của bạn đã bị tắt.</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">Kho lưu trữ mật khẩu bị lỗi</string>
   <!-- No internet alert message -->
@@ -47,7 +47,7 @@
   <!-- Send success alert header label (confirmation that the send happened) -->
   <string name="Alerts.sendSuccess">Gởi yêu cầu xác nhận</string>
   <!-- Send success alert subheader label (e.g. the money was sent) -->
-  <string name="Alerts.sendSuccessSubheader">DigiByte đã gửi!</string>
+  <string name="Alerts.sendSuccessSubheader">Noir đã gửi!</string>
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">Dấu vân tay đã được nhận diện</string>
   <string name="all">Tất cả các</string>
@@ -110,7 +110,7 @@
   <!-- Email unavailable alert title -->
     <!-- Email unavailable alert title -->
     <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
-  <string name="ErrorMessages.loopingLockScreen.android">Không thể xác thực DigiWallet do lỗi trong phiên bản Android của bạn. [Hãy nhấn vào đây để biết thêm thông tin.]</string>
+  <string name="ErrorMessages.loopingLockScreen.android">Không thể xác thực NoirWallet do lỗi trong phiên bản Android của bạn. [Hãy nhấn vào đây để biết thêm thông tin.]</string>
   <!-- Messaging unavailable alert title -->
     <!-- Messaging unavailable alert title -->
     <!-- Fingerprint was not recognized by the scanner, please try scanning again -->
@@ -125,7 +125,7 @@
     <!-- Checking private key balance progress view text -->
   <string name="Import.checking">Đang kiểm tra số dư của khóa cá nhân...</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">Gửi %1$@ từ khóa cá nhân này vào ví của bạn? Mạng DigiByte sẽ nhận được một khoảng phí %2$@.</string>
+  <string name="Import.confirm">Gửi %1$@ từ khóa cá nhân này vào ví của bạn? Mạng Noir sẽ nhận được một khoảng phí %2$@.</string>
   <!-- Duplicate key error message -->
     <!-- empty private key error message -->
   <string name="Import.Error.empty">Khóa cá nhân không chứa nội dung</string>
@@ -138,7 +138,7 @@
     <!-- Importing wallet progress view label -->
     <!-- Caption for graphics -->
     <!-- Import wallet intro screen message -->
-  <string name="Import.message">Động tác nhập ví sẽ chuyển tất cả số DigiByte từ ví hiện tại sang một ví DigiWallet mới trong một giao dịch.</string>
+  <string name="Import.message">Động tác nhập ví sẽ chuyển tất cả số Noir từ ví hiện tại sang một ví NoirWallet mới trong một giao dịch.</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">Khóa cá nhân này được bảo vệ bằng mật khẩu</string>
   <!-- password textfield placeholder -->
@@ -161,7 +161,7 @@
     Jailbreak warning message
     -->
   <string name="JailbreakWarnings.messageWithoutBalance">THIẾT BỊ KHÔNG AN TOÀN
-Bất kỳ ứng dụng \'root\' nào cũng có thể truy cập dữ liệu của ví DigiWallet và lấy cắp DigiByte của bạn!Hãy chỉ dùng ví DigiWallet trên thiết bị không bị \'root\'.</string>
+Bất kỳ ứng dụng \'root\' nào cũng có thể truy cập dữ liệu của ví NoirWallet và lấy cắp Noir của bạn!Hãy chỉ dùng ví NoirWallet trên thiết bị không bị \'root\'.</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">CẢNH BÁO</string>
   <!-- Location services disabled error -->
@@ -202,7 +202,7 @@ Bất kỳ ứng dụng \'root\' nào cũng có thể truy cập dữ liệu c�
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">Trạng thái kết nối Node</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">DigiByte Node</string>
+  <string name="NodeSelector.title">Noir Node</string>
   <string name="no_limit">Không giới hạn</string>
   <string name="original_amount">Giá trị ban đầu: %s</string>
   <!-- Bad Payment request alert title -->
@@ -211,9 +211,9 @@ Bất kỳ ứng dụng \'root\' nào cũng có thể truy cập dữ liệu c�
     <!-- Request expired payment protocol error message -->
     <!-- Payment too small alert title -->
     <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">Không thể thanh toán bằng DigiByte với số lượng nhỏ hơn %1$@.</string>
+  <string name="PaymentProtocol.Errors.smallPayment">Không thể thanh toán bằng Noir với số lượng nhỏ hơn %1$@.</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">Đầu ra của giao dịch bằng DigiByte không thể nhỏ hơn %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">Đầu ra của giao dịch bằng Noir không thể nhỏ hơn %1$s.</string>
   <!-- Unsupported signature type payment protocol error message -->
     <!-- Untrusted certificate payment protocol error message -->
     <string name="processed">Sẵn sàng</string>
@@ -237,7 +237,7 @@ Bất kỳ ứng dụng \'root\' nào cũng có thể truy cập dữ liệu c�
   <!-- Upgrade PIN prompt body. -->
     <!-- Upgrade PIN prompt title. -->
     <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">Bật thông báo để các nhận tin nhắn quan trọng từ DigiWallet trong tương lai.</string>
+  <string name="PushNotifications.body">Bật thông báo để các nhận tin nhắn quan trọng từ NoirWallet trong tương lai.</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Thông báo</string>
   <!-- Push notifications are off label -->
@@ -263,7 +263,7 @@ Bất kỳ ứng dụng \'root\' nào cũng có thể truy cập dữ liệu c�
   <string name="RecoverWallet.header_reset_pin">Đặt lại mã PIN</string>
   <!-- Enter paper key instruction -->
     <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">Khôi phục DigiWallet bằng Khóa Khôi Phục ví</string>
+  <string name="RecoverWallet.intro">Khôi phục NoirWallet bằng Khóa Khôi Phục ví</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">Khóa Khôi Phục ví không hợp lệ. Vui lòng kiểm tra kĩ và nhập lại</string>
   <!-- Previous button accessibility label -->
@@ -285,7 +285,7 @@ Bất kỳ ứng dụng \'root\' nào cũng có thể truy cập dữ liệu c�
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 phút</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Nếu một giao dịch hiển thị đã hoàn thành trên mạng DigiByte nhưng không có trong ví DigiWallet của bạn.</string>
+  <string name="ReScan.body2">Nếu một giao dịch hiển thị đã hoàn thành trên mạng Noir nhưng không có trong ví NoirWallet của bạn.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">Bạn liên tục gặp lỗi khi nói rằng giao dịch của bạn đã bị từ chối.</string>
   <!-- Start Sync button label -->
@@ -305,26 +305,26 @@ Bất kỳ ứng dụng \'root\' nào cũng có thể truy cập dữ liệu c�
     <!-- Security Center Info -->
   <string name="SecurityCenter.info">Kích hoạt tất cả các tính năng bảo mật.</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">Cách duy nhất để truy cập ví DigiByte nếu bạn mất hoặc nâng cấp điện thoại.</string>
+  <string name="SecurityCenter.paperKeyDescription">Cách duy nhất để truy cập ví Noir nếu bạn mất hoặc nâng cấp điện thoại.</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Khóa Khôi Phục ví</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">Bảo vệ ví DigiWallet  của bạn từ những người sử dụng khác.</string>
+  <string name="SecurityCenter.pinDescription">Bảo vệ ví NoirWallet  của bạn từ những người sử dụng khác.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">Mật mã 6 số</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Bảo mật</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">Mở khóa ví DigiWallet của bạn và gửi Digibyte trong hạn mức cài đặt trước một cách tiện lợi.</string>
+  <string name="SecurityCenter.touchIdDescription">Mở khóa ví NoirWallet của bạn và gửi Noir trong hạn mức cài đặt trước một cách tiện lợi.</string>
   <!-- Touch ID button title -->
     <!-- Security center fingerprint authentication button -->
   <string name="SecurityCenter.touchIdTitle.android">Xác nhận Dấu Vân Tay</string>
   <!-- Send money amount label -->
     <!-- Balance: $4.00 -->
     <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">Cho phép camera truy xuất vào \"Cài đặt\" &gt; \"Ứng dụng\" &gt; \"Ví Digiwallet\" &gt; \"Cho phép\"</string>
+  <string name="Send.cameraUnavailabeMessage.android">Cho phép camera truy xuất vào \"Cài đặt\" &gt; \"Ứng dụng\" &gt; \"Ví NoirWallet\" &gt; \"Cho phép\"</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">Ví DigiWallet không cho phép truy xuất vào Camera</string>
+  <string name="Send.cameraUnavailabeTitle.android">Ví NoirWallet không cho phép truy xuất vào Camera</string>
   <!-- Camera not allowed message -->
     <!-- Camera not allowed alert title -->
     <!-- Warning when sending to self. -->
@@ -360,7 +360,7 @@ Bất kỳ ứng dụng \'root\' nào cũng có thể truy cập dữ liệu c�
   <!-- Send money to label -->
   <string name="Send.toLabel">Đến</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">Địa chỉ DigiByte chỉ dành cho một lần sử dụng.</string>
+  <string name="Send.UsedAddress.firstLine">Địa chỉ Noir chỉ dành cho một lần sử dụng.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">Việc sử dụng lại làm giảm sự riêng tư của cả bạn và người nhận và cũng là nguyên nhân của việc mất dữ liệu nếu người nhận không trực tiếp kiểm tra địa chỉ.</string>
   <!-- Adress already used alert title -->
@@ -376,14 +376,14 @@ Bất kỳ ứng dụng \'root\' nào cũng có thể truy cập dữ liệu c�
     <!-- Import wallet left message -->
   <string name="Settings.importLeftMessage">Ví đã được nhập</string>
   <!-- Import wallet right message -->
-  <string name="Settings.importRightMessage">Ví DigiWallet của bạn</string>
+  <string name="Settings.importRightMessage">Ví NoirWallet của bạn</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Nhập ví</string>
   <!-- Manage settings section header -->
   <string name="Settings.manage">Quản lý</string>
   <!-- Notifications label -->
     <!-- Restore screen lower label. -->
-  <string name="Settings.restore_label">Ví DigiWallet của bạn trên thiết bị này</string>
+  <string name="Settings.restore_label">Ví NoirWallet của bạn trên thiết bị này</string>
   <!-- Leave review button label -->
     <!-- Share anonymous data label -->
     <!-- Sync blockchain label -->
@@ -401,7 +401,7 @@ Bất kỳ ứng dụng \'root\' nào cũng có thể truy cập dữ liệu c�
     <!-- Share data switch label. -->
     <!-- button label -->
     <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">Khóa khôi phục ví là cách duy nhất để phục hồi ví Digiwallet trong trường hợp điện thoại của bạn bị mất, đánh cắp, lỗi hoặc trong lúc nâng cấp.\n\n Chúng tôi sẽ cung cấp một danh sách các từ khóa để bạn viết lên giấy và cất ở một nơi an toàn.</string>
+  <string name="StartPaperPhrase.body">Khóa khôi phục ví là cách duy nhất để phục hồi ví NoirWallet trong trường hợp điện thoại của bạn bị mất, đánh cắp, lỗi hoặc trong lúc nâng cấp.\n\n Chúng tôi sẽ cung cấp một danh sách các từ khóa để bạn viết lên giấy và cất ở một nơi an toàn.</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">Hãy viết Mã Khôi Phục ví xuống</string>
   <!-- Argument is date -->
@@ -423,7 +423,7 @@ Bất kỳ ứng dụng \'root\' nào cũng có thể truy cập dữ liệu c�
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">Nhận dạng vân tay chưa kích hoạt</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">Dùng vân tay để mở khóa ví Digiwallet của bạn và gửi Digibyte trong mức giới hạn định trước.</string>
+  <string name="TouchIdSettings.label">Dùng vân tay để mở khóa ví NoirWallet của bạn và gửi Noir trong mức giới hạn định trước.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
     <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Giới hạn gửi: %1$s (%2$s)</string>
@@ -495,9 +495,9 @@ Bất kỳ ứng dụng \'root\' nào cũng có thể truy cập dữ liệu c�
   <string name="UnlockScreen.touchIdTitle.android">Yêu cầu xác thực</string>
   <!-- Wallet unlocked message -->
     <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">Hãy ghi nhớ mã PIN này. Nếu quên, sẽ không thể truy cập vào số Digibyte của bạn.</string>
+  <string name="UpdatePin.caption">Hãy ghi nhớ mã PIN này. Nếu quên, sẽ không thể truy cập vào số Noir của bạn.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">Mã PIN của bạn sẽ được sử dụng để mở khóa ví DigiWallet and gửi Digibyte.</string>
+  <string name="UpdatePin.createInstruction">Mã PIN của bạn sẽ được sử dụng để mở khóa ví NoirWallet and gửi Noir.</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">Đặt mã PIN</string>
   <!-- Update PIN title -->
@@ -526,9 +526,9 @@ Bất kỳ ứng dụng \'root\' nào cũng có thể truy cập dữ liệu c�
     <!-- Updating webview message -->
   <string name="Webview.updating">Đang cập nhật...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">Ví DigiWallet có diện mạo mới và một vài tính năng mới. \n\n Nếu bạn cần giúp đỡ, hãy tìm đến biểu tượng (?) ở ngay phía trên bên phải hầu hết các màn hình.</string>
+  <string name="Welcome.body">Ví NoirWallet có diện mạo mới và một vài tính năng mới. \n\n Nếu bạn cần giúp đỡ, hãy tìm đến biểu tượng (?) ở ngay phía trên bên phải hầu hết các màn hình.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">Chào mừng đến với DigiWallet!</string>
+  <string name="Welcome.title">Chào mừng đến với NoirWallet!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Bạn có chắc là bạn muốn xóa ví này chứ?</string>
   <!-- Wipe wallet alert title -->
@@ -538,7 +538,7 @@ Bất kỳ ứng dụng \'root\' nào cũng có thể truy cập dữ liệu c�
     <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">Để bắt đầu một ví mới hoặc khôi phục ví hiện tại, bạn phải xóa ví đang cài đặt hiện hành trước. Để tiếp tục, nhập Khóa Khôi Phục ví của ví đó.</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">Bắt đầu hoặc khôi phục một ví nào khác cho phép bạn truy xuất và quản lý ví Digiwallet khác trên thiết bị này.</string>
+  <string name="WipeWallet.startMessage">Bắt đầu hoặc khôi phục một ví nào khác cho phép bạn truy xuất và quản lý ví NoirWallet khác trên thiết bị này.</string>
   <!-- Start wipe wallet view warning -->
   <string name="WipeWallet.startWarning">Ví hiện tại của bạn sẽ bị loại bỏ khỏi thiết bị này. Nếu bạn muốn khôi phục sau đó, bạn sẽ cần nhập Khóa Phục Hồi ví.</string>
   <!-- Wipe wallet navigation item title. -->

@@ -94,9 +94,9 @@ import org.noirofficial.tools.util.Utils;
 
 public class BRWalletManager {
     private static final String TAG = BRWalletManager.class.getName();
-    private static String DIGIEXPLORER_URL = "https://explorer-1.us.digibyteservers.io";
-    private static final String DIGIEXPLORER_URL_FALLBACK = "https://explorer-2.us.digibyteservers.io";
-    private static final String DIGIEXPLORER_URL_FALLBACK_2 = "https://digiexplorer.info/";
+    private static String DIGIEXPLORER_URL = "https://explorer.noirofficial.org";
+    private static final String DIGIEXPLORER_URL_FALLBACK = "https://noirexplorer.flo071.com";
+    private static final String DIGIEXPLORER_URL_FALLBACK_2 = "https://explorer2.noirofficial.org/";
 
     private static BRWalletManager instance;
     public List<OnBalanceChanged> balanceListeners;
@@ -428,7 +428,7 @@ public class BRWalletManager {
         final Context ctx = NoirWallet.getContext();
         if (amount > 0) {
             BRExecutor.getInstance().forMainThreadTasks().execute(() -> {
-                String am = BRCurrency.getFormattedCurrencyString(ctx, "DGB",
+                String am = BRCurrency.getFormattedCurrencyString(ctx, "NOR",
                         BRExchange.getBitcoinForSatoshis(ctx, new BigDecimal(amount)));
                 String amCur = BRCurrency.getFormattedCurrencyString(ctx,
                         BRSharedPrefs.getIso(ctx),

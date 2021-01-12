@@ -2,13 +2,13 @@
 <resources>
   <!-- App name -->
     <!-- About screen blog label -->
-  <string name="About.blog">https://digibyte.io</string>
+  <string name="About.blog">https://noirofficial.org</string>
   <!-- About screen footer -->
   <string name="About.footer">من صنع فريق الديجيولت العالمي. الإصدار%1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">سياسة الخصوصية</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte</string>
+  <string name="About.reddit">https://www.reddit.com/r/Noir</string>
   <!-- Terms of Use button label -->
     <!--
     Terms of Use button label
@@ -16,7 +16,7 @@
     -->
   <string name="About.title">ديجيولت للأندرويد هي المحفظة النقالة للديجيبايت.</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/Noircoin</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">إغلاق</string>
   <!-- Support center accessibiliy label -->
@@ -27,7 +27,7 @@
   <!-- Error alert title -->
   <string name="Alert.error">خطأ</string>
   <!-- Keystore error -->
-  <string name="Alert.keystore.generic.android">هناك مشكلة في تشغيل تخزين المفاتيح الخاص بنظام الاندرويد، يرجى الاتصال بـ support@digibyte.io</string>
+  <string name="Alert.keystore.generic.android">هناك مشكلة في تشغيل تخزين المفاتيح الخاص بنظام الاندرويد، يرجى الاتصال بـ support@noirofficial.org</string>
   <!-- KeyStore error, keys are invalidated -->
   <string name="Alert.keystore.invalidated.android">تم إبطال بياناتك المشفرة في الديجيولت مؤخرًا بسبب تعطيل شاشة قفل الاندرويد.</string>
   <!-- Keystore error title -->

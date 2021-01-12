@@ -2,13 +2,13 @@
 <resources>
   <!-- App name -->
     <!-- About screen blog label -->
-  <string name="About.blog">https://digibyte.io</string>
+  <string name="About.blog">https://noirofficial.org</string>
   <!-- About screen footer -->
   <string name="About.footer">عالمی ڈیجی والیٹ ٹیم کی طرف سے بنایا گیا. ورژن %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">پرائیویسی پالیسی</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte</string>
+  <string name="About.reddit">https://www.reddit.com/r/Noir</string>
   <!-- Terms of Use button label -->
     <!--
     Terms of Use button label
@@ -16,7 +16,7 @@
     -->
   <string name="About.title">ڈیجی والیٹ اینڈرائڈ  موبائل کے لئے  ڈیجی بائٹ کا  پرس ہے.</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/Noircoin</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">بند کریں</string>
   <!-- Support center accessibiliy label -->
@@ -27,7 +27,7 @@
   <!-- Error alert title -->
   <string name="Alert.error">مسئلہ</string>
   <!-- Keystore error -->
-  <string name="Alert.keystore.generic.android">آپ کی  ینڈرائڈ OS کی اسٹور کے ساتھ ایک مسئلہ ہے، براہ کرم support@digibyte.io پر رابطہ کریں</string>
+  <string name="Alert.keystore.generic.android">آپ کی  ینڈرائڈ OS کی اسٹور کے ساتھ ایک مسئلہ ہے، براہ کرم support@noirofficial.org پر رابطہ کریں</string>
   <!-- KeyStore error, keys are invalidated -->
   <string name="Alert.keystore.invalidated.android">آپ کے ڈیجی والیٹ کے خفیہ کردہ ڈیٹا کو حال ہی میں کالعد  کردیا گیا تھا کیونکہ آپ کی  اینڈرائڈ لاک  سکرین غیر فعال تھی.</string>
   <!-- Keystore error title -->

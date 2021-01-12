@@ -114,7 +114,7 @@ public class SpendLimitActivity extends BRActivity {
             });
             FontManager.overrideFonts(holder.limit);
             int limit = items.get(position);
-            String dgbLimit = BRCurrency.getFormattedCurrencyString(SpendLimitActivity.this, "DGB",
+            String dgbLimit = BRCurrency.getFormattedCurrencyString(SpendLimitActivity.this, "NOR",
                     new BigDecimal(limit));
             holder.limit.setText(limit == 0 ? getString(R.string.no_limit) : dgbLimit);
             holder.check.setVisibility(

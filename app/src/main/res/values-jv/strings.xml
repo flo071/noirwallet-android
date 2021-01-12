@@ -2,21 +2,21 @@
 <resources>
   <!-- App name -->
     <!-- About screen blog label -->
-  <string name="About.blog">https://digibyte.io/</string>
+  <string name="About.blog">https://noirofficial.org/</string>
   <!-- About screen footer -->
-  <string name="About.footer">Digawe karo tim DigiWallet sedunia. Versi %1$s</string>
+  <string name="About.footer">Digawe karo tim NoirWallet sedunia. Versi %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Kebijakan Privasi</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/Noirofficial/</string>
   <!-- Terms of Use button label -->
     <!--
     Terms of Use button label
     About screen title
     -->
-  <string name="About.title">DigiWallet Android yaiku dompet kanggo nyimpen DigiByte neng HP Android</string>
+  <string name="About.title">NoirWallet Android yaiku dompet kanggo nyimpen Noir neng HP Android</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/Noircoin</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">Tutup</string>
   <!-- Support center accessibiliy label -->
@@ -27,9 +27,9 @@
   <!-- Error alert title -->
   <string name="Alert.error">Error</string>
   <!-- Keystore error -->
-  <string name="Alert.keystore.generic.android">Ana masalah neng keystore OS Android, monggo hubungi support@digibyte.io</string>
+  <string name="Alert.keystore.generic.android">Ana masalah neng keystore OS Android, monggo hubungi support@noirofficial.org</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">Data DigiWallet acak sing kesimpen sedurunge neng HP iki, nembe wae dadi ora valid lantaran HP Android sampeyan kunci layare ora aktif.</string>
+  <string name="Alert.keystore.invalidated.android">Data NoirWallet acak sing kesimpen sedurunge neng HP iki, nembe wae dadi ora valid lantaran HP Android sampeyan kunci layare ora aktif.</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">KeyStore Android Eror</string>
   <!-- No internet alert message -->
@@ -47,7 +47,7 @@
   <!-- Send success alert header label (confirmation that the send happened) -->
   <string name="Alerts.sendSuccess">Konfirmasi Pengiriman</string>
   <!-- Send success alert subheader label (e.g. the money was sent) -->
-  <string name="Alerts.sendSuccessSubheader">DigiByte Terkirim!</string>
+  <string name="Alerts.sendSuccessSubheader">Noir Terkirim!</string>
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">Sidik jari dikenali</string>
   <string name="all">Kabeh</string>
@@ -110,7 +110,7 @@
   <!-- Email unavailable alert title -->
     <!-- Email unavailable alert title -->
     <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
-  <string name="ErrorMessages.loopingLockScreen.android">DigiWallet ora bisa diotentikasi amarga ana kesalahan program neng versi Android sampeyan. [Monggo tutul neng kene kanggo info lewih lanjut]</string>
+  <string name="ErrorMessages.loopingLockScreen.android">NoirWallet ora bisa diotentikasi amarga ana kesalahan program neng versi Android sampeyan. [Monggo tutul neng kene kanggo info lewih lanjut]</string>
   <!-- Messaging unavailable alert title -->
     <!-- Messaging unavailable alert title -->
     <!-- Fingerprint was not recognized by the scanner, please try scanning again -->
@@ -125,7 +125,7 @@
     <!-- Checking private key balance progress view text -->
   <string name="Import.checking">Mriksa isine kunci privat...</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">Kirim %1$s saka kunci privat iki neng dompet sampeyan? Jaringan DigiByte bakal nerima biaya %2$s.</string>
+  <string name="Import.confirm">Kirim %1$s saka kunci privat iki neng dompet sampeyan? Jaringan Noir bakal nerima biaya %2$s.</string>
   <!-- Duplicate key error message -->
     <!-- empty private key error message -->
   <string name="Import.Error.empty">Kunci privat iki ora ana isine.</string>
@@ -138,7 +138,7 @@
     <!-- Importing wallet progress view label -->
     <!-- Caption for graphics -->
     <!-- Import wallet intro screen message -->
-  <string name="Import.message">Ngimport dompet berarti mindah kabeh DigiByte saka dompet liya neng DigiWallet nganggo transaksi sepisan.</string>
+  <string name="Import.message">Ngimport dompet berarti mindah kabeh Noir saka dompet liya neng NoirWallet nganggo transaksi sepisan.</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">Kunci privat iki nganggo password.</string>
   <!-- password textfield placeholder -->
@@ -160,7 +160,7 @@
     Ignore jailbreak warning button
     Jailbreak warning message
     -->
-  <string name="JailbreakWarnings.messageWithoutBalance">KEAMANAN PERANGKAT RUSAK\nAplikasi \'jailbreak\' apa wae bisa ngakses data-data kunci rahasia DigiWallet lan nyolong DigiByte sampeyan! Monggo instal DigiWallet neng perangkat sing ora di-jailbreak.</string>
+  <string name="JailbreakWarnings.messageWithoutBalance">KEAMANAN PERANGKAT RUSAK\nAplikasi \'jailbreak\' apa wae bisa ngakses data-data kunci rahasia NoirWallet lan nyolong Noir sampeyan! Monggo instal NoirWallet neng perangkat sing ora di-jailbreak.</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">ELING-ELING</string>
   <!-- Location services disabled error -->
@@ -201,7 +201,7 @@
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">Status Sambungan Node</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">Node DigiByte</string>
+  <string name="NodeSelector.title">Node Noir</string>
   <string name="no_limit">Ora ana watesan</string>
   <string name="original_amount">Nilai asli: %s</string>
   <!-- Bad Payment request alert title -->
@@ -210,9 +210,9 @@
     <!-- Request expired payment protocol error message -->
     <!-- Payment too small alert title -->
     <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">Pembayaran DigiByte ora bisa kurang saka %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallPayment">Pembayaran Noir ora bisa kurang saka %1$s.</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">Transaksi DigiByte ora bisa kurang saka %1$s .</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">Transaksi Noir ora bisa kurang saka %1$s .</string>
   <!-- Unsupported signature type payment protocol error message -->
     <!-- Untrusted certificate payment protocol error message -->
     <string name="processed">Diproses</string>
@@ -236,7 +236,7 @@
   <!-- Upgrade PIN prompt body. -->
     <!-- Upgrade PIN prompt title. -->
     <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">Aktifna notifikasi kanggo nerima pesan khusus saka DigiWallet neng waktu mendatang.</string>
+  <string name="PushNotifications.body">Aktifna notifikasi kanggo nerima pesan khusus saka NoirWallet neng waktu mendatang.</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Notifikasi</string>
   <!-- Push notifications are off label -->
@@ -262,7 +262,7 @@
   <string name="RecoverWallet.header_reset_pin">Reset PIN</string>
   <!-- Enter paper key instruction -->
     <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">Mulihna DigiWallet nganggo Personal Recovery Key.</string>
+  <string name="RecoverWallet.intro">Mulihna NoirWallet nganggo Personal Recovery Key.</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">Personal Recovery Key sing diketik ora valid. Monggo dicek kata-katane terus jajal maneh.</string>
   <!-- Previous button accessibility label -->
@@ -271,7 +271,7 @@
   <!-- Reset PIN with paper key: more information button. -->
     <!-- Next button accessibility label -->
     <!-- Recover wallet sub-header -->
-  <string name="RecoverWallet.subheader">Ketik Personal Recovery Key kanggo mulihna DigiWallet.</string>
+  <string name="RecoverWallet.subheader">Ketik Personal Recovery Key kanggo mulihna NoirWallet.</string>
   <!-- Reset PIN with paper key: sub-header -->
   <string name="RecoverWallet.subheader_reset_pin">Kanggo reset PIN, ketik kata-kata Personal Recovery Key neng kotak ngisor iki.</string>
   <!-- No amount entered error message. -->
@@ -284,13 +284,13 @@
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 menit</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Menawa transaksi DGB wis katon rampung nang jaringan DigiByte tapi nang DigiWallet sampeyan durung.</string>
+  <string name="ReScan.body2">Menawa transaksi NOR wis katon rampung nang jaringan Noir tapi nang NoirWallet sampeyan durung.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">Bola-bali oleh pesan kesalahan yen transaksimu ditolak.</string>
   <!-- Start Sync button label -->
   <string name="ReScan.buttonTitle">Mulai sinkronisasi</string>
   <!-- Sync blockchain view footer -->
-  <string name="ReScan.footer">Ora bisa ngirim DigiByte yen proses sinkronisasi karo blockchain durung rampung.</string>
+  <string name="ReScan.footer">Ora bisa ngirim Noir yen proses sinkronisasi karo blockchain durung rampung.</string>
   <!-- Sync Blockchain view header -->
     <!-- Subheader label -->
   <string name="ReScan.subheader1">Perkiraan waktu</string>
@@ -304,26 +304,26 @@
     <!-- Security Center Info -->
   <string name="SecurityCenter.info">Aktifna kabeh fitur keamanan kanggo perlindungan maksimal.</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">Siji-sijine cara kanggo ngakses DigiByte yen sampeyan kelangan utawa ganti HP.</string>
+  <string name="SecurityCenter.paperKeyDescription">Siji-sijine cara kanggo ngakses Noir yen sampeyan kelangan utawa ganti HP.</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Personal Recovery Key</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">Lindungi DigiWallet sampeyan saka wong liya.</string>
+  <string name="SecurityCenter.pinDescription">Lindungi NoirWallet sampeyan saka wong liya.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">PIN 6-Angka</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Pusat Keamanan</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">Buka kunci DigiWallet lan kirim DigiByte sampe batas maksimal transaksi.</string>
+  <string name="SecurityCenter.touchIdDescription">Buka kunci NoirWallet lan kirim Noir sampe batas maksimal transaksi.</string>
   <!-- Touch ID button title -->
     <!-- Security center fingerprint authentication button -->
   <string name="SecurityCenter.touchIdTitle.android">Otentikasi Sidik Jari</string>
   <!-- Send money amount label -->
     <!-- Balance: $4.00 -->
     <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">Ijinna akses kamera lewat menu \"Settings\" &gt; \"Apps\" &gt; \"DigiWallet\" &gt; \"Permissions\"</string>
+  <string name="Send.cameraUnavailabeMessage.android">Ijinna akses kamera lewat menu \"Settings\" &gt; \"Apps\" &gt; \"NoirWallet\" &gt; \"Permissions\"</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">DigiWallet ora ana ijin ngakses kamera</string>
+  <string name="Send.cameraUnavailabeTitle.android">NoirWallet ora ana ijin ngakses kamera</string>
   <!-- Camera not allowed message -->
     <!-- Camera not allowed alert title -->
     <!-- Warning when sending to self. -->
@@ -359,7 +359,7 @@
   <!-- Send money to label -->
   <string name="Send.toLabel">Kirim neng</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">Alamat DigiByte apike dinggo sekali pake.</string>
+  <string name="Send.UsedAddress.firstLine">Alamat Noir apike dinggo sekali pake.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">Nganggo alamat sing pada lewih saka sepisan iku ngurangi privasine sampeyan lan sing nerima, lan bisa dadi kerugian yen sing nerima ora bisa ngontrol alamate.</string>
   <!-- Adress already used alert title -->
@@ -375,14 +375,14 @@
     <!-- Import wallet left message -->
   <string name="Settings.importLeftMessage">Wallet sing arep diimport</string>
   <!-- Import wallet right message -->
-  <string name="Settings.importRightMessage">DigiWallet sampeyan</string>
+  <string name="Settings.importRightMessage">NoirWallet sampeyan</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Import Dompet</string>
   <!-- Manage settings section header -->
   <string name="Settings.manage">Atur</string>
   <!-- Notifications label -->
     <!-- Restore screen lower label. -->
-  <string name="Settings.restore_label">DigiWallet sampeyan neng perangkat iki</string>
+  <string name="Settings.restore_label">NoirWallet sampeyan neng perangkat iki</string>
   <!-- Leave review button label -->
     <!-- Share anonymous data label -->
     <!-- Sync blockchain label -->
@@ -400,7 +400,7 @@
     <!-- Share data switch label. -->
     <!-- button label -->
     <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">Personal Recovery Key nggone sampeyan iki dalan siji-sijine kanggo mulihna DigiWallet sampeyan yen HP sampeyan ilang, dicolong, rusak, utawa di-upgrade.\n\nSampeyan bakal diweruhna daftar kata kanggo dicatet nang kertas terus disimpen kanti aman.</string>
+  <string name="StartPaperPhrase.body">Personal Recovery Key nggone sampeyan iki dalan siji-sijine kanggo mulihna NoirWallet sampeyan yen HP sampeyan ilang, dicolong, rusak, utawa di-upgrade.\n\nSampeyan bakal diweruhna daftar kata kanggo dicatet nang kertas terus disimpen kanti aman.</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">Ketik Personal Recovery Key</string>
   <!-- Argument is date -->
@@ -422,7 +422,7 @@
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">Otentikasi Sidik Jari ora Diaktifna</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">Nganggo sidik jari kanggo mbuka DigiWallet lan ngirim DigiByte sampe batas pengiriman maksimal.</string>
+  <string name="TouchIdSettings.label">Nganggo sidik jari kanggo mbuka NoirWallet lan ngirim Noir sampe batas pengiriman maksimal.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
     <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Batas transaksi: %1$s (%2$s)</string>
@@ -494,9 +494,9 @@
   <string name="UnlockScreen.touchIdTitle.android">Otentikasi dibutuhaken</string>
   <!-- Wallet unlocked message -->
     <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">Eling-eling PIN iki. Yen sampeyan lali, sampeyan ora bakal bisa ngakses DigiByte nggone sampeyan.</string>
+  <string name="UpdatePin.caption">Eling-eling PIN iki. Yen sampeyan lali, sampeyan ora bakal bisa ngakses Noir nggone sampeyan.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">PIN sampeyan bakal dinggo mbuka kunci DigiWallet lan ngirim DigiByte.</string>
+  <string name="UpdatePin.createInstruction">PIN sampeyan bakal dinggo mbuka kunci NoirWallet lan ngirim Noir.</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">Setel PIN</string>
   <!-- Update PIN title -->
@@ -525,9 +525,9 @@
     <!-- Updating webview message -->
   <string name="Webview.updating">Lagi update...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">DigiWallet ana tampilan karo fitur-fitur anyar.\n\nYen sampeyan perlu bantuan, goleki tanda (?) neng ndhuwur sisi tengen layar.</string>
+  <string name="Welcome.body">NoirWallet ana tampilan karo fitur-fitur anyar.\n\nYen sampeyan perlu bantuan, goleki tanda (?) neng ndhuwur sisi tengen layar.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">Sugeng rawuh neng aplikasi DigiWallet!</string>
+  <string name="Welcome.title">Sugeng rawuh neng aplikasi NoirWallet!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Sampeyan yakin bakal ngapus dompet iki?</string>
   <!-- Wipe wallet alert title -->
@@ -537,7 +537,7 @@
     <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">Yen arep nggawe dompet anyar utawa mulihna dompet sing wis ana, sampeyan kudu hapus wallet sing saiki diinstall. Kanggo nerusna, tulis Personal Recovery Key wallet sampeyan sing saiki.</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">Gawe anyar utawa mulihna dompet liya ngijinna sampeyan ngakses lan ngatur DigiWallet neng perangkat iki.</string>
+  <string name="WipeWallet.startMessage">Gawe anyar utawa mulihna dompet liya ngijinna sampeyan ngakses lan ngatur NoirWallet neng perangkat iki.</string>
   <!-- Start wipe wallet view warning -->
   <string name="WipeWallet.startWarning">Dompet sampeyan sing saiki bakal dihapus saka perangkat iki. Yen sampeyan pengin mulihna ing mangsa ngarep, sampeyan kudu nulis Personal Recovery Key.</string>
   <!-- Wipe wallet navigation item title. -->

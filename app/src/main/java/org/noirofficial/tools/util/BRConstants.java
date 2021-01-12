@@ -87,8 +87,8 @@ public class BRConstants {
     public static final int CURRENT_UNIT_MBITS = 1;
     public static final int CURRENT_UNIT_BITCOINS = 2;
 
-    public static final String bitcoinLowercase = "\u018A";
-    public static final String bitcoinUppercase = "\u018A";
+    public static final String bitcoinLowercase = "\u014B";
+    public static final String bitcoinUppercase = "\u014A";
 
     public static final RoundingMode ROUNDING_MODE = RoundingMode.HALF_EVEN;
     public static final boolean WAL = true;

@@ -2,13 +2,13 @@
 <resources>
   <!-- App name -->
     <!-- About screen blog label -->
-  <string name="About.blog">https://digibyte.io/</string>
+  <string name="About.blog">https://noirofficial.org/</string>
   <!-- About screen footer -->
   <string name="About.footer">تهیه شده توسط تیم جهانی کیف پول دیجی. نسخه %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">سیاست حفظ حریم خصوصی</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/Noirofficial/</string>
   <!-- Terms of Use button label -->
     <!--
     Terms of Use button label
@@ -16,7 +16,7 @@
     -->
   <string name="About.title">کیف پول دیجی برای اندروید کیف پول همراه دیجی بایت است.</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/Noircoin</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">بستن</string>
   <!-- Support center accessibiliy label -->
@@ -28,7 +28,7 @@
   <!-- Error alert title -->
   <string name="Alert.error">خطا</string>
   <!-- Keystore error -->
-  <string name="Alert.keystore.generic.android">مشکلی در ذخیره سازی کلید سیستم عامل اندروید وجود دارد، لطفا با support@digibyte.io تماس بگیرید.</string>
+  <string name="Alert.keystore.generic.android">مشکلی در ذخیره سازی کلید سیستم عامل اندروید وجود دارد، لطفا با support@noirofficial.org تماس بگیرید.</string>
   <!-- KeyStore error, keys are invalidated -->
   <string name="Alert.keystore.invalidated.android">اطلاعات رمزگذاری کیف پول دیجی شما به تازگی نامعتبر شده است زیرا قفل صفحه اندروید شما غیرفعال شده است.</string>
   <!-- Keystore error title -->
@@ -325,7 +325,7 @@
   <!-- Send money amount label -->
     <!-- Balance: $4.00 -->
     <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">دسترسی دادن به دوربین در  \"Settings\" &gt; \"Apps\" &gt; \"DigiWallet\" &gt; \"Permissions\"</string>
+  <string name="Send.cameraUnavailabeMessage.android">دسترسی دادن به دوربین در  \"Settings\" &gt; \"Apps\" &gt; \"NoirWallet\" &gt; \"Permissions\"</string>
   <!-- Permission required to access camera -->
   <string name="Send.cameraUnavailabeTitle.android">کیف پول دیجی اجازه دسترسی به دوربین ندارد</string>
   <!-- Camera not allowed message -->

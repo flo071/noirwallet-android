@@ -2,21 +2,21 @@
 <resources>
   <!-- App name -->
     <!-- About screen blog label -->
-  <string name="About.blog">https://digibyte.io/</string>
+  <string name="About.blog">https://noirofficial.org/</string>
   <!-- About screen footer -->
-  <string name="About.footer">Imetengenezwa na kikundi kutoka kote duniani cha DigiWallet. Version %1$s</string>
+  <string name="About.footer">Imetengenezwa na kikundi kutoka kote duniani cha NoirWallet. Version %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Sera ya Faragha</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/Noirofficial/</string>
   <!-- Terms of Use button label -->
     <!--
     Terms of Use button label
     About screen title
     -->
-  <string name="About.title">DigiWallet ya Android ni kipochi rununu cha DigiByte.</string>
+  <string name="About.title">NoirWallet ya Android ni kipochi rununu cha Noir.</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/Noircoin</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">Funga</string>
   <!-- Support center accessibiliy label -->
@@ -27,9 +27,9 @@
   <!-- Error alert title -->
   <string name="Alert.error">Hitilafu</string>
   <!-- Keystore error -->
-  <string name="Alert.keystore.generic.android">Kuna tatizo la kuhifadhi nenosiri la Android OS, tafadhali wasiliana na support@digibyte.io</string>
+  <string name="Alert.keystore.generic.android">Kuna tatizo la kuhifadhi nenosiri la Android OS, tafadhali wasiliana na support@noirofficial.org</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">Data yako ya DigiWallet iliyo encrypted hivi karibuni haikubaliki kwa sababu skrini yako ya lock ya Android imezimwa.</string>
+  <string name="Alert.keystore.invalidated.android">Data yako ya NoirWallet iliyo encrypted hivi karibuni haikubaliki kwa sababu skrini yako ya lock ya Android imezimwa.</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">Hitilafu ya Hifadhi ya Android ya nenosiri 
 </string>
@@ -48,7 +48,7 @@
   <!-- Send success alert header label (confirmation that the send happened) -->
   <string name="Alerts.sendSuccess">Tuma Thibitisho</string>
   <!-- Send success alert subheader label (e.g. the money was sent) -->
-  <string name="Alerts.sendSuccessSubheader">"DigiByte Zimetumwa! "</string>
+  <string name="Alerts.sendSuccessSubheader">"Noir Zimetumwa! "</string>
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">"Alama za vidole zimetambulika "</string>
   <string name="all">WOTE</string>
@@ -111,7 +111,7 @@
   <!-- Email unavailable alert title -->
     <!-- Email unavailable alert title -->
     <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
-  <string name="ErrorMessages.loopingLockScreen.android">DigiWallet haiwezi kuthibitishwa kutokana na hitilafu katika toleo lako la Android [Tafadhali bonyeza hapa ili kupata habari zaidi]
+  <string name="ErrorMessages.loopingLockScreen.android">NoirWallet haiwezi kuthibitishwa kutokana na hitilafu katika toleo lako la Android [Tafadhali bonyeza hapa ili kupata habari zaidi]
 </string>
   <!-- Messaging unavailable alert title -->
     <!-- Messaging unavailable alert title -->
@@ -127,7 +127,7 @@
     <!-- Checking private key balance progress view text -->
   <string name="Import.checking">"Kuangalia masalio ya ufunguo wa kibinafsi "</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">"Tuma %1$s kutoka huu ufunguo wa kibinafsi na kuweka kwa kipochi? Mtandao wa DigiByte utapokea ada ya %2$s "</string>
+  <string name="Import.confirm">"Tuma %1$s kutoka huu ufunguo wa kibinafsi na kuweka kwa kipochi? Mtandao wa Noir utapokea ada ya %2$s "</string>
   <!-- Duplicate key error message -->
     <!-- empty private key error message -->
   <string name="Import.Error.empty">"Ufunguo huu wa kibinafsi ni mtupu. "</string>
@@ -141,7 +141,7 @@
     <!-- Importing wallet progress view label -->
     <!-- Caption for graphics -->
     <!-- Import wallet intro screen message -->
-  <string name="Import.message">"Kuagiza mkoba huhamisha DigiByte zote kutoka kipochi chako hadi kwa DigiWallet kwa shughuli moja tu.  "</string>
+  <string name="Import.message">"Kuagiza mkoba huhamisha Noir zote kutoka kipochi chako hadi kwa NoirWallet kwa shughuli moja tu.  "</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">Funguo hili la kibinafsi limelindwa na nenosiri</string>
   <!-- password textfield placeholder -->
@@ -165,7 +165,7 @@
     Jailbreak warning message
     -->
   <string name="JailbreakWarnings.messageWithoutBalance">"USALAMA WA KIFAA UMEVUNJWA 
-Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na kuiba DigiByte yako! Tafadhali tumia DigiWallet kwa kifaa kilicho non-jailbroken. "</string>
+Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya NoirWallet na kuiba Noir yako! Tafadhali tumia NoirWallet kwa kifaa kilicho non-jailbroken. "</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">ONYO</string>
   <!-- Location services disabled error -->
@@ -206,7 +206,7 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">Hali ya Kuunganisha ya Node</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">Nodes za DigiByte</string>
+  <string name="NodeSelector.title">Nodes za Noir</string>
   <string name="no_limit">Hakuna Mpaka</string>
   <string name="original_amount">Thamani ya awali: %s</string>
   <!-- Bad Payment request alert title -->
@@ -215,9 +215,9 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
     <!-- Request expired payment protocol error message -->
     <!-- Payment too small alert title -->
     <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">Malipo ya DigiByte hayawezi kuwa chini ya %1$s</string>
+  <string name="PaymentProtocol.Errors.smallPayment">Malipo ya Noir hayawezi kuwa chini ya %1$s</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">Utoaji wa shughuli za DigiByte haziwezi kuwa chini ya %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">Utoaji wa shughuli za Noir haziwezi kuwa chini ya %1$s.</string>
   <!-- Unsupported signature type payment protocol error message -->
     <!-- Untrusted certificate payment protocol error message -->
     <string name="processed">Imefanywa</string>
@@ -241,7 +241,7 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
   <!-- Upgrade PIN prompt body. -->
     <!-- Upgrade PIN prompt title. -->
     <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">Wezesha kupokea ujumbe maalum kutoka kwa DigiWallet hapo siku za usoni.</string>
+  <string name="PushNotifications.body">Wezesha kupokea ujumbe maalum kutoka kwa NoirWallet hapo siku za usoni.</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Eneza Taarifa</string>
   <!-- Push notifications are off label -->
@@ -268,7 +268,7 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
   <string name="RecoverWallet.header_reset_pin">Rekebisha PINI</string>
   <!-- Enter paper key instruction -->
     <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">Okoa DigiWallet na funguo binafsi la kuokoa kipochi</string>
+  <string name="RecoverWallet.intro">Okoa NoirWallet na funguo binafsi la kuokoa kipochi</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">Funguo binafsi la kuokoa kipochi chako ni batili. Tafadhali angalia kila neno  na ujaribu tena.</string>
   <!-- Previous button accessibility label -->
@@ -277,7 +277,7 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
   <!-- Reset PIN with paper key: more information button. -->
     <!-- Next button accessibility label -->
     <!-- Recover wallet sub-header -->
-  <string name="RecoverWallet.subheader">Ingiza funguo binafsi la kuokoa DigiWallet unaotaka kuokoa</string>
+  <string name="RecoverWallet.subheader">Ingiza funguo binafsi la kuokoa NoirWallet unaotaka kuokoa</string>
   <!-- Reset PIN with paper key: sub-header -->
   <string name="RecoverWallet.subheader_reset_pin">Kuweka upya PINI yako, ingiza maneno kutoka kwenye funguo binafsi ya Kuokoa kipochi chako ndani ya masanduku yaliyo hapa chini.</string>
   <!-- No amount entered error message. -->
@@ -290,13 +290,13 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
   <!-- extimated time -->
   <string name="ReScan.body1">Dakika 20-45</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Ikiwa shughuli inaonyesha kama imekamilika kwenye mtandao wa DigiByte lakini sio kwenye DigiWallet yako.</string>
+  <string name="ReScan.body2">Ikiwa shughuli inaonyesha kama imekamilika kwenye mtandao wa Noir lakini sio kwenye NoirWallet yako.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">"Unaendelea kupata hitilafu kuwa shughuli uliyojaribu haikubaliwi. "</string>
   <!-- Start Sync button label -->
   <string name="ReScan.buttonTitle">Anza kusawazisha</string>
   <!-- Sync blockchain view footer -->
-  <string name="ReScan.footer">Hutaweza kutuma DigiByte huku usawazisha na blockchain.</string>
+  <string name="ReScan.footer">Hutaweza kutuma Noir huku usawazisha na blockchain.</string>
   <!-- Sync Blockchain view header -->
     <!-- Subheader label -->
   <string name="ReScan.subheader1">Makadirio ya muda</string>
@@ -310,27 +310,27 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
     <!-- Security Center Info -->
   <string name="SecurityCenter.info">Wezesha vipengele vyote vya usalama kwa ulinzi wa hali ya juu.</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">Njia pekee ya kufikia DigiByte yako ikiwa umepoteza au kuboresha simu yako.</string>
+  <string name="SecurityCenter.paperKeyDescription">Njia pekee ya kufikia Noir yako ikiwa umepoteza au kuboresha simu yako.</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Funguo binafsi ya kuokoa mkoba</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">Inalinda DigiWallet yako kutoka kwa watumiaji wasioidhinishwa.</string>
+  <string name="SecurityCenter.pinDescription">Inalinda NoirWallet yako kutoka kwa watumiaji wasioidhinishwa.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">PINI ya tarakimu 6</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Kituo cha Usalama</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">Fungua kwa urahisi DigiWallet yako na tuma DigiByte hadi kikomo ulicho weka.</string>
+  <string name="SecurityCenter.touchIdDescription">Fungua kwa urahisi NoirWallet yako na tuma Noir hadi kikomo ulicho weka.</string>
   <!-- Touch ID button title -->
     <!-- Security center fingerprint authentication button -->
   <string name="SecurityCenter.touchIdTitle.android">Uthibitisho kutumia alama za vidole</string>
   <!-- Send money amount label -->
     <!-- Balance: $4.00 -->
     <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">Kuwezesha upatikanaji wa kamera tumia \"Mipangilio\"&gt; \"Apps\"&gt; \"DigiWallet\"&gt; \"Ruhusa\"
+  <string name="Send.cameraUnavailabeMessage.android">Kuwezesha upatikanaji wa kamera tumia \"Mipangilio\"&gt; \"Apps\"&gt; \"NoirWallet\"&gt; \"Ruhusa\"
 </string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">DigiWallet hairuhusiwi kufikia kamera</string>
+  <string name="Send.cameraUnavailabeTitle.android">NoirWallet hairuhusiwi kufikia kamera</string>
   <!-- Camera not allowed message -->
     <!-- Camera not allowed alert title -->
     <!-- Warning when sending to self. -->
@@ -366,7 +366,7 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
   <!-- Send money to label -->
   <string name="Send.toLabel">Kwa</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">Anwani za DigiByte zinalenga kwa matumizi moja tu.</string>
+  <string name="Send.UsedAddress.firstLine">Anwani za Noir zinalenga kwa matumizi moja tu.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">"Matumizi tena hupunguza faragha kwa wewe na mpokeaji na inaweza kusababisha hasara ikiwa mpokeaji hawezi kudhibiti anwani. "</string>
   <!-- Adress already used alert title -->
@@ -382,14 +382,14 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
     <!-- Import wallet left message -->
   <string name="Settings.importLeftMessage">Kipochi kinachoingizwa</string>
   <!-- Import wallet right message -->
-  <string name="Settings.importRightMessage">DigiWallet yako</string>
+  <string name="Settings.importRightMessage">NoirWallet yako</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Ingiza Kipochi</string>
   <!-- Manage settings section header -->
   <string name="Settings.manage">Dhibiti</string>
   <!-- Notifications label -->
     <!-- Restore screen lower label. -->
-  <string name="Settings.restore_label">DigiWallet yako kwa hichi kifaa</string>
+  <string name="Settings.restore_label">NoirWallet yako kwa hichi kifaa</string>
   <!-- Leave review button label -->
     <!-- Share anonymous data label -->
     <!-- Sync blockchain label -->
@@ -407,7 +407,7 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
     <!-- Share data switch label. -->
     <!-- button label -->
     <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">Funguo binafsi ya kuokoa kipochi chako ni njia pekee ya kurejesha DigiWallet yako ikiwa simu yako imepotea, imeibiwa, imevunjwa, au imeboreshwa.\n\nTutakuonyesha orodha ya maneno ya kuandika kwenye karatasi na ili uhifadhi.</string>
+  <string name="StartPaperPhrase.body">Funguo binafsi ya kuokoa kipochi chako ni njia pekee ya kurejesha NoirWallet yako ikiwa simu yako imepotea, imeibiwa, imevunjwa, au imeboreshwa.\n\nTutakuonyesha orodha ya maneno ya kuandika kwenye karatasi na ili uhifadhi.</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">"Andika chini funguo binafsi la kuokoa kipochi "</string>
   <!-- Argument is date -->
@@ -429,7 +429,7 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">Usajili kutumia alama za vidole haijawezeshwa</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">Tumia vidole vyako kufungua DigiWallet na kutuma DigiByte kwa kikomo ulicho kuweka.</string>
+  <string name="TouchIdSettings.label">Tumia vidole vyako kufungua NoirWallet na kutuma Noir kwa kikomo ulicho kuweka.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
     <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Kikomo cha matumizi: %1$s (%2$s)</string>
@@ -501,9 +501,9 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
   <string name="UnlockScreen.touchIdTitle.android">Uthibitisho unahitajika</string>
   <!-- Wallet unlocked message -->
     <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">Kumbuka hii PINI. Ukiisahau, huwezi kufikia DigiByte yako/zako.</string>
+  <string name="UpdatePin.caption">Kumbuka hii PINI. Ukiisahau, huwezi kufikia Noir yako/zako.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">PINI yako itatumika kufungua DigiWallet yako na kutuma DigiByte.</string>
+  <string name="UpdatePin.createInstruction">PINI yako itatumika kufungua NoirWallet yako na kutuma Noir.</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">Weka PINI</string>
   <!-- Update PIN title -->
@@ -532,9 +532,9 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
     <!-- Updating webview message -->
   <string name="Webview.updating">Inasasisha ...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">DigiWallet ina nakshi na sifa mpaya.\n\nikiwa unahitaji msaada, angalia (?) Sehemu ya juu ya skrini.</string>
+  <string name="Welcome.body">NoirWallet ina nakshi na sifa mpaya.\n\nikiwa unahitaji msaada, angalia (?) Sehemu ya juu ya skrini.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">Karibu kwenye DigiWallet!</string>
+  <string name="Welcome.title">Karibu kwenye NoirWallet!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Una uhakika unataka kufuta kipochi hichi?</string>
   <!-- Wipe wallet alert title -->
@@ -544,7 +544,7 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
     <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">"Kufungua mkoba mpya au kurejesha mkoba uliopo, lazima kwanza ufute mkoba uliowekwa sasa. Ili kuendelea, ingiza funguo binafsi za kuokoa  kipochi "</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">Kuanza au kurejesha kipochi chingine utapata kufikia na kusimamia DigiWallet tofauti kwenye kifaa hichi.</string>
+  <string name="WipeWallet.startMessage">Kuanza au kurejesha kipochi chingine utapata kufikia na kusimamia NoirWallet tofauti kwenye kifaa hichi.</string>
   <!-- Start wipe wallet view warning -->
   <string name="WipeWallet.startWarning">Kipochi chako kitaondolewa kwenye kifaa hiki. Ikiwa unataka kurejesha tena wakati ujao, utahitajika kuingiza funguo binafsi la kuokoa kipochi</string>
   <!-- Wipe wallet navigation item title. -->

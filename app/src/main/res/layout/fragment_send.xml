@@ -183,8 +183,8 @@
                         android:foreground="?android:attr/selectableItemBackground"
                         android:onClick="@{() -> callback.onIsoButtonClickListener()}"
                         android:text="@{data.isoButtonText}"
-                        android:textColor="@color/white"
-                        app:backgroundTint="#0066cc" />
+                        android:textColor="@color/noir_jupiter_grey"
+                        app:backgroundTint="@color/noir_moolight_grey" />
 
                 </LinearLayout>
 
@@ -234,9 +234,9 @@
                     android:foreground="?android:attr/selectableItemBackground"
                     android:onClick="@{() -> callback.onMaxSendButtonClickListener()}"
                     android:text="@string/max"
-                    android:textColor="@color/white"
+                    android:textColor="@color/noir_jupiter_grey"
                     android:visibility="@{data.maxSendVisibility ? View.VISIBLE : View.GONE}"
-                    app:backgroundTint="#0066cc" />
+                    app:backgroundTint="@color/noir_moolight_grey" />
             </LinearLayout>
 
             <LinearLayout
@@ -282,7 +282,8 @@
                         android:foreground="?android:attr/selectableItemBackground"
                         android:onClick="@{() -> callback.onSendClickListener()}"
                         android:text="@string/Send.sendLabel"
-                        android:textColor="@color/white" />
+                        android:textColor="@color/noir_jupiter_grey"
+                        android:backgroundTint="@color/noir_moolight_grey"/>
 
                     <ProgressBar
                         android:id="@+id/sending_progress"

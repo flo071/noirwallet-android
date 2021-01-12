@@ -57,7 +57,7 @@ import io.reactivex.schedulers.Schedulers;
 public class NoirWallet extends Application implements
         Application.ActivityLifecycleCallbacks {
     public static final String HOST = "noirofficial.org";
-    //public static final String FEE_URL = "https://go.digibyte.co/bws/api/v2/feelevels";
+    //public static final String FEE_URL = "https://noirofficial.org/fees/";
 
     private static NoirWallet application;
 
@@ -93,7 +93,7 @@ public class NoirWallet extends Application implements
             Fabric.with(this, new Crashlytics());
             FirebaseAnalytics.getInstance(this).setAnalyticsCollectionEnabled(!BuildConfig.DEBUG);
             try {
-                JobManager.create(this).addJobCreator(new JobsHelper.DigiByteJobCreator());
+                JobManager.create(this).addJobCreator(new JobsHelper.NoirWalletJobCreator());
             } catch (Exception e) {
                 Crashlytics.logException(e);
                 Toast.makeText(this, R.string.recurring_payments_not_supported, Toast.LENGTH_SHORT).show();

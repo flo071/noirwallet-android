@@ -92,11 +92,11 @@ class TransactionListAdapter(
     }
 
     override fun onTransactionClick(listItemTransactionData: ListItemTransactionData) {
-        if (listItemTransactionData.transactionItem.isAsset) {
+        /*if (listItemTransactionData.transactionItem.isAsset) {
             activity.onAssetsButtonClick(null)
-        } else {
+        } else {*/
             val adapterPosition = transactions.indexOf(listItemTransactionData)
             BRAnimator.showTransactionPager(activity, transactions, adapterPosition)
-        }
+        /*}*/
     }
 }

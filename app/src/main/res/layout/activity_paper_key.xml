@@ -27,6 +27,7 @@
             style="@style/Text.Description.Top"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/noir_jupiter_grey"
             android:text="@string/WritePaperPhrase.instruction"/>
 
         <androidx.viewpager.widget.ViewPager
@@ -47,7 +48,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="18dp"
             android:text="1 of 12"
-            android:textColor="@color/white"/>
+            android:textColor="@color/noir_jupiter_grey"/>
 
         <View android:layout_width="match_parent" android:layout_height="0dp"
               android:layout_weight="1"/>

@@ -2,13 +2,13 @@
 <resources>
   <!-- App name -->
   <!-- About screen blog label -->
-  <string name="About.blog">https://digibyte.io/</string>
+  <string name="About.blog">https://noirofficial.org/</string>
   <!-- About screen footer -->
   <string name="About.footer">നിര്‍മ്മിച്ചത്‌ ഗ്ലോബല്‍ ഡിജിവാലറ്റ് ടീം.വെര്‍ഷന്‍ %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">സ്വകാര്യതാനയം</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/Noirofficial/</string>
   <!-- Terms of Use button label -->
   <!--
   Terms of Use button label
@@ -17,7 +17,7 @@
   <string name="About.title">വേഗമേറിയതും ലളിതവും സുരക്ഷിതവുമാണ്!:
 ഡിജിബൈറ്റ് അയക്കാനും സ്വീകരിക്കാനും ആരംഭിക്കുന്നതിന്  ഡിജിവാലറ്റ് ആന്‍ഡ്രോയിഡ് ഉപയോഗിക്കുന്നതാണ് ഏറ്റവും എളുപ്പമാർഗം.എല്ലാ തരത്തില്ലുമുള്ള ആളുകള്ള്‍ക്കായി രൂപകല്‍പ്പന ചെയ്തതിനാല്‍, ആദ്യമായി ഉപയോഗിക്കുന്നവര്‍ക്ക് ഉപയോഗിക്കുവാന്‍ കഴിയുന്നത്ര ലളിതവും,അനുഭവപരിചയമുള്ള ഉപയോക്താക്കൾക്കു ഉപയോഗിക്കുവാന്‍  കഴിയുന്നത്ര സുശക്തമായതുമാണ്.</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/Noircoin</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">സമാപിക്കുക</string>
   <!-- Support center accessibiliy label -->
@@ -30,7 +30,7 @@
   <!-- Error alert title -->
   <string name="Alert.error">പിശക്</string>
   <!-- Keystore error -->
-  <string name="Alert.keystore.generic.android">നിങ്ങളുടെ ആന്‍ഡ്രോയിഡ് OS കീ സ്റ്റോറില്‍  ഒരു പ്രശ്നമുണ്ട്, ദയവായി support@digibyte.io മായി ബന്ധപ്പെടുക.</string>
+  <string name="Alert.keystore.generic.android">നിങ്ങളുടെ ആന്‍ഡ്രോയിഡ് OS കീ സ്റ്റോറില്‍  ഒരു പ്രശ്നമുണ്ട്, ദയവായി support@noirofficial.org മായി ബന്ധപ്പെടുക.</string>
   <!-- KeyStore error, keys are invalidated -->
   <string name="Alert.keystore.invalidated.android">നിങ്ങളുടെ ആന്‍ഡ്രോയിഡ് മൊബൈലില്‍ ലോക്ക് സ്‌ക്രീന്‍  ഉപയോഗിക്കാത്തതിനാല്‍ നിങ്ങളുടെ ഡിജിവാലറ്റില്‍ എന്‍ക്രിപ്റ്റ് ചെയ്ത ഡാറ്റ അസാധുവാണ്.</string>
   <!-- Keystore error title -->
@@ -500,7 +500,7 @@
   <string name="UnlockScreen.touchIdTitle.android">"സാധൂകരണം ആവശ്യമാണ് "</string>
   <!-- Wallet unlocked message -->
   <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">"ഇ പിൻ ഓർമിച്ചു വെക്കുക. ഇത് മറന്നാൽ, നിങ്ങളുടെ DigiByte ഉപയോഗിക്കാൻ സാധിക്കുകയില്ല "</string>
+  <string name="UpdatePin.caption">"ഇ പിൻ ഓർമിച്ചു വെക്കുക. ഇത് മറന്നാൽ, നിങ്ങളുടെ Noir ഉപയോഗിക്കാൻ സാധിക്കുകയില്ല "</string>
   <!-- PIN creation info. -->
   <string name="UpdatePin.createInstruction">നിങ്ങളുടെ ഡിജിവാലറ്റ് അൺലോക്ക് ചെയ്ത് ഡിജിബൈറ്റ് അയ്യക്കാന്‍ നിങ്ങളുടെ പിന്‍ ഉപയോഗിക്കും.</string>
   <!-- Update PIN title -->

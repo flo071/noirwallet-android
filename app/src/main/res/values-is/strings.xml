@@ -2,21 +2,21 @@
 <resources>
   <!-- App name -->
     <!-- About screen blog label -->
-  <string name="About.blog">https://digibyte.io/</string>
+  <string name="About.blog">https://noirofficial.org/</string>
   <!-- About screen footer -->
-  <string name="About.footer">Búið til af DigiWallet teyminu. Útgáfa %1$s</string>
+  <string name="About.footer">Búið til af NoirWallet teyminu. Útgáfa %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Friðhelgisstefna</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/Noirofficial/</string>
   <!-- Terms of Use button label -->
     <!--
     Terms of Use button label
     About screen title
     -->
-  <string name="About.title">DigiWallet fyrir Android er snjallsímaveskið fyrir DigiByte.</string>
+  <string name="About.title">NoirWallet fyrir Android er snjallsímaveskið fyrir Noir.</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/Noircoin</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">Loka</string>
   <!-- Support center accessibiliy label -->
@@ -27,9 +27,9 @@
   <!-- Error alert title -->
   <string name="Alert.error">Villa</string>
   <!-- Keystore error -->
-  <string name="Alert.keystore.generic.android">Það er vandamál með lyklavörslu Android stýrikerfis þíns, vinsamlegast hafðu samband við support@digibyte.io</string>
+  <string name="Alert.keystore.generic.android">Það er vandamál með lyklavörslu Android stýrikerfis þíns, vinsamlegast hafðu samband við support@noirofficial.org</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">Dulkóðuð DigiWallet gögn þín voru nýlega ógild vegna þess að skjálás Android tækis þíns var gerður óvirkur.</string>
+  <string name="Alert.keystore.invalidated.android">Dulkóðuð NoirWallet gögn þín voru nýlega ógild vegna þess að skjálás Android tækis þíns var gerður óvirkur.</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">Villa í lyklavörslu Android</string>
   <!-- No internet alert message -->
@@ -47,7 +47,7 @@
   <!-- Send success alert header label (confirmation that the send happened) -->
   <string name="Alerts.sendSuccess">Staðfesting sendingu</string>
   <!-- Send success alert subheader label (e.g. the money was sent) -->
-  <string name="Alerts.sendSuccessSubheader">DigiByte sent!</string>
+  <string name="Alerts.sendSuccessSubheader">Noir sent!</string>
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">Fingrafar þekkt</string>
   <string name="all">ALLT</string>
@@ -110,7 +110,7 @@
   <!-- Email unavailable alert title -->
     <!-- Email unavailable alert title -->
     <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
-  <string name="ErrorMessages.loopingLockScreen.android">Ekki er hægt að auðkenna DigiWallet vegna lús í þinni útgáfu af Android. [Vinsamlegast ýttu hér fyrir frekari upplýsingar.]</string>
+  <string name="ErrorMessages.loopingLockScreen.android">Ekki er hægt að auðkenna NoirWallet vegna lús í þinni útgáfu af Android. [Vinsamlegast ýttu hér fyrir frekari upplýsingar.]</string>
   <!-- Messaging unavailable alert title -->
     <!-- Messaging unavailable alert title -->
     <!-- Fingerprint was not recognized by the scanner, please try scanning again -->
@@ -125,7 +125,7 @@
     <!-- Checking private key balance progress view text -->
   <string name="Import.checking">Athugar stöðu á einkalykli...</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">Viltu senda %1$s frá þessum einkalykli í veski þitt? DigiByte netið mun fá gjald að upphæð %2$s.</string>
+  <string name="Import.confirm">Viltu senda %1$s frá þessum einkalykli í veski þitt? Noir netið mun fá gjald að upphæð %2$s.</string>
   <!-- Duplicate key error message -->
     <!-- empty private key error message -->
   <string name="Import.Error.empty">Þessi einkalykill er tómur.</string>
@@ -138,7 +138,7 @@
     <!-- Importing wallet progress view label -->
     <!-- Caption for graphics -->
     <!-- Import wallet intro screen message -->
-  <string name="Import.message">Innflutningur veskis færir öll DigiByte úr hinu veski þinu inn í þitt DigiWallet í einni færslu.</string>
+  <string name="Import.message">Innflutningur veskis færir öll Noir úr hinu veski þinu inn í þitt NoirWallet í einni færslu.</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">Þessi einkalykill er varinn af lykilorði.</string>
   <!-- password textfield placeholder -->
@@ -162,7 +162,7 @@
     -->
   <string name="JailbreakWarnings.messageWithoutBalance">ÖRYGGI TÆKIS RASKAÐ
 
-Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum DigiWallet og stolið þínu DigiByte. Vinsamlegast notaðu DigiWallet eingöngu á tæki sem ekki er óhlekkt.</string>
+Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum NoirWallet og stolið þínu Noir. Vinsamlegast notaðu NoirWallet eingöngu á tæki sem ekki er óhlekkt.</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">VIÐVÖRUN</string>
   <!-- Location services disabled error -->
@@ -203,7 +203,7 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">Staða á tengingu við tengipunkt</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">DigiByte tengipunktar</string>
+  <string name="NodeSelector.title">Noir tengipunktar</string>
   <string name="no_limit">Engin takmörk</string>
   <string name="original_amount">Upprunaleg gildi: %s</string>
   <!-- Bad Payment request alert title -->
@@ -212,9 +212,9 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
     <!-- Request expired payment protocol error message -->
     <!-- Payment too small alert title -->
     <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">DigiByte borganir geta ekki verið minni en %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallPayment">Noir borganir geta ekki verið minni en %1$s.</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">DigiByte færsluúttök geta ekki verið minni en %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">Noir færsluúttök geta ekki verið minni en %1$s.</string>
   <!-- Unsupported signature type payment protocol error message -->
     <!-- Untrusted certificate payment protocol error message -->
     <string name="processed">Lokið</string>
@@ -238,7 +238,7 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
   <!-- Upgrade PIN prompt body. -->
     <!-- Upgrade PIN prompt title. -->
     <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">Kveiktu á tilkynningum til að fá sérstök skilaboð frá DigiWallet í framtíðinni.</string>
+  <string name="PushNotifications.body">Kveiktu á tilkynningum til að fá sérstök skilaboð frá NoirWallet í framtíðinni.</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Push tilkynningar</string>
   <!-- Push notifications are off label -->
@@ -264,7 +264,7 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
   <string name="RecoverWallet.header_reset_pin">Endurstilla PIN</string>
   <!-- Enter paper key instruction -->
     <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">Endurheimtu þitt Digiwallet með endurheimtunarlyklinum þínum.</string>
+  <string name="RecoverWallet.intro">Endurheimtu þitt NoirWallet með endurheimtunarlyklinum þínum.</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">Endurhemtunarlykillinn sem þú slóst inn er ógildur. Vinsamlegast athugaðu hvert orð tvisvar og reyndu aftur.</string>
   <!-- Previous button accessibility label -->
@@ -273,7 +273,7 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
   <!-- Reset PIN with paper key: more information button. -->
     <!-- Next button accessibility label -->
     <!-- Recover wallet sub-header -->
-  <string name="RecoverWallet.subheader">Sláðu inn endurheimtunarlykil fyrir það DigiWallet sem þú vilt endurheimta.</string>
+  <string name="RecoverWallet.subheader">Sláðu inn endurheimtunarlykil fyrir það NoirWallet sem þú vilt endurheimta.</string>
   <!-- Reset PIN with paper key: sub-header -->
   <string name="RecoverWallet.subheader_reset_pin">Til að endurstilla PIN kóðann þinn, sláðu inn orðin úr endurheimtunarlyklinum þínum í kassana hér fyrir neðan.</string>
   <!-- No amount entered error message. -->
@@ -286,13 +286,13 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 mínútur</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Ef færsla sýnist kláruð á DigiByte neti en ekki í þínu DigiWallet.</string>
+  <string name="ReScan.body2">Ef færsla sýnist kláruð á Noir neti en ekki í þínu NoirWallet.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">Þú færð endurteknar villur sem segja að færslu þinni hafi verið hafnað.</string>
   <!-- Start Sync button label -->
   <string name="ReScan.buttonTitle">Hefja samstillingu</string>
   <!-- Sync blockchain view footer -->
-  <string name="ReScan.footer">Þú munt ekki geta sent DigiByte þegar samstilling við blokkarkeðju er í gangi.</string>
+  <string name="ReScan.footer">Þú munt ekki geta sent Noir þegar samstilling við blokkarkeðju er í gangi.</string>
   <!-- Sync Blockchain view header -->
     <!-- Subheader label -->
   <string name="ReScan.subheader1">Áætlaður tími</string>
@@ -306,26 +306,26 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
     <!-- Security Center Info -->
   <string name="SecurityCenter.info">Virkjaðu alla öryggiseiginleika fyrir hámarksvernd.</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">Eina leiðin til að fá aðgang að þínu DigiByte ef þú týnir eða endurnýjir símann þinn.</string>
+  <string name="SecurityCenter.paperKeyDescription">Eina leiðin til að fá aðgang að þínu Noir ef þú týnir eða endurnýjir símann þinn.</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Endurheimtunarlykill</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">Verndar DigiWallet þitt fyrir óheimiluðum notendum.</string>
+  <string name="SecurityCenter.pinDescription">Verndar NoirWallet þitt fyrir óheimiluðum notendum.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">6 stafa PIN</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Öryggismiðstöð</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">Auðveldlega opnaðu þitt DigiWallet og sentu DigiByte upp að ákveðnu takmarki.</string>
+  <string name="SecurityCenter.touchIdDescription">Auðveldlega opnaðu þitt NoirWallet og sentu Noir upp að ákveðnu takmarki.</string>
   <!-- Touch ID button title -->
     <!-- Security center fingerprint authentication button -->
   <string name="SecurityCenter.touchIdTitle.android">Fingrafarsauðkenning</string>
   <!-- Send money amount label -->
     <!-- Balance: $4.00 -->
     <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">Leyfa myndavélaaðgang í \"Settings\" &gt; \"Apps\" &gt; \"Digiwallet\" &gt; \"Permissions\"</string>
+  <string name="Send.cameraUnavailabeMessage.android">Leyfa myndavélaaðgang í \"Settings\" &gt; \"Apps\" &gt; \"NoirWallet\" &gt; \"Permissions\"</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">DigiWallet hefur verið hafnað aðgangi að myndavélinni</string>
+  <string name="Send.cameraUnavailabeTitle.android">NoirWallet hefur verið hafnað aðgangi að myndavélinni</string>
   <!-- Camera not allowed message -->
     <!-- Camera not allowed alert title -->
     <!-- Warning when sending to self. -->
@@ -361,7 +361,7 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
   <!-- Send money to label -->
   <string name="Send.toLabel">Til</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">DigiByte vistföng eru eingöngu ætluð sem einnota.</string>
+  <string name="Send.UsedAddress.firstLine">Noir vistföng eru eingöngu ætluð sem einnota.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">Endurnotkun skemmir friðhelgi fyrir bæði þér og viðtakandanum og getur endað í tapi ef viðtakandinn er ekki með beina strjórn á vistfanginu.</string>
   <!-- Adress already used alert title -->
@@ -377,14 +377,14 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
     <!-- Import wallet left message -->
   <string name="Settings.importLeftMessage">Veski sem flytja á inn</string>
   <!-- Import wallet right message -->
-  <string name="Settings.importRightMessage">Þitt DigiWallet</string>
+  <string name="Settings.importRightMessage">Þitt NoirWallet</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Flytja inn veski</string>
   <!-- Manage settings section header -->
   <string name="Settings.manage">Stjórna</string>
   <!-- Notifications label -->
     <!-- Restore screen lower label. -->
-  <string name="Settings.restore_label">Þitt DigiWallet á þessu tæki</string>
+  <string name="Settings.restore_label">Þitt NoirWallet á þessu tæki</string>
   <!-- Leave review button label -->
     <!-- Share anonymous data label -->
     <!-- Sync blockchain label -->
@@ -402,7 +402,7 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
     <!-- Share data switch label. -->
     <!-- button label -->
     <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">Endurheimtunarlykill þinn er eina leiðin til að endurheimta þitt DigiWallet ef sími þinn týnist, verður fyrir þjófnaði, bilar, skemmist, eða er endurnýjaður.\n\nVið munum sýna þér lista af orðum til að skrifa niður á blað og halda öruggu.</string>
+  <string name="StartPaperPhrase.body">Endurheimtunarlykill þinn er eina leiðin til að endurheimta þitt NoirWallet ef sími þinn týnist, verður fyrir þjófnaði, bilar, skemmist, eða er endurnýjaður.\n\nVið munum sýna þér lista af orðum til að skrifa niður á blað og halda öruggu.</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">Skrifa niður endurheimtunarlykil</string>
   <!-- Argument is date -->
@@ -424,7 +424,7 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">Fingrafarsauðkenning ekki virk</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">Notaðu fingrafar þitt til að opna þitt DigiWallet og senda DigiByte upp að ákveðnu takmarki.</string>
+  <string name="TouchIdSettings.label">Notaðu fingrafar þitt til að opna þitt NoirWallet og senda Noir upp að ákveðnu takmarki.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
     <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Eyðslutakmark: %1$s (%2$s)</string>
@@ -496,9 +496,9 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
   <string name="UnlockScreen.touchIdTitle.android">Auðkenni þarf</string>
   <!-- Wallet unlocked message -->
     <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">Legðu þetta PIN á minnið. Ef þú gleymir því, muntu ekki hafa aðgang að þínu DigiByte.</string>
+  <string name="UpdatePin.caption">Legðu þetta PIN á minnið. Ef þú gleymir því, muntu ekki hafa aðgang að þínu Noir.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">PIN þitt mun vera notað til að opna þitt DigiWallet og senda DigiByte.</string>
+  <string name="UpdatePin.createInstruction">PIN þitt mun vera notað til að opna þitt NoirWallet og senda Noir.</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">Stilla PIN</string>
   <!-- Update PIN title -->
@@ -527,9 +527,9 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
     <!-- Updating webview message -->
   <string name="Webview.updating">Uppfærir...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">DigiWallet hefur glænýtt útlit og nokkra nýja eiginleika.\n\nEf þú þarft hjálp, leitaðu eftir (?) í efra hægra horni á flestum skjám.</string>
+  <string name="Welcome.body">NoirWallet hefur glænýtt útlit og nokkra nýja eiginleika.\n\nEf þú þarft hjálp, leitaðu eftir (?) í efra hægra horni á flestum skjám.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">Velkomin í DigiWallet!</string>
+  <string name="Welcome.title">Velkomin í NoirWallet!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Ertu viss um að þú viljir eyða þessu veski?</string>
   <!-- Wipe wallet alert title -->
@@ -539,7 +539,7 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
     <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">Til að stofna nýtt veski eða endurheimta núverandi veski, þarftu fyrst að eyða því veski sem er nú þegar uppsett. Til að halda áfram, sláðu inn endurheimtunalykil á þegar uppsettu veski.</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">Stofnun eða endurheimta annars veskis leyfir þér að fá aðgang að og stjórna öðru DigiWallet á þessu tæki.</string>
+  <string name="WipeWallet.startMessage">Stofnun eða endurheimta annars veskis leyfir þér að fá aðgang að og stjórna öðru NoirWallet á þessu tæki.</string>
   <!-- Start wipe wallet view warning -->
   <string name="WipeWallet.startWarning">Núverandi veski þitt mun vera fjarlægt af þessu tæki. Ef þú villt endurheimta það í framtíðinni, muntu þurfa að slá inn endurheimtunarlykil þinn.</string>
   <!-- Wipe wallet navigation item title. -->

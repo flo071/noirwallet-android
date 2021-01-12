@@ -32,7 +32,7 @@ public class JobsHelper {
     private static final long SYNC_PERIOD = TimeUnit.HOURS.toMillis(24);
     private static Executor executor = Executors.newSingleThreadExecutor();
 
-    public static class DigiByteJobCreator implements JobCreator {
+    public static class NoirWalletJobCreator implements JobCreator {
 
         @Override
         @Nullable
@@ -93,7 +93,7 @@ public class JobsHelper {
             builder.setContentTitle(String.format(getContext().getString(R.string.recurring_payments_title), recurringPayment.label));
             builder.setContentText(recurringPayment.address + ", " + recurringPayment.amount + ", " + recurringPayment.recurrence);
             Intent intent = new Intent(getContext(), LoginActivity.class);
-            Uri uri = Uri.parse("digibyte://" + recurringPayment.address + "?amount=" + recurringPayment.amount);
+            Uri uri = Uri.parse("noir://" + recurringPayment.address + "?amount=" + recurringPayment.amount);
             intent.setData(uri);
             PendingIntent pendingIntent = PendingIntent.getActivity(getContext(), recurringPayment.getId().intValue(), intent, PendingIntent.FLAG_CANCEL_CURRENT);
             builder.setContentIntent(pendingIntent);
@@ -117,7 +117,7 @@ public class JobsHelper {
         builder.setContentTitle(String.format(context.getString(R.string.recurring_payments_sample), recurringPayment.label));
         builder.setContentText(recurringPayment.address + ", " + recurringPayment.amount + ", " + recurringPayment.recurrence);
         Intent intent = new Intent(context, LoginActivity.class);
-        Uri uri = Uri.parse("digibyte://" + recurringPayment.address + "?amount=" + recurringPayment.amount);
+        Uri uri = Uri.parse("noir://" + recurringPayment.address + "?amount=" + recurringPayment.amount);
         intent.setData(uri);
         PendingIntent pendingIntent = PendingIntent.getActivity(context, recurringPayment.getId().intValue(), intent, PendingIntent.FLAG_CANCEL_CURRENT);
         builder.setContentIntent(pendingIntent);

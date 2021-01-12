@@ -16,21 +16,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="@{() -> callback.onTransactionClick(data)}"
-        android:background="@drawable/transaction_background"
-        android:paddingTop="24dp">
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
-            android:layout_marginStart="16dp"
-            android:background="@drawable/cad_bg"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/tx_item"
             android:elevation="4dp"
+            android:radius="@dimen/radius"
             android:foreground="?android:attr/selectableItemBackground"
             android:minHeight="75dp"
             android:orientation="horizontal"
             android:paddingEnd="12dp"
             android:paddingStart="12dp"
+            android:paddingBottom="12dp"
             android:paddingTop="12dp">
 
             <ImageView

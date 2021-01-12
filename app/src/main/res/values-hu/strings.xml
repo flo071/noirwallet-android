@@ -4,7 +4,7 @@
     <!-- About screen blog label -->
   <string name="About.blog">Blog</string>
   <!-- About screen footer -->
-  <string name="About.footer">Készítette a DigiWallet nemzetközi csapata. Verzió: %1$s</string>
+  <string name="About.footer">Készítette a NoirWallet nemzetközi csapata. Verzió: %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Adatvédelmi Irányelvek</string>
   <!-- About screen reddit label -->
@@ -14,7 +14,7 @@
     Terms of Use button label
     About screen title
     -->
-  <string name="About.title">DigiWallet Androinda a DigiByte mobil tárcája.</string>
+  <string name="About.title">NoirWallet Androinda a Noir mobil tárcája.</string>
   <!-- About screen twitter label -->
   <string name="About.twitter">Twitter</string>
   <!-- Close modal button accessibility label -->
@@ -27,9 +27,9 @@
   <!-- Error alert title -->
   <string name="Alert.error">Hiba</string>
   <!-- Keystore error -->
-  <string name="Alert.keystore.generic.android">Probléma lépett fel az Android operációs rendszer keystore fájljával. Kérlek lépj kapcsolatba velünk a support@digibyte.io email címen.</string>
+  <string name="Alert.keystore.generic.android">Probléma lépett fel az Android operációs rendszer keystore fájljával. Kérlek lépj kapcsolatba velünk a support@noirofficial.org email címen.</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">A DigiWallet tárcád titkosított adatai az Android képernyőzárának kikapcsolása miatt érvénytelenítve lettek.</string>
+  <string name="Alert.keystore.invalidated.android">A NoirWallet tárcád titkosított adatai az Android képernyőzárának kikapcsolása miatt érvénytelenítve lettek.</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">Android KeyStore Hiba</string>
   <!-- No internet alert message -->
@@ -47,7 +47,7 @@
   <!-- Send success alert header label (confirmation that the send happened) -->
   <string name="Alerts.sendSuccess">Megerősítés küldése</string>
   <!-- Send success alert subheader label (e.g. the money was sent) -->
-  <string name="Alerts.sendSuccessSubheader">DigiByte elküldve!</string>
+  <string name="Alerts.sendSuccessSubheader">Noir elküldve!</string>
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">Ujjlenyomat felismerve</string>
   <string name="all">MINDEN</string>
@@ -110,7 +110,7 @@
   <!-- Email unavailable alert title -->
     <!-- Email unavailable alert title -->
     <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
-  <string name="ErrorMessages.loopingLockScreen.android">A DigiWallet hitelesítése nem lehetséges egy az általad használt Android verzió egy hibája miatt [További információért érintsd meg a képernyőt itt]</string>
+  <string name="ErrorMessages.loopingLockScreen.android">A NoirWallet hitelesítése nem lehetséges egy az általad használt Android verzió egy hibája miatt [További információért érintsd meg a képernyőt itt]</string>
   <!-- Messaging unavailable alert title -->
     <!-- Messaging unavailable alert title -->
     <!-- Fingerprint was not recognized by the scanner, please try scanning again -->
@@ -125,7 +125,7 @@
     <!-- Checking private key balance progress view text -->
   <string name="Import.checking">Személyi Kulcs egyenlegének ellenőrzése…</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">%1$@ küldés  a Személyi Kulcsól a tárcádba? DigiByte hálózati díja %2$@.</string>
+  <string name="Import.confirm">%1$@ küldés  a Személyi Kulcsól a tárcádba? Noir hálózati díja %2$@.</string>
   <!-- Duplicate key error message -->
     <!-- empty private key error message -->
   <string name="Import.Error.empty">Ez a Személyi Kulcs üres.</string>
@@ -138,7 +138,7 @@
     <!-- Importing wallet progress view label -->
     <!-- Caption for graphics -->
     <!-- Import wallet intro screen message -->
-  <string name="Import.message">Egy tárca importálása a tárcán található összes DigiByteot egyetlen tranzakcióval a DigiWallet tárcádra utalja.</string>
+  <string name="Import.message">Egy tárca importálása a tárcán található összes Noirot egyetlen tranzakcióval a NoirWallet tárcádra utalja.</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">Ez a Személyi Kulcs jelszóval védett.</string>
   <!-- password textfield placeholder -->
@@ -161,7 +161,7 @@
     Ignore jailbreak warning button
     Jailbreak warning message
     -->
-  <string name="JailbreakWarnings.messageWithoutBalance">A  KÉSZÜLÉK BIZTONSÁGA VESZÉLYEZTETETTCOMPROMISED\n Minden \'feltörő\' alkalmazás hozzáférhet a DigiWallet kulcstartó adataihoz és ellophatja a DigiByte-jaidat. Kérlek csak nem feltört eszközön használd a DigiWalletet.</string>
+  <string name="JailbreakWarnings.messageWithoutBalance">A  KÉSZÜLÉK BIZTONSÁGA VESZÉLYEZTETETTCOMPROMISED\n Minden \'feltörő\' alkalmazás hozzáférhet a NoirWallet kulcstartó adataihoz és ellophatja a Noir-jaidat. Kérlek csak nem feltört eszközön használd a NoirWalletet.</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">FIGYELMEZTETÉS</string>
   <!-- Location services disabled error -->
@@ -202,7 +202,7 @@
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">Csomópont csatlakozás állapota</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">DigiByte Csomópontok</string>
+  <string name="NodeSelector.title">Noir Csomópontok</string>
   <string name="no_limit">Határ nélül</string>
   <string name="original_amount">Eredeti érték: %s</string>
   <!-- Bad Payment request alert title -->
@@ -211,9 +211,9 @@
     <!-- Request expired payment protocol error message -->
     <!-- Payment too small alert title -->
     <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">DigiByte kifizetés nem lehet kevesebb mint %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallPayment">Noir kifizetés nem lehet kevesebb mint %1$s.</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">DigiByte tranzakciós kimenetek nem lehetnek kevesebbek mint %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">Noir tranzakciós kimenetek nem lehetnek kevesebbek mint %1$s.</string>
   <!-- Unsupported signature type payment protocol error message -->
     <!-- Untrusted certificate payment protocol error message -->
     <string name="processed">Feldolgozott</string>
@@ -237,7 +237,7 @@
   <!-- Upgrade PIN prompt body. -->
     <!-- Upgrade PIN prompt title. -->
     <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">Kapcsold be az értesítéseket, hogy a jövőben speciális üzeneteket kaphass a DigiWallettől.</string>
+  <string name="PushNotifications.body">Kapcsold be az értesítéseket, hogy a jövőben speciális üzeneteket kaphass a NoirWallettől.</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Értesítések</string>
   <!-- Push notifications are off label -->
@@ -263,7 +263,7 @@
   <string name="RecoverWallet.header_reset_pin">PIN kód visszaállítása</string>
   <!-- Enter paper key instruction -->
     <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">DigiWallet tárca visszaállítása Személyi Visszaállító Kulcs segítségével.</string>
+  <string name="RecoverWallet.intro">NoirWallet tárca visszaállítása Személyi Visszaállító Kulcs segítségével.</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">A megadott Személyi Visszaállító Kuncs érvénytelen. Kérlek ellenőrizz minden szót és próbáld újra.</string>
   <!-- Previous button accessibility label -->
@@ -285,13 +285,13 @@
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 perc</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Ha egy tranzakció befejezettnek látszik a DigiByte hálózaton, de nem látszik a DigiWallet tárcában.</string>
+  <string name="ReScan.body2">Ha egy tranzakció befejezettnek látszik a Noir hálózaton, de nem látszik a NoirWallet tárcában.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">Ismételt hibaüzenetet kapsz azzal, hogy a tranzakciód elutasításra került.</string>
   <!-- Start Sync button label -->
   <string name="ReScan.buttonTitle">Szinkronizálás indítása</string>
   <!-- Sync blockchain view footer -->
-  <string name="ReScan.footer">Szinkronizálás közben nem tudsz DigiByte-ot küldeni.</string>
+  <string name="ReScan.footer">Szinkronizálás közben nem tudsz Noir-ot küldeni.</string>
   <!-- Sync Blockchain view header -->
     <!-- Subheader label -->
   <string name="ReScan.subheader1">Becsült idő</string>
@@ -305,26 +305,26 @@
     <!-- Security Center Info -->
   <string name="SecurityCenter.info">A nagyobb biztonság érdekében az összes biztonsági funkciót engedélyezd.</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">"Az egyetlen módja hogy hozzáférj a DigiByte-jaidhoz, ha elhagyod vagy lecseréled a telefonod. "</string>
+  <string name="SecurityCenter.paperKeyDescription">"Az egyetlen módja hogy hozzáférj a Noir-jaidhoz, ha elhagyod vagy lecseréled a telefonod. "</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Személyi Visszaállító Kulcs</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">Védd DigiWallet tárcád jogosulatlan felhasználóktól.</string>
+  <string name="SecurityCenter.pinDescription">Védd NoirWallet tárcád jogosulatlan felhasználóktól.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">6 számjegyű PIN kód</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Biztonsági Központ</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">Férj hozzá kényelmesen a DigiWallet tárcádhoz és küldj DigiByte-ot a beállított összeghatárig.</string>
+  <string name="SecurityCenter.touchIdDescription">Férj hozzá kényelmesen a NoirWallet tárcádhoz és küldj Noir-ot a beállított összeghatárig.</string>
   <!-- Touch ID button title -->
     <!-- Security center fingerprint authentication button -->
   <string name="SecurityCenter.touchIdTitle.android">Ujjlenyomatolvasó</string>
   <!-- Send money amount label -->
     <!-- Balance: $4.00 -->
     <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">Engedélyezd a kamerahozzáférést a \"Beállítások\" &gt; \"Alkalmazások\" &gt; \"DigiWallet\" &gt; \"Jogosultságok\" menüpontban</string>
+  <string name="Send.cameraUnavailabeMessage.android">Engedélyezd a kamerahozzáférést a \"Beállítások\" &gt; \"Alkalmazások\" &gt; \"NoirWallet\" &gt; \"Jogosultságok\" menüpontban</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">A DigiWalletnek nincs engedélye a kamera hozzáféréséhez</string>
+  <string name="Send.cameraUnavailabeTitle.android">A NoirWalletnek nincs engedélye a kamera hozzáféréséhez</string>
   <!-- Camera not allowed message -->
     <!-- Camera not allowed alert title -->
     <!-- Warning when sending to self. -->
@@ -360,7 +360,7 @@
   <!-- Send money to label -->
   <string name="Send.toLabel">Címzett</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">A DigiByte címek csak egyszer használatosak.</string>
+  <string name="Send.UsedAddress.firstLine">A Noir címek csak egyszer használatosak.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">A címek újbóli felhasználása csökkenti az adatvédelmet mind a címzett és saját magad számára ami veszteséget okozhat amennyiben a címzett nem cím közvetlen felügyelője.</string>
   <!-- Adress already used alert title -->
@@ -376,14 +376,14 @@
     <!-- Import wallet left message -->
   <string name="Settings.importLeftMessage">Importálandó tárca</string>
   <!-- Import wallet right message -->
-  <string name="Settings.importRightMessage">A te DigiWallet tárcád</string>
+  <string name="Settings.importRightMessage">A te NoirWallet tárcád</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Tárca importálása</string>
   <!-- Manage settings section header -->
   <string name="Settings.manage">Kezelő</string>
   <!-- Notifications label -->
     <!-- Restore screen lower label. -->
-  <string name="Settings.restore_label">A DigiWallet tárcád ezen az eszközön</string>
+  <string name="Settings.restore_label">A NoirWallet tárcád ezen az eszközön</string>
   <!-- Leave review button label -->
     <!-- Share anonymous data label -->
     <!-- Sync blockchain label -->
@@ -401,7 +401,7 @@
     <!-- Share data switch label. -->
     <!-- button label -->
     <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">Személyi Visszaállító Kulcs az egyetlen módja, hogy visszaállítsd DigiWallet tárcád ha a elhagynád, ellopnák, tönkre menne vagy frissítenéd a telefonod\n\nMutatunk neked egy listát szavakkal, amiket írj le egy papírra és tedd el biztonságos helyre.</string>
+  <string name="StartPaperPhrase.body">Személyi Visszaállító Kulcs az egyetlen módja, hogy visszaállítsd NoirWallet tárcád ha a elhagynád, ellopnák, tönkre menne vagy frissítenéd a telefonod\n\nMutatunk neked egy listát szavakkal, amiket írj le egy papírra és tedd el biztonságos helyre.</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">Írd le a Személyi Visszaállító Kulcsot</string>
   <!-- Argument is date -->
@@ -423,7 +423,7 @@
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">Az ujjlenyomatolvasó nincs engedélyezve</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">Használd az ujjlenyomatod DigiWallet tárcád feloldásához és DigiByte küldéséhez egy beállítható határértékig.</string>
+  <string name="TouchIdSettings.label">Használd az ujjlenyomatod NoirWallet tárcád feloldásához és Noir küldéséhez egy beállítható határértékig.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
     <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Költési Limit: %1$s (%2$s)</string>
@@ -495,9 +495,9 @@
   <string name="UnlockScreen.touchIdTitle.android">Azonosítás szükséges</string>
   <!-- Wallet unlocked message -->
     <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">Jegyezd meg ezt a PIN kódot. Nem fogsz tudni hozzáférni a DigiByte-jaidhoz ha elfelejted.</string>
+  <string name="UpdatePin.caption">Jegyezd meg ezt a PIN kódot. Nem fogsz tudni hozzáférni a Noir-jaidhoz ha elfelejted.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">A PIN kódod a DigiWallet tárcád feloldásához és DigiByte küldéséhez lesz használva</string>
+  <string name="UpdatePin.createInstruction">A PIN kódod a NoirWallet tárcád feloldásához és Noir küldéséhez lesz használva</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">PIN kód beállítása</string>
   <!-- Update PIN title -->
@@ -526,9 +526,9 @@
     <!-- Updating webview message -->
   <string name="Webview.updating">Frissítés...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">A DigiWallet megújult külsővel és számos új funkciót rendelkezik.\n\nHa segítségre lenne szükséged keresd a (?) jelet a képernyő jobb felső sarkában.</string>
+  <string name="Welcome.body">A NoirWallet megújult külsővel és számos új funkciót rendelkezik.\n\nHa segítségre lenne szükséged keresd a (?) jelet a képernyő jobb felső sarkában.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">Üdvözöl a DigiWallet!</string>
+  <string name="Welcome.title">Üdvözöl a NoirWallet!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Biztos szeretnéd törölni ezt tárcát?</string>
   <!-- Wipe wallet alert title -->
@@ -538,7 +538,7 @@
     <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">Új tárca létrehozása vagy egy már létező tárca visszaállítása előtt törölnöd kell az éppen használatban lévő tárcát. A továbblepéshez add meg a használatban lévő tárca Személyi Visszaállító Kulcsát.</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">Tárca létrehozása vagy visszaállítása segítségével hozzáférhetsz egy már létező DigiWallet tárcához ezen az eszközön.</string>
+  <string name="WipeWallet.startMessage">Tárca létrehozása vagy visszaállítása segítségével hozzáférhetsz egy már létező NoirWallet tárcához ezen az eszközön.</string>
   <!-- Start wipe wallet view warning -->
   <string name="WipeWallet.startWarning">A tárcád el lesz távolítva erről az eszközről. Amennyiben később vissza szeretnéd állítani, szükséged lesz a Személyi Visszaállító Kulcsra.</string>
   <!-- Wipe wallet navigation item title. -->

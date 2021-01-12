@@ -2,21 +2,21 @@
 <resources>
   <!-- App name -->
     <!-- About screen blog label -->
-  <string name="About.blog">https://digibyte.io/</string>
+  <string name="About.blog">https://noirofficial.org/</string>
   <!-- About screen footer -->
   <string name="About.footer">"ಪರದೆಯ ಅಡಿಟಿಪ್ಪಣಿಯ ಬಗ್ಗೆ "</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">"ಗೌಪ್ಯತಾ ನೀತಿಗಳು ಬಟನ್ ಲೇಬಲ್  "</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/Noirofficial/</string>
   <!-- Terms of Use button label -->
     <!--
     Terms of Use button label
     About screen title
     -->
-  <string name="About.title">ವೇಗವಾದ, ಸರಳ ಮತ್ತು ಸುರಕ್ಷಿತ !: ಡಿಜಿಬಿಟ್ಗೆ ಕಳುಹಿಸುವ ಮತ್ತು ಸ್ವೀಕರಿಸುವಿಕೆಯನ್ನು ಪ್ರಾರಂಭಿಸಲು Android ಗಾಗಿ DigiWallet ಸುಲಭ ಮಾರ್ಗವಾಗಿದೆ. ಹೊಸ ಮತ್ತು ಅನುಭವಿ ಬಳಕೆದಾರರ ಮನಸ್ಸಿನಲ್ಲಿ ವಿನ್ಯಾಸಗೊಳಿಸಿದರೆ, ಆಂಡ್ರಾಯ್ಡ್ಗಾಗಿ ಡಿಜಿ ವಾಲೆಟ್ ಬಳಸಲು ಮೊದಲ ಬಾರಿಗೆ ಅನನುಭವಿಯಾಗಿದ್ದು, ಸಾಮಾನ್ಯ ವಿದ್ಯುತ್ ಬಳಕೆದಾರರಿಗೆ ಸಾಕಷ್ಟು ಶಕ್ತಿಯುತವಾಗಿದೆ.</string>
+  <string name="About.title">ವೇಗವಾದ, ಸರಳ ಮತ್ತು ಸುರಕ್ಷಿತ !: ಡಿಜಿಬಿಟ್ಗೆ ಕಳುಹಿಸುವ ಮತ್ತು ಸ್ವೀಕರಿಸುವಿಕೆಯನ್ನು ಪ್ರಾರಂಭಿಸಲು Android ಗಾಗಿ NoirWallet ಸುಲಭ ಮಾರ್ಗವಾಗಿದೆ. ಹೊಸ ಮತ್ತು ಅನುಭವಿ ಬಳಕೆದಾರರ ಮನಸ್ಸಿನಲ್ಲಿ ವಿನ್ಯಾಸಗೊಳಿಸಿದರೆ, ಆಂಡ್ರಾಯ್ಡ್ಗಾಗಿ ಡಿಜಿ ವಾಲೆಟ್ ಬಳಸಲು ಮೊದಲ ಬಾರಿಗೆ ಅನನುಭವಿಯಾಗಿದ್ದು, ಸಾಮಾನ್ಯ ವಿದ್ಯುತ್ ಬಳಕೆದಾರರಿಗೆ ಸಾಕಷ್ಟು ಶಕ್ತಿಯುತವಾಗಿದೆ.</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/Noircoin</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">"ಮೋಡಲ್ ಬಟನ್ ಪ್ರವೇಶವನ್ನು ಬಂದ್ ಮಾಡು ಲೇಬಲ್ "</string>
   <!-- Support center accessibiliy label -->

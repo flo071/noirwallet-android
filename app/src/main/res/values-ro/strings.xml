@@ -2,21 +2,21 @@
 <resources>
   <!-- App name -->
     <!-- About screen blog label -->
-  <string name="About.blog">https://digibyte.io/</string>
+  <string name="About.blog">https://noirofficial.org/</string>
   <!-- About screen footer -->
-  <string name="About.footer">Realizat de către echipa globală Digiwallet. Versiunea %1$s</string>
+  <string name="About.footer">Realizat de către echipa globală NoirWallet. Versiunea %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Politica de confidențialitate</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/Noirofficial/</string>
   <!-- Terms of Use button label -->
     <!--
     Terms of Use button label
     About screen title
     -->
-  <string name="About.title">Rapid, simplu și sigur!: DigiWallet pentru Android este cel mai ușor mod de a trimite și a primi Digibyte. DigiWallet pentru Android a fost conceput atât pentru utilizatorii noi, cât și pentru cei cu experiență, fiind suficient de simplu pentru ca un începător să-l poată folosi, și totuși destul de puternic pentru a fi folosit de utilizatorii experimentați.</string>
+  <string name="About.title">Rapid, simplu și sigur!: NoirWallet pentru Android este cel mai ușor mod de a trimite și a primi Noir. NoirWallet pentru Android a fost conceput atât pentru utilizatorii noi, cât și pentru cei cu experiență, fiind suficient de simplu pentru ca un începător să-l poată folosi, și totuși destul de puternic pentru a fi folosit de utilizatorii experimentați.</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/Noircoin</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">Închidere</string>
   <!-- Support center accessibiliy label -->
@@ -27,10 +27,10 @@
   <!-- Error alert title -->
   <string name="Alert.error">Eroare</string>
   <!-- Keystore error -->
-  <string name="Alert.keystore.generic.android">Există o problemă cu Adroid OS KeyStore dvs. va rugăm sa contactati support@digibyte.io</string>
+  <string name="Alert.keystore.generic.android">Există o problemă cu Adroid OS KeyStore dvs. va rugăm sa contactati support@noirofficial.org</string>
   <!-- KeyStore error, keys are invalidated -->
   <string name="Alert.keystore.invalidated.android">
-Datele criptate de la DigiWallet au fost recent invalidate deoarece ecranul de blocare Android a fost dezactivat.</string>
+Datele criptate de la NoirWallet au fost recent invalidate deoarece ecranul de blocare Android a fost dezactivat.</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">Eroare Android KeyStore</string>
   <!-- No internet alert message -->
@@ -48,7 +48,7 @@ Datele criptate de la DigiWallet au fost recent invalidate deoarece ecranul de b
   <!-- Send success alert header label (confirmation that the send happened) -->
   <string name="Alerts.sendSuccess">Trimitere confirmată</string>
   <!-- Send success alert subheader label (e.g. the money was sent) -->
-  <string name="Alerts.sendSuccessSubheader">Digibyte Trimis!</string>
+  <string name="Alerts.sendSuccessSubheader">Noir Trimis!</string>
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">Amprenta recunoscută
 </string>
@@ -112,7 +112,7 @@ Datele criptate de la DigiWallet au fost recent invalidate deoarece ecranul de b
   <!-- Email unavailable alert title -->
     <!-- Email unavailable alert title -->
     <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
-  <string name="ErrorMessages.loopingLockScreen.android">DigiWallet nu poate fi autentificat din cauza unui bug în versiunea dvs. de Android. [Vă rugăm să apăsați aici pentru mai multe informații.]</string>
+  <string name="ErrorMessages.loopingLockScreen.android">NoirWallet nu poate fi autentificat din cauza unui bug în versiunea dvs. de Android. [Vă rugăm să apăsați aici pentru mai multe informații.]</string>
   <!-- Messaging unavailable alert title -->
     <!-- Messaging unavailable alert title -->
     <!-- Fingerprint was not recognized by the scanner, please try scanning again -->
@@ -127,7 +127,7 @@ Datele criptate de la DigiWallet au fost recent invalidate deoarece ecranul de b
     <!-- Checking private key balance progress view text -->
   <string name="Import.checking">Verificarea soldului cheii private...</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">Trimiteți %1$s din această cheie privată în portofelul tău?Rețeaua DigiByte va primi o taxă de %2$s.</string>
+  <string name="Import.confirm">Trimiteți %1$s din această cheie privată în portofelul tău?Rețeaua Noir va primi o taxă de %2$s.</string>
   <!-- Duplicate key error message -->
     <!-- empty private key error message -->
   <string name="Import.Error.empty">Această cheie privată este goală.</string>
@@ -140,7 +140,7 @@ Datele criptate de la DigiWallet au fost recent invalidate deoarece ecranul de b
     <!-- Importing wallet progress view label -->
     <!-- Caption for graphics -->
     <!-- Import wallet intro screen message -->
-  <string name="Import.message">Importarea unui portofel transferă toți DigiByte din celălalt portofel în DigiWallet utilizând o singură tranzacție.</string>
+  <string name="Import.message">Importarea unui portofel transferă toți Noir din celălalt portofel în NoirWallet utilizând o singură tranzacție.</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">Această cheie privată este protejată prin parolă.</string>
   <!-- password textfield placeholder -->
@@ -162,7 +162,7 @@ Datele criptate de la DigiWallet au fost recent invalidate deoarece ecranul de b
     Ignore jailbreak warning button
     Jailbreak warning message
     -->
-  <string name="JailbreakWarnings.messageWithoutBalance">"SECURITATEA DISPOZITIVULUI ESTE COMPROMISĂ\n Orice aplicație \"jailbreak\" vă poate accesa informațiile keychain din DigiWallet și vă poate fura DigiByte-ul! Vă rugăm să folosiți DigiWallet doar pe un dispozitiv non-jailbroken.  "</string>
+  <string name="JailbreakWarnings.messageWithoutBalance">"SECURITATEA DISPOZITIVULUI ESTE COMPROMISĂ\n Orice aplicație \"jailbreak\" vă poate accesa informațiile keychain din NoirWallet și vă poate fura Noir-ul! Vă rugăm să folosiți NoirWallet doar pe un dispozitiv non-jailbroken.  "</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">AVERTIZARE</string>
   <!-- Location services disabled error -->
@@ -204,7 +204,7 @@ Datele criptate de la DigiWallet au fost recent invalidate deoarece ecranul de b
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">Statut Node de conexiune</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">DigiByte Nodes</string>
+  <string name="NodeSelector.title">Noir Nodes</string>
   <string name="no_limit">Fara limita</string>
   <string name="original_amount">Valoare originală: %s</string>
   <!-- Bad Payment request alert title -->
@@ -213,9 +213,9 @@ Datele criptate de la DigiWallet au fost recent invalidate deoarece ecranul de b
     <!-- Request expired payment protocol error message -->
     <!-- Payment too small alert title -->
     <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">Plățile DigiByte nu pot fi mai puțin de %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallPayment">Plățile Noir nu pot fi mai puțin de %1$s.</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">Ieșirile tranzacției DigiByte nu pot fi mai mici de %1$s.
+  <string name="PaymentProtocol.Errors.smallTransaction">Ieșirile tranzacției Noir nu pot fi mai mici de %1$s.
 </string>
   <!-- Unsupported signature type payment protocol error message -->
     <!-- Untrusted certificate payment protocol error message -->
@@ -240,7 +240,7 @@ Datele criptate de la DigiWallet au fost recent invalidate deoarece ecranul de b
   <!-- Upgrade PIN prompt body. -->
     <!-- Upgrade PIN prompt title. -->
     <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">Activați notificările pentru a primi în viitor mesaje speciale de la DigiWallet.</string>
+  <string name="PushNotifications.body">Activați notificările pentru a primi în viitor mesaje speciale de la NoirWallet.</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Notificări ”push”</string>
   <!-- Push notifications are off label -->
@@ -268,7 +268,7 @@ Datele criptate de la DigiWallet au fost recent invalidate deoarece ecranul de b
   <string name="RecoverWallet.header_reset_pin">Resetare Pin</string>
   <!-- Enter paper key instruction -->
     <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">Recuperați-vă DigiWallet cu Cheia personală de recuperare.</string>
+  <string name="RecoverWallet.intro">Recuperați-vă NoirWallet cu Cheia personală de recuperare.</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">"Cheia personală de recuperare introdusă nu este validă. Vă rugăm să reverificați fiecare cuvânt și să încercați din nou. "</string>
   <!-- Previous button accessibility label -->
@@ -291,13 +291,13 @@ Datele criptate de la DigiWallet au fost recent invalidate deoarece ecranul de b
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 minute</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Dacă o tranzacție apare ca finalizată în rețeaua DigiByte, însă nu și în DigiWallet-ul dvs.</string>
+  <string name="ReScan.body2">Dacă o tranzacție apare ca finalizată în rețeaua Noir, însă nu și în NoirWallet-ul dvs.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">Primiți în mod repetat eroarea că tranzacția dvs. a fost respinsă.</string>
   <!-- Start Sync button label -->
   <string name="ReScan.buttonTitle">Începerea sincronizării</string>
   <!-- Sync blockchain view footer -->
-  <string name="ReScan.footer">Nu veți putea trimite Digibyte în timpul sincronizării cu blockchain.</string>
+  <string name="ReScan.footer">Nu veți putea trimite Noir în timpul sincronizării cu blockchain.</string>
   <!-- Sync Blockchain view header -->
     <!-- Subheader label -->
   <string name="ReScan.subheader1">Timp estimat</string>
@@ -311,26 +311,26 @@ Datele criptate de la DigiWallet au fost recent invalidate deoarece ecranul de b
     <!-- Security Center Info -->
   <string name="SecurityCenter.info">Activați toate caracteristicile de securitate pentru protecție maximă.</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">Singura modalitate de a vă accesa DigiByte-ul dacă vă pierdeți sau vă actualizați telefonul.</string>
+  <string name="SecurityCenter.paperKeyDescription">Singura modalitate de a vă accesa Noir-ul dacă vă pierdeți sau vă actualizați telefonul.</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Cheia personală de recuperare</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">Vă protejează DigiWallet-ul de utilizatori neautorizați.</string>
+  <string name="SecurityCenter.pinDescription">Vă protejează NoirWallet-ul de utilizatori neautorizați.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">PIN 6-Cifre</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Centru Securitate</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">Deblocați-vă DigiWallet-ul în mod convenabil și trimiteți DGB până la limita stabilită.</string>
+  <string name="SecurityCenter.touchIdDescription">Deblocați-vă NoirWallet-ul în mod convenabil și trimiteți NOR până la limita stabilită.</string>
   <!-- Touch ID button title -->
     <!-- Security center fingerprint authentication button -->
   <string name="SecurityCenter.touchIdTitle.android">Autentificare amprentă digitală</string>
   <!-- Send money amount label -->
     <!-- Balance: $4.00 -->
     <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">Permiteți accesul camerei în \"Setări\"&gt; \"Aplicații\"&gt; \"DigiWallet\"&gt; \"Permisiuni\"</string>
+  <string name="Send.cameraUnavailabeMessage.android">Permiteți accesul camerei în \"Setări\"&gt; \"Aplicații\"&gt; \"NoirWallet\"&gt; \"Permisiuni\"</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">DigiWallet nu are permisiunea de a accesa camera.</string>
+  <string name="Send.cameraUnavailabeTitle.android">NoirWallet nu are permisiunea de a accesa camera.</string>
   <!-- Camera not allowed message -->
     <!-- Camera not allowed alert title -->
     <!-- Warning when sending to self. -->
@@ -367,7 +367,7 @@ Datele criptate de la DigiWallet au fost recent invalidate deoarece ecranul de b
   <!-- Send money to label -->
   <string name="Send.toLabel">Către</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">"Adresele DigiByte sunt destinate pentru o singură utilizare. "</string>
+  <string name="Send.UsedAddress.firstLine">"Adresele Noir sunt destinate pentru o singură utilizare. "</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">"Re-folosirea reduce securizarea atât pentru dvs., cât și pentru destinatar și poate aduce pierderi, dacă destinatarul nu deține controlul direct al adresei.   "</string>
   <!-- Adress already used alert title -->
@@ -383,14 +383,14 @@ Datele criptate de la DigiWallet au fost recent invalidate deoarece ecranul de b
     <!-- Import wallet left message -->
   <string name="Settings.importLeftMessage">Portofel pentru a fi importat</string>
   <!-- Import wallet right message -->
-  <string name="Settings.importRightMessage">DigiWallet-ul dvs.</string>
+  <string name="Settings.importRightMessage">NoirWallet-ul dvs.</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Importare Portofel</string>
   <!-- Manage settings section header -->
   <string name="Settings.manage">Administrare</string>
   <!-- Notifications label -->
     <!-- Restore screen lower label. -->
-  <string name="Settings.restore_label">DigiWallet-ul dvs. pe acest dispozitiv</string>
+  <string name="Settings.restore_label">NoirWallet-ul dvs. pe acest dispozitiv</string>
   <!-- Leave review button label -->
     <!-- Share anonymous data label -->
     <!-- Sync blockchain label -->
@@ -408,7 +408,7 @@ Datele criptate de la DigiWallet au fost recent invalidate deoarece ecranul de b
     <!-- Share data switch label. -->
     <!-- button label -->
     <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">Cheia personală de recuperare este singura modalitate de recuperare a DigiWallet-ului dvs. dacă vă pierdeți telefonul sau dacă acesta este furat, stricat sau actualizat.\n\nVă vom arăta o listă de cuvinte pe care să le scrieți pe o hârtie și să le păstrați în siguranță.</string>
+  <string name="StartPaperPhrase.body">Cheia personală de recuperare este singura modalitate de recuperare a NoirWallet-ului dvs. dacă vă pierdeți telefonul sau dacă acesta este furat, stricat sau actualizat.\n\nVă vom arăta o listă de cuvinte pe care să le scrieți pe o hârtie și să le păstrați în siguranță.</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">Scrieți Cheia personală de recuperare</string>
   <!-- Argument is date -->
@@ -433,7 +433,7 @@ Datele criptate de la DigiWallet au fost recent invalidate deoarece ecranul de b
   <string name="TouchIdSettings.disabledWarning.title.android">Autentificării Cu Amprentă Inactivă
 </string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">Folosiți-vă amprenta pentru a debloca DigiWallet-ul și a trimite Digibyte până la limita stabilită.</string>
+  <string name="TouchIdSettings.label">Folosiți-vă amprenta pentru a debloca NoirWallet-ul și a trimite Noir până la limita stabilită.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
     <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Limită de cheltuieli: %1$s (%2$s)</string>
@@ -508,9 +508,9 @@ Datele criptate de la DigiWallet au fost recent invalidate deoarece ecranul de b
   <string name="UnlockScreen.touchIdTitle.android">Autentificare necesara</string>
   <!-- Wallet unlocked message -->
     <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">Memorați acest PIN. Dacă îl uitați, nu vă veți mai putea accesa DigiByte-ul dvs.</string>
+  <string name="UpdatePin.caption">Memorați acest PIN. Dacă îl uitați, nu vă veți mai putea accesa Noir-ul dvs.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">PIN-ul dvs. va fi folosit pentru a debloca DigiWallet-ul dvs. și a trimite Digibyte.</string>
+  <string name="UpdatePin.createInstruction">PIN-ul dvs. va fi folosit pentru a debloca NoirWallet-ul dvs. și a trimite Noir.</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">Setare PIN</string>
   <!-- Update PIN title -->
@@ -539,9 +539,9 @@ Datele criptate de la DigiWallet au fost recent invalidate deoarece ecranul de b
     <!-- Updating webview message -->
   <string name="Webview.updating">Actualizare...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">DigiWallet are un aspect nou și unele caracteristici noi.\n\n Dacă aveți nevoie de ajutor, căutați (?) În partea dreaptă sus a majorității ecranelor.</string>
+  <string name="Welcome.body">NoirWallet are un aspect nou și unele caracteristici noi.\n\n Dacă aveți nevoie de ajutor, căutați (?) În partea dreaptă sus a majorității ecranelor.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">Bine ați venit la DigiWallet!</string>
+  <string name="Welcome.title">Bine ați venit la NoirWallet!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Sunteți sigur că vreți să ștergeți acest portofel?</string>
   <!-- Wipe wallet alert title -->
@@ -551,9 +551,9 @@ Datele criptate de la DigiWallet au fost recent invalidate deoarece ecranul de b
     <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">Introduceți fraza de recuperare a acestui portofel pentru a-l curăța și a deschide sau a recupera un alt portofel. Balanța dvs. actuală va rămâne cu această frază.</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">Deschiderea sau recuperarea unui alt portofel vă permite să accesați și să administrați un alt DigiWallet de pe acest dispozitiv.</string>
+  <string name="WipeWallet.startMessage">Deschiderea sau recuperarea unui alt portofel vă permite să accesați și să administrați un alt NoirWallet de pe acest dispozitiv.</string>
   <!-- Start wipe wallet view warning -->
-  <string name="WipeWallet.startWarning">Nu veți mai putea accesa DigiWallet-ul dvs. actual de pe acest dispozitiv. Balanța va rămâne cu această frază.</string>
+  <string name="WipeWallet.startWarning">Nu veți mai putea accesa NoirWallet-ul dvs. actual de pe acest dispozitiv. Balanța va rămâne cu această frază.</string>
   <!-- Wipe wallet navigation item title. -->
     <!-- Wipe wallet button title -->
   <string name="WipeWallet.wipe">Curățați</string>

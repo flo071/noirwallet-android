@@ -2,13 +2,13 @@
 <resources>
   <!-- App name -->
     <!-- About screen blog label -->
-  <string name="About.blog">https://digibyte.io/</string>
+  <string name="About.blog">https://noirofficial.org/</string>
   <!-- About screen footer -->
   <string name="About.footer">ਡਿਜੀ ਬਾਈਟ  ਟੀਮ ਦਾ ਬਣਾਇਆ ਹੋਇਆ ॥ ਵਰਜ਼ਨ %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">ਪਰਅਈਵਸੀ ਪੋਲਸੀ</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/Noirofficial/</string>
   <!-- Terms of Use button label -->
     <!--
     Terms of Use button label
@@ -17,7 +17,7 @@
   <string name="About.title">"ਸ਼ੇਤੀ, ਸੌਖਾ ਅਤੇ ਸੁਰੱਖਿਅਤ। 
 ਆਨਡਰੋਈਡ ਦਾ ਡੀਜੀ ਵਾਲਿਟ ਆਸਾਨ ਤਰੀਕਾ ਹੈ ਡੀਜੀ ਬਾਈਟ ਭੇਜਣ ਅਤੇ ਲੈਣ ਲਈ। ਇਹ  ਨਵੇਂ ਅਤੇ ਤਜਰਬੇਕਾਰ ਉਪਭੋਗਤਾਵਾਂ ਦੇ ਦਿਮਾਗ ਨਾਲ ਤਿਆਰ ਕੀਤਾ ਗਿਆ ਹੈ। "</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/Noircoin</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">ਬੰਦ</string>
   <!-- Support center accessibiliy label -->

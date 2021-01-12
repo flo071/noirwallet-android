@@ -15,6 +15,6 @@
         android:textStyle="bold"
         android:layout_marginTop="24dp"
         android:layout_marginBottom="8dp"
-        android:textColor="@color/white"/>
+        android:textColor="@color/noir_jupiter_grey"/>
 
 </RelativeLayout>

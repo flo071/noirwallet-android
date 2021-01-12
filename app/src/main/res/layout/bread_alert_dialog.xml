@@ -6,7 +6,7 @@
                                                    android:layout_gravity="center"
                                                    android:layout_marginStart="24dp"
                                                    android:layout_marginEnd="24dp"
-                                                   android:background="@drawable/bread_dialog_rounded"
+                                                   android:background="@drawable/pin_round_corner"
                                                    android:filterTouchesWhenObscured="true"
                                                    android:orientation="vertical">
 
@@ -64,11 +64,11 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
             android:layout_marginStart="16dp"
-            android:background="@drawable/intro_create_button"
+            android:background="@color/noir_moolight_grey"
+            android:textColor="@color/noir_jupiter_grey"
             android:foreground="?android:attr/selectableItemBackground"
             android:onClick="@{() -> callback.onSendClickListener()}"
             android:text="@string/Send.sendLabel"
-            android:textColor="@color/white"
             android:textSize="14sp" />
 
         <Button
@@ -77,11 +77,11 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
             android:layout_marginStart="16dp"
-            android:background="@drawable/intro_create_button"
+            android:background="@color/noir_moolight_grey"
+            android:textColor="@color/noir_jupiter_grey"
             android:foreground="?android:attr/selectableItemBackground"
             android:onClick="@{() -> callback.onSendClickListener()}"
             android:text="@string/Send.sendLabel"
-            android:textColor="@color/white"
             android:textSize="14sp" />
 
     </LinearLayout>

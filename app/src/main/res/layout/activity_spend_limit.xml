@@ -24,6 +24,7 @@
             style="@style/Text.Description.Top"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/noir_jupiter_grey"
             android:text="@string/TouchIdSpendingLimit.body"/>
 
         <androidx.recyclerview.widget.RecyclerView

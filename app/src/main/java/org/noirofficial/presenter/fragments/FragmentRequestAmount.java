@@ -51,7 +51,7 @@ import org.noirofficial.tools.util.Utils;
 public class FragmentRequestAmount extends FragmentReceive implements OnBackPressListener {
     private static final String TAG = FragmentRequestAmount.class.getName();
     private StringBuilder amountBuilder = new StringBuilder(0);
-    private String selectedIso = "dgb";
+    private String selectedIso = "nor";
 
     public static void show(AppCompatActivity activity) {
         FragmentRequestAmount fragmentRequestAmount = new FragmentRequestAmount();
@@ -72,7 +72,7 @@ public class FragmentRequestAmount extends FragmentReceive implements OnBackPres
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
         View fragmentReceiveRootView = super.onCreateView(inflater, container, savedInstanceState);
-        selectedIso = BRSharedPrefs.getPreferredBTC(getContext()) ? "DGB" : BRSharedPrefs.getIso(
+        selectedIso = BRSharedPrefs.getPreferredBTC(getContext()) ? "NOR" : BRSharedPrefs.getIso(
                 getContext());
         updateText();
         fragmentReceiveBinding.keyboardLayout.setVisibility(View.VISIBLE);
@@ -92,7 +92,7 @@ public class FragmentRequestAmount extends FragmentReceive implements OnBackPres
     }
 
     private String getBitcoinUrl() {
-        return "digibyte:" + address + "?amount=" + getAmountForIso();
+        return "noir:" + address + "?amount=" + getAmountForIso();
     }
 
     @Override
@@ -109,7 +109,7 @@ public class FragmentRequestAmount extends FragmentReceive implements OnBackPres
     @Override
     protected void onIsoButtonClick() {
         if (selectedIso.equalsIgnoreCase(BRSharedPrefs.getIso(getContext()))) {
-            selectedIso = "DGB";
+            selectedIso = "NOR";
         } else {
             selectedIso = BRSharedPrefs.getIso(getContext());
         }
@@ -252,7 +252,7 @@ public class FragmentRequestAmount extends FragmentReceive implements OnBackPres
     }
 
     private String getAmountForIso() {
-        return selectedIso.equalsIgnoreCase("dgb") ? amountBuilder.toString() : getFiatAmount();
+        return selectedIso.equalsIgnoreCase("nor") ? amountBuilder.toString() : getFiatAmount();
     }
 
     private String safeGetAmount() {

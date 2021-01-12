@@ -2,22 +2,22 @@
 <resources>
   <!-- App name -->
     <!-- About screen blog label -->
-  <string name="About.blog">https://digibyte.io/</string>
+  <string name="About.blog">https://noirofficial.org/</string>
   <!-- About screen footer -->
-  <string name="About.footer">"  global DigiWallet баг бүтээсэн. Хувилбар %1$s"</string>
+  <string name="About.footer">"  global NoirWallet баг бүтээсэн. Хувилбар %1$s"</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Нууцлалын бодлого</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/Noirofficial/</string>
   <!-- Terms of Use button label -->
     <!--
     Terms of Use button label
     About screen title
     -->
   <string name="About.title">
-DigiWallet нь DigiByte-д зориулсан гар утасны түрийвч юм.</string>
+NoirWallet нь Noir-д зориулсан гар утасны түрийвч юм.</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/Noircoin</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">Хаах</string>
   <!-- Support center accessibiliy label -->
@@ -30,10 +30,10 @@ DigiWallet нь DigiByte-д зориулсан гар утасны түрийв�
 Алдаа</string>
   <!-- Keystore error -->
   <string name="Alert.keystore.generic.android">
-Таны Андройд  OS-тэй холбоотой асуудал байна, support@digibyte.io хаягаар холбоо барина уу</string>
+Таны Андройд  OS-тэй холбоотой асуудал байна, support@noirofficial.org хаягаар холбоо барина уу</string>
   <!-- KeyStore error, keys are invalidated -->
   <string name="Alert.keystore.invalidated.android">
-Таны Андройд түгжээний дэлгэцийг идэвхгүй болгосон учраас таны DigiWallet шифрлэгдсэн дата саяхан хүчингүй болсон.</string>
+Таны Андройд түгжээний дэлгэцийг идэвхгүй болгосон учраас таны NoirWallet шифрлэгдсэн дата саяхан хүчингүй болсон.</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">Android KeyStore алдаа</string>
   <!-- No internet alert message -->
@@ -51,7 +51,7 @@ DigiWallet нь DigiByte-д зориулсан гар утасны түрийв�
   <!-- Send success alert header label (confirmation that the send happened) -->
   <string name="Alerts.sendSuccess">Батламж илгээх</string>
   <!-- Send success alert subheader label (e.g. the money was sent) -->
-  <string name="Alerts.sendSuccessSubheader">DigiByte илгээсэн!</string>
+  <string name="Alerts.sendSuccessSubheader">Noir илгээсэн!</string>
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">Хурууны хээ танигдсан</string>
   <string name="all">Бүгд</string>
@@ -114,7 +114,7 @@ DigiWallet нь DigiByte-д зориулсан гар утасны түрийв�
   <!-- Email unavailable alert title -->
     <!-- Email unavailable alert title -->
     <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
-  <string name="ErrorMessages.loopingLockScreen.android">DigiWallet нь таны Android хувилбарт алдаатай тул баталгаажуулах боломжгүй байна. [Дэлгэрэнгүй мэдээллийг энд дарж үзнэ үү.]</string>
+  <string name="ErrorMessages.loopingLockScreen.android">NoirWallet нь таны Android хувилбарт алдаатай тул баталгаажуулах боломжгүй байна. [Дэлгэрэнгүй мэдээллийг энд дарж үзнэ үү.]</string>
   <!-- Messaging unavailable alert title -->
     <!-- Messaging unavailable alert title -->
     <!-- Fingerprint was not recognized by the scanner, please try scanning again -->
@@ -129,7 +129,7 @@ DigiWallet нь DigiByte-д зориулсан гар утасны түрийв�
     <!-- Checking private key balance progress view text -->
   <string name="Import.checking">Хувийн түлхүүрийн үлдэгдэл шалгаж байна...</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">Энэ хувийн түлхүүрийн %1$s-г түрийвчдээ илгээх үү? DigiByte сүлжээ нь %2$s төлбөр авдаг.</string>
+  <string name="Import.confirm">Энэ хувийн түлхүүрийн %1$s-г түрийвчдээ илгээх үү? Noir сүлжээ нь %2$s төлбөр авдаг.</string>
   <!-- Duplicate key error message -->
     <!-- empty private key error message -->
   <string name="Import.Error.empty">Энэ хувийн түлхүүр хоосон байна.</string>
@@ -143,7 +143,7 @@ DigiWallet нь DigiByte-д зориулсан гар утасны түрийв�
     <!-- Importing wallet progress view label -->
     <!-- Caption for graphics -->
     <!-- Import wallet intro screen message -->
-  <string name="Import.message">Бүх хэтэвчээс DigiWallet-ыг нэг гүйлгээ ашиглан DigiByte руу түрийвч шилжүүлэн импортлоорой.</string>
+  <string name="Import.message">Бүх хэтэвчээс NoirWallet-ыг нэг гүйлгээ ашиглан Noir руу түрийвч шилжүүлэн импортлоорой.</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">Энэ хувийн түлхүүр нь нууц үгээр хамгаалагдсан.</string>
   <!-- password textfield placeholder -->
@@ -165,7 +165,7 @@ DigiWallet нь DigiByte-д зориулсан гар утасны түрийв�
     Ignore jailbreak warning button
     Jailbreak warning message
     -->
-  <string name="JailbreakWarnings.messageWithoutBalance">ТӨХӨӨРӨМЖИЙН АЮУЛГҮЙ БАЙДАЛ ЭВДЭГДЭХ \n ямар нэг \'jailbreak\' апп DigiWallet-ийн гол түлхүүрийн өгөгдөлд хандах боломжтой ба DigiByte-ийг хулгайлж авна! DigiWallet ииг зөвхөн non-jailbroken төхөөрөмж дээр ашиглаарай</string>
+  <string name="JailbreakWarnings.messageWithoutBalance">ТӨХӨӨРӨМЖИЙН АЮУЛГҮЙ БАЙДАЛ ЭВДЭГДЭХ \n ямар нэг \'jailbreak\' апп NoirWallet-ийн гол түлхүүрийн өгөгдөлд хандах боломжтой ба Noir-ийг хулгайлж авна! NoirWallet ииг зөвхөн non-jailbroken төхөөрөмж дээр ашиглаарай</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">АНХААРУУЛГА</string>
   <!-- Location services disabled error -->
@@ -206,7 +206,7 @@ DigiWallet нь DigiByte-д зориулсан гар утасны түрийв�
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">Node холболтын төлөв</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">DigiByte цэгүүд</string>
+  <string name="NodeSelector.title">Noir цэгүүд</string>
   <string name="no_limit">Хязгааргүй</string>
   <string name="original_amount">Эх үнэ:</string>
   <!-- Bad Payment request alert title -->
@@ -215,10 +215,10 @@ DigiWallet нь DigiByte-д зориулсан гар утасны түрийв�
     <!-- Request expired payment protocol error message -->
     <!-- Payment too small alert title -->
     <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">DigiByte төлбөрүүд нь үүнээс бага байж болохгүй %1$s</string>
+  <string name="PaymentProtocol.Errors.smallPayment">Noir төлбөрүүд нь үүнээс бага байж болохгүй %1$s</string>
   <!-- Output too small error message. -->
   <string name="PaymentProtocol.Errors.smallTransaction">
-DigiByte гүйлгээний гаралт  %1$s  -с бага байж болохгүй.</string>
+Noir гүйлгээний гаралт  %1$s  -с бага байж болохгүй.</string>
   <!-- Unsupported signature type payment protocol error message -->
     <!-- Untrusted certificate payment protocol error message -->
     <string name="processed">Боловсруулсан</string>
@@ -243,7 +243,7 @@ DigiByte гүйлгээний гаралт  %1$s  -с бага байж боло
   <!-- Upgrade PIN prompt body. -->
     <!-- Upgrade PIN prompt title. -->
     <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">DigiWallet-с тусгай мессеж хүлээн авахын тулд мэдэгдлийг асаана уу.</string>
+  <string name="PushNotifications.body">NoirWallet-с тусгай мессеж хүлээн авахын тулд мэдэгдлийг асаана уу.</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Мэдэгдлүүдийг Түлхэх</string>
   <!-- Push notifications are off label -->
@@ -270,7 +270,7 @@ Wallet сэргээх</string>
   <string name="RecoverWallet.header_reset_pin">PIN дахин тохируулах</string>
   <!-- Enter paper key instruction -->
     <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">DigiWallet-г өөрийн хувийн сэргээх түлхүүрээр сэргээх.</string>
+  <string name="RecoverWallet.intro">NoirWallet-г өөрийн хувийн сэргээх түлхүүрээр сэргээх.</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">
 Таны оруулсан хувийн сэргээх түлхүүр буруу байна. Үг бүрийг дахин шалгаад дахин оролдоно уу.</string>
@@ -280,7 +280,7 @@ Wallet сэргээх</string>
   <!-- Reset PIN with paper key: more information button. -->
     <!-- Next button accessibility label -->
     <!-- Recover wallet sub-header -->
-  <string name="RecoverWallet.subheader">Дахин сэргээхийг хүссэн DigiWallet-д зориулсан хувийн сэргээх түлхүүрийг оруулна уу.</string>
+  <string name="RecoverWallet.subheader">Дахин сэргээхийг хүссэн NoirWallet-д зориулсан хувийн сэргээх түлхүүрийг оруулна уу.</string>
   <!-- Reset PIN with paper key: sub-header -->
   <string name="RecoverWallet.subheader_reset_pin">Өөрийн PIN-ыг дахин тохируулахын тулд өөрийн хувийн сэргээх түлхүүрээс үгсийг доорх хайрцагт оруулна уу.</string>
   <!-- No amount entered error message. -->
@@ -293,14 +293,14 @@ Wallet сэргээх</string>
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 минут</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Хэрэв гүйлгээ DigiByte сүлжээнд дууссан гэж үзвэл таны DigiWallet-д байхгүй.</string>
+  <string name="ReScan.body2">Хэрэв гүйлгээ Noir сүлжээнд дууссан гэж үзвэл таны NoirWallet-д байхгүй.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">Таны гүйлгээг татгалзсан гэж хэлэхэд алдаа байнга гардаг.</string>
   <!-- Start Sync button label -->
   <string name="ReScan.buttonTitle">Синкийг эхлүүлэх</string>
   <!-- Sync blockchain view footer -->
   <string name="ReScan.footer">
-Та DigiByte-г Block-тай синхрончлох үед илгээж чадахгүй.</string>
+Та Noir-г Block-тай синхрончлох үед илгээж чадахгүй.</string>
   <!-- Sync Blockchain view header -->
     <!-- Subheader label -->
   <string name="ReScan.subheader1">
@@ -315,18 +315,18 @@ Wallet сэргээх</string>
     <!-- Security Center Info -->
   <string name="SecurityCenter.info">Хамгаалалтын бүх боломжуудыг дээд хэмжээгээр хамгаалах боломжтой болгоно.</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">Хэрэв та утсаа алдаж эсвэл шинэчлэх бол DigiByte-д хандах цорын ганц арга зам юм.</string>
+  <string name="SecurityCenter.paperKeyDescription">Хэрэв та утсаа алдаж эсвэл шинэчлэх бол Noir-д хандах цорын ганц арга зам юм.</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Хувийн сэргээх түлхүүр</string>
   <!-- PIN button description -->
   <string name="SecurityCenter.pinDescription">
-Таны DigiWallet ийг зөвшөөрөлгүй хэрэглэгчидээс хамгаална.</string>
+Таны NoirWallet ийг зөвшөөрөлгүй хэрэглэгчидээс хамгаална.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">6 оронтой PIN</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Аюулгүй байдлын төв</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">DigiWallet-гээ онгойлгож, DigiByte-г багцын хязгаар хүртэл нь илгээх боломжтой.</string>
+  <string name="SecurityCenter.touchIdDescription">NoirWallet-гээ онгойлгож, Noir-г багцын хязгаар хүртэл нь илгээх боломжтой.</string>
   <!-- Touch ID button title -->
     <!-- Security center fingerprint authentication button -->
   <string name="SecurityCenter.touchIdTitle.android">
@@ -334,10 +334,10 @@ Wallet сэргээх</string>
   <!-- Send money amount label -->
     <!-- Balance: $4.00 -->
     <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">Камерыг зөвшөөрөх \"Тохиргоо\"&gt; \"Apps\"&gt; \"DigiWallet\"&gt; \"Permissions\" дээр</string>
+  <string name="Send.cameraUnavailabeMessage.android">Камерыг зөвшөөрөх \"Тохиргоо\"&gt; \"Apps\"&gt; \"NoirWallet\"&gt; \"Permissions\" дээр</string>
   <!-- Permission required to access camera -->
   <string name="Send.cameraUnavailabeTitle.android">
-DigiWallet камер руу нэвтрэх эрхгүй</string>
+NoirWallet камер руу нэвтрэх эрхгүй</string>
   <!-- Camera not allowed message -->
     <!-- Camera not allowed alert title -->
     <!-- Warning when sending to self. -->
@@ -374,7 +374,7 @@ DigiWallet камер руу нэвтрэх эрхгүй</string>
   <string name="Send.toLabel">рүү</string>
   <!-- Adress already used alert message - first part -->
   <string name="Send.UsedAddress.firstLine">
-DigiByte хаягууд нь зөвхөн ганц хэрэглээнд зориулагдсан.</string>
+Noir хаягууд нь зөвхөн ганц хэрэглээнд зориулагдсан.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">
 Дахин ашиглах нь танд болон хүлээн авагч хоёулангийнх нь хувийн нууцыг бууруулж, хүлээн авагч шууд хаягыг хянадаггүй тохиолдолд алдагдлыг үүсгэж болно.</string>
@@ -392,7 +392,7 @@ DigiByte хаягууд нь зөвхөн ганц хэрэглээнд зори
     <!-- Import wallet left message -->
   <string name="Settings.importLeftMessage">" Wallet Импортлосон байх"</string>
   <!-- Import wallet right message -->
-  <string name="Settings.importRightMessage">Таны DigiWallet</string>
+  <string name="Settings.importRightMessage">Таны NoirWallet</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Түрийвч импорт хийх</string>
   <!-- Manage settings section header -->
@@ -400,7 +400,7 @@ DigiByte хаягууд нь зөвхөн ганц хэрэглээнд зори
   <!-- Notifications label -->
     <!-- Restore screen lower label. -->
   <string name="Settings.restore_label">
-Таны төхөөрөмж дээрх DigiWallet</string>
+Таны төхөөрөмж дээрх NoirWallet</string>
   <!-- Leave review button label -->
     <!-- Share anonymous data label -->
     <!-- Sync blockchain label -->
@@ -419,7 +419,7 @@ DigiByte хаягууд нь зөвхөн ганц хэрэглээнд зори
     <!-- Share data switch label. -->
     <!-- button label -->
     <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">Таны Хувийн Сэргээх Түлхүүр бол таны утас алдагдсан, хулгайд алдсан, эвдэрч, эсвэл сайжруулагдсан бол DigiWallet-ийг сэргээх цорын ганц арга юм. \n\n Бид цаасан дээр бичиж тэмдэглэх үгсийн жагсаалтыг танд үзүүлэх болно.</string>
+  <string name="StartPaperPhrase.body">Таны Хувийн Сэргээх Түлхүүр бол таны утас алдагдсан, хулгайд алдсан, эвдэрч, эсвэл сайжруулагдсан бол NoirWallet-ийг сэргээх цорын ганц арга юм. \n\n Бид цаасан дээр бичиж тэмдэглэх үгсийн жагсаалтыг танд үзүүлэх болно.</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">
 Хувийн сэргээх түлхүүрийг бичих</string>
@@ -442,7 +442,7 @@ DigiByte хаягууд нь зөвхөн ганц хэрэглээнд зори
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">Хурууны хээгээр баталгаажуулах боломжгүй байна</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">DigiWallet-г онгойлгохын тулд хурууны хээ ашиглан уу. DigiByte ийг тогтоосон хязгаар хүртэл явуулаарай.</string>
+  <string name="TouchIdSettings.label">NoirWallet-г онгойлгохын тулд хурууны хээ ашиглан уу. Noir ийг тогтоосон хязгаар хүртэл явуулаарай.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
     <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Хязгаар: %1$s (%2$s)</string>
@@ -514,10 +514,10 @@ DigiByte хаягууд нь зөвхөн ганц хэрэглээнд зори
   <string name="UnlockScreen.touchIdTitle.android">Баталгаажуулалт шаардлагатай</string>
   <!-- Wallet unlocked message -->
     <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">Энэ PIN-г санаарай. Хэрэв та мартсан бол DigiByte-д хандаж чадахгүй.</string>
+  <string name="UpdatePin.caption">Энэ PIN-г санаарай. Хэрэв та мартсан бол Noir-д хандаж чадахгүй.</string>
   <!-- PIN creation info. -->
   <string name="UpdatePin.createInstruction">
-Таны PIN DigiWallet-г онгойлгож, DigiByte-г илгээхэд хэрэглэнэ.</string>
+Таны PIN NoirWallet-г онгойлгож, Noir-г илгээхэд хэрэглэнэ.</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">PIN кодыг тохируулна уу</string>
   <!-- Update PIN title -->
@@ -546,9 +546,9 @@ DigiByte хаягууд нь зөвхөн ганц хэрэглээнд зори
     <!-- Updating webview message -->
   <string name="Webview.updating">Шинэчлэж байна ...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">DigiWallet нь цоо шинэ харагдах байдал болон зарим шинэ боломжуудтай. \n\n Хэрэв танд тусламж хэрэгтэй бол олон дэлгэцийн баруун дээд хэсэгт (?) Хайх хэрэгтэй.</string>
+  <string name="Welcome.body">NoirWallet нь цоо шинэ харагдах байдал болон зарим шинэ боломжуудтай. \n\n Хэрэв танд тусламж хэрэгтэй бол олон дэлгэцийн баруун дээд хэсэгт (?) Хайх хэрэгтэй.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">DigiWallet-д тавтай морилно уу!</string>
+  <string name="Welcome.title">NoirWallet-д тавтай морилно уу!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Та энэ түрийвчийг устгахдаа итгэлтэй байна уу?</string>
   <!-- Wipe wallet alert title -->
@@ -559,7 +559,7 @@ DigiByte хаягууд нь зөвхөн ганц хэрэглээнд зори
   <string name="WipeWallet.instruction">Шинэ хэтэвчийг эхлүүлэх эсвэл одоо байгаа түрийвчээ сэргээхийн тулд эхлээд түр сууж буй хэтэвчийг арилгах хэрэгтэй. Үргэлжлүүлэхийн тулд одоогийн түрийвчний хувийн сэргээх түлхүүр оруулах</string>
   <!-- Start wipe wallet view message -->
   <string name="WipeWallet.startMessage">
-Өөр нэг түрийвчийг эхлүүлэх буюу сэргээх бол энэ төхөөрөмжийн өөр DigiWallet-д хандах, удирдах боломжтой.</string>
+Өөр нэг түрийвчийг эхлүүлэх буюу сэргээх бол энэ төхөөрөмжийн өөр NoirWallet-д хандах, удирдах боломжтой.</string>
   <!-- Start wipe wallet view warning -->
   <string name="WipeWallet.startWarning">Таны одоогийн түрийвч энэ төхөөрөмжөөс устах болно. Хэрэв та ирээдүйд үүнийг сэргээх хүсэлтэй байгаа бол хувийн сэргээх түлхүүрээ оруулах хэрэгтэй болно.</string>
   <!-- Wipe wallet navigation item title. -->

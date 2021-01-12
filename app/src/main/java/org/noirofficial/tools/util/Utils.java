@@ -150,7 +150,7 @@ public class Utils {
             String message, String rURL) {
 
         Uri.Builder builder = new Uri.Builder();
-        builder = builder.scheme("digibyte");
+        builder = builder.scheme("noir");
         if (address != null && !address.isEmpty()) {
             builder = builder.appendPath(address);
         }

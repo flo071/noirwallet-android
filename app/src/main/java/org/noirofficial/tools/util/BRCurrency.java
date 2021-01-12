@@ -54,7 +54,7 @@ public class BRCurrency {
         Currency currency;
         String symbol = null;
         int decimalPoints = 0;
-        if ("DGB".equals(isoCurrencyCode)) {
+        if ("NOR".equals(isoCurrencyCode)) {
             symbol = BRExchange.getBitcoinSymbol(app);
         } else {
             try {
@@ -67,7 +67,7 @@ public class BRCurrency {
         }
         decimalFormatSymbols.setCurrencySymbol(symbol);
         currencyFormat.setGroupingUsed(true);
-        if ("DGB".equals(isoCurrencyCode)) {
+        if ("NOR".equals(isoCurrencyCode)) {
             currencyFormat.setMinimumFractionDigits(
                     BRSharedPrefs.getCurrencyUnit(app) == BRConstants.CURRENT_UNIT_BITCOINS ? 6
                             : 2);
@@ -85,7 +85,7 @@ public class BRCurrency {
 
     public static String getSymbolByIso(Context app, String iso) {
         String symbol;
-        if ("DGB".equals(iso)) {
+        if ("NOR".equals(iso)) {
             String currencySymbolString = BRConstants.bitcoinLowercase;
             if (app != null) {
                 int unit = BRSharedPrefs.getCurrencyUnit(app);
@@ -116,16 +116,16 @@ public class BRCurrency {
 
     //for now only use for BTC and Bits
     public static String getCurrencyName(Context app, String iso) {
-        if ("DGB".equals(iso)) {
+        if ("NOR".equals(iso)) {
             if (app != null) {
                 int unit = BRSharedPrefs.getCurrencyUnit(app);
                 switch (unit) {
                     case CURRENT_UNIT_BITS:
-                        return "Bits";
+                        return "µNOR";
                     case BRConstants.CURRENT_UNIT_MBITS:
-                        return "MBits";
+                        return "mNOR";
                     case BRConstants.CURRENT_UNIT_BITCOINS:
-                        return "DGB";
+                        return "NOR";
                 }
             }
         }
@@ -135,7 +135,7 @@ public class BRCurrency {
     public static int getMaxDecimalPlaces(String iso) {
         if (Utils.isNullOrEmpty(iso)) return 8;
 
-        if (iso.equalsIgnoreCase("DGB")) {
+        if (iso.equalsIgnoreCase("NOR")) {
             return 8;
         } else {
             try {

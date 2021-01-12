@@ -4,6 +4,6 @@
 
     <gradient
         android:angle="270"
-        android:endColor="@color/background"
-        android:startColor="@color/write_phrase_gradient_end" />
+        android:endColor="@color/noir_moolight_grey"
+        android:startColor="@color/noir_light" />
 </shape>

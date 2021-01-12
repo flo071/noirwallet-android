@@ -253,7 +253,7 @@ public class BRSender {
                     brDialogView -> brDialogView.dismiss(), null, null, 0));
             return;
         }
-        String selectedIso = BRSharedPrefs.getPreferredBTC(ctx) ? "DGB" : BRSharedPrefs.getIso(ctx);
+        String selectedIso = BRSharedPrefs.getPreferredBTC(ctx) ? "NOR" : BRSharedPrefs.getIso(ctx);
         long limit = BRExchange.getSatoshisFromAmount(ctx, selectedIso, new BigDecimal(BRKeyStore.getSpendLimit(ctx))).longValue();
         long requestAmount = request.amount;
 
@@ -288,11 +288,11 @@ public class BRSender {
             feeForTx += (BRWalletManager.getInstance().getBalance(ctx) - request.amount) % 100;
         }
         final long total = request.amount + feeForTx;
-        String formattedAmountBTC = BRCurrency.getFormattedCurrencyString(ctx, "DGB",
+        String formattedAmountBTC = BRCurrency.getFormattedCurrencyString(ctx, "NOR",
                 BRExchange.getBitcoinForSatoshis(ctx, new BigDecimal(request.amount)));
-        String formattedFeeBTC = BRCurrency.getFormattedCurrencyString(ctx, "DGB",
+        String formattedFeeBTC = BRCurrency.getFormattedCurrencyString(ctx, "NOR",
                 BRExchange.getBitcoinForSatoshis(ctx, new BigDecimal(feeForTx)));
-        String formattedTotalBTC = BRCurrency.getFormattedCurrencyString(ctx, "DGB",
+        String formattedTotalBTC = BRCurrency.getFormattedCurrencyString(ctx, "NOR",
                 BRExchange.getBitcoinForSatoshis(ctx, new BigDecimal(total)));
 
         String formattedAmount = BRCurrency.getFormattedCurrencyString(ctx, iso,

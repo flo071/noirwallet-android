@@ -2,21 +2,21 @@
 <resources>
   <!-- App name -->
     <!-- About screen blog label -->
-  <string name="About.blog">https://digibyte.io/</string>
+  <string name="About.blog">https://noirofficial.org/</string>
   <!-- About screen footer -->
-  <string name="About.footer">נכתב ע\"י הצוות הגלובלי של DigiWallet. גרסה %1$s</string>
+  <string name="About.footer">נכתב ע\"י הצוות הגלובלי של NoirWallet. גרסה %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">מדיניות פרטיות</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/Noirofficial/</string>
   <!-- Terms of Use button label -->
     <!--
     Terms of Use button label
     About screen title
     -->
-  <string name="About.title">ארנק ה-DigiByte לאנדרואיד הוא הארנק הנייד ל-DigiByte.</string>
+  <string name="About.title">ארנק ה-Noir לאנדרואיד הוא הארנק הנייד ל-Noir.</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/Noircoin</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">סגור</string>
   <!-- Support center accessibiliy label -->
@@ -27,9 +27,9 @@
   <!-- Error alert title -->
   <string name="Alert.error">שגיאה</string>
   <!-- Keystore error -->
-  <string name="Alert.keystore.generic.android">ישנה בעיה עם קוד האנדרואידת נא ליצור קשר עם התמיכה: support@digibyte.io</string>
+  <string name="Alert.keystore.generic.android">ישנה בעיה עם קוד האנדרואידת נא ליצור קשר עם התמיכה: support@noirofficial.org</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">הנתונים המוצפנים של ארנק ה-DigiWallet שלך בוטלו בשל ביטול נעילת המסך של המכשיר.</string>
+  <string name="Alert.keystore.invalidated.android">הנתונים המוצפנים של ארנק ה-NoirWallet שלך בוטלו בשל ביטול נעילת המסך של המכשיר.</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">שגיאת קוד אנדרואיד</string>
   <!-- No internet alert message -->
@@ -47,7 +47,7 @@
   <!-- Send success alert header label (confirmation that the send happened) -->
   <string name="Alerts.sendSuccess">שלח/י אישור</string>
   <!-- Send success alert subheader label (e.g. the money was sent) -->
-  <string name="Alerts.sendSuccessSubheader">DigiByte נשלח!</string>
+  <string name="Alerts.sendSuccessSubheader">Noir נשלח!</string>
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">טביעת אצבע זוהתה</string>
   <string name="all">את כל</string>
@@ -110,7 +110,7 @@
   <!-- Email unavailable alert title -->
     <!-- Email unavailable alert title -->
     <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
-  <string name="ErrorMessages.loopingLockScreen.android">לא ניתן לאמת את ארנק ה-DigiWallet בשל שגיאה שנ ובעת מגרסת האנדרואיד שלך. [נא ללחוץ פה לפרטים נוספים].</string>
+  <string name="ErrorMessages.loopingLockScreen.android">לא ניתן לאמת את ארנק ה-NoirWallet בשל שגיאה שנ ובעת מגרסת האנדרואיד שלך. [נא ללחוץ פה לפרטים נוספים].</string>
   <!-- Messaging unavailable alert title -->
     <!-- Messaging unavailable alert title -->
     <!-- Fingerprint was not recognized by the scanner, please try scanning again -->
@@ -125,7 +125,7 @@
     <!-- Checking private key balance progress view text -->
   <string name="Import.checking">יתרת המפתח הפרטי נבדקת...</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">האם לשלוח %1$s מהמפתח הפרטי לארנק? רשת ה-DigiByte תקבל עמלה של %2$s.</string>
+  <string name="Import.confirm">האם לשלוח %1$s מהמפתח הפרטי לארנק? רשת ה-Noir תקבל עמלה של %2$s.</string>
   <!-- Duplicate key error message -->
     <!-- empty private key error message -->
   <string name="Import.Error.empty">המפתח הפרטי ריק.</string>
@@ -138,7 +138,7 @@
     <!-- Importing wallet progress view label -->
     <!-- Caption for graphics -->
     <!-- Import wallet intro screen message -->
-  <string name="Import.message">שחזור ארנק מעביר את כל יתרות ה-DigiByte מהארנק האחר אל הארנק הזה בפעולה אחת.</string>
+  <string name="Import.message">שחזור ארנק מעביר את כל יתרות ה-Noir מהארנק האחר אל הארנק הזה בפעולה אחת.</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">המפתח האישי מוגן סיסמה.</string>
   <!-- password textfield placeholder -->
@@ -160,7 +160,7 @@
     Ignore jailbreak warning button
     Jailbreak warning message
     -->
-  <string name="JailbreakWarnings.messageWithoutBalance">פשרה באבטחת המכשיר\n כל יישום \'jailbreak\' יכול לגשת לנתוני ארנק ה-DigiWallet ולגנוב את ה-DigiByte שלך. נא להשתמש בארנק ה-DigiWallet על מכשיר שהוא לא non-jailbroken.</string>
+  <string name="JailbreakWarnings.messageWithoutBalance">פשרה באבטחת המכשיר\n כל יישום \'jailbreak\' יכול לגשת לנתוני ארנק ה-NoirWallet ולגנוב את ה-Noir שלך. נא להשתמש בארנק ה-NoirWallet על מכשיר שהוא לא non-jailbroken.</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">אזהרה!</string>
   <!-- Location services disabled error -->
@@ -201,7 +201,7 @@
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">סטטוס קשר צומת</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">צומת DigiByte</string>
+  <string name="NodeSelector.title">צומת Noir</string>
   <string name="no_limit">אין גבול</string>
   <string name="original_amount">ערך מקורי: %s</string>
   <!-- Bad Payment request alert title -->
@@ -210,9 +210,9 @@
     <!-- Request expired payment protocol error message -->
     <!-- Payment too small alert title -->
     <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">תשלום DigiByte מינימלי - %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallPayment">תשלום Noir מינימלי - %1$s.</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">פעולת DigiByte לא יכולה להיות פחות מ-%1$s.</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">פעולת Noir לא יכולה להיות פחות מ-%1$s.</string>
   <!-- Unsupported signature type payment protocol error message -->
     <!-- Untrusted certificate payment protocol error message -->
     <string name="processed">מעובד</string>
@@ -236,7 +236,7 @@
   <!-- Upgrade PIN prompt body. -->
     <!-- Upgrade PIN prompt title. -->
     <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">הפעל הודעות על מנת לאפשר קבלת הודעות של ארנק ה-DigiWallet שלך בעתיד.</string>
+  <string name="PushNotifications.body">הפעל הודעות על מנת לאפשר קבלת הודעות של ארנק ה-NoirWallet שלך בעתיד.</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">הודעות דחיפה</string>
   <!-- Push notifications are off label -->
@@ -262,7 +262,7 @@
   <string name="RecoverWallet.header_reset_pin">איפוס קוד אישי</string>
   <!-- Enter paper key instruction -->
     <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">שחזר את ארנק ה-DigiWallet שלך באמצעות המפתח הפרטי.</string>
+  <string name="RecoverWallet.intro">שחזר את ארנק ה-NoirWallet שלך באמצעות המפתח הפרטי.</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">המפתח הפרטי שהזנת אינו תקף. נא לבדוק בשנית כל מילה ולנסות שוב.</string>
   <!-- Previous button accessibility label -->
@@ -271,7 +271,7 @@
   <!-- Reset PIN with paper key: more information button. -->
     <!-- Next button accessibility label -->
     <!-- Recover wallet sub-header -->
-  <string name="RecoverWallet.subheader">הזן/י את המפתח הפרטי של ארנק ה-DigiWallet שאתה מעוניין לשחזר.</string>
+  <string name="RecoverWallet.subheader">הזן/י את המפתח הפרטי של ארנק ה-NoirWallet שאתה מעוניין לשחזר.</string>
   <!-- Reset PIN with paper key: sub-header -->
   <string name="RecoverWallet.subheader_reset_pin">על מנת לאפס את הקוד האישי, הזן את המילים מהמפתח הפרטי לתיבות שדלהלן.</string>
   <!-- No amount entered error message. -->
@@ -284,13 +284,13 @@
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 דקות</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">אם פעולה מוצגת כהושלמה ברשת ה-DigiByte אבל לא בארנק ה-DigiWallet שלך.</string>
+  <string name="ReScan.body2">אם פעולה מוצגת כהושלמה ברשת ה-Noir אבל לא בארנק ה-NoirWallet שלך.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">את/ה מקבל שוב ושוב הודעה לגבי דחיית הפעולה.</string>
   <!-- Start Sync button label -->
   <string name="ReScan.buttonTitle">התחל סנכרון</string>
   <!-- Sync blockchain view footer -->
-  <string name="ReScan.footer">תוכל/י לשלוח DigiByte בזמן הסנכרון עם הבלוקצ\'יין.</string>
+  <string name="ReScan.footer">תוכל/י לשלוח Noir בזמן הסנכרון עם הבלוקצ\'יין.</string>
   <!-- Sync Blockchain view header -->
     <!-- Subheader label -->
   <string name="ReScan.subheader1">זמן מוערך</string>
@@ -304,26 +304,26 @@
     <!-- Security Center Info -->
   <string name="SecurityCenter.info">אפשר/י כל הגדרות הביטחון לאבטחה מקסימלית.</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">הדרך היחידה לגשת ל-DigiByte שלך אם תאבד או תשדרג את המכשיר הנייד שלך.</string>
+  <string name="SecurityCenter.paperKeyDescription">הדרך היחידה לגשת ל-Noir שלך אם תאבד או תשדרג את המכשיר הנייד שלך.</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">מפתח פרטי</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">הגן/י על ארנק ה-DigiWallet שלך ממשתמשים בלתי מאושרים.</string>
+  <string name="SecurityCenter.pinDescription">הגן/י על ארנק ה-NoirWallet שלך ממשתמשים בלתי מאושרים.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">קוד 6 ספרות</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">מרכז אבטחה</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">לנוחות יש לפתוח את ארנק ה-DigiWallet על מנת לשלוח DigiByte עד למגבלה שהוגדרה.</string>
+  <string name="SecurityCenter.touchIdDescription">לנוחות יש לפתוח את ארנק ה-NoirWallet על מנת לשלוח Noir עד למגבלה שהוגדרה.</string>
   <!-- Touch ID button title -->
     <!-- Security center fingerprint authentication button -->
   <string name="SecurityCenter.touchIdTitle.android">אימות באמצעות טביעת אצבע</string>
   <!-- Send money amount label -->
     <!-- Balance: $4.00 -->
     <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">אפשר גישה למצלמה בהגדרות &gt; יישומים &gt; \"DigiWallet\" &gt; הרשאות</string>
+  <string name="Send.cameraUnavailabeMessage.android">אפשר גישה למצלמה בהגדרות &gt; יישומים &gt; \"NoirWallet\" &gt; הרשאות</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">לארנק ה-DigiWallet אין הרשאת גישה למצלמה</string>
+  <string name="Send.cameraUnavailabeTitle.android">לארנק ה-NoirWallet אין הרשאת גישה למצלמה</string>
   <!-- Camera not allowed message -->
     <!-- Camera not allowed alert title -->
     <!-- Warning when sending to self. -->
@@ -359,7 +359,7 @@
   <!-- Send money to label -->
   <string name="Send.toLabel">מקבל</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">כתובות DigiByte נועדו לשימוש פרטני בלבד.</string>
+  <string name="Send.UsedAddress.firstLine">כתובות Noir נועדו לשימוש פרטני בלבד.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">שימוש מחדש מפחית את הפרטיות שלך ושל המקבל ויכול לגרום לאובדן אם המקבל לא שולט ישירות בכתובת.</string>
   <!-- Adress already used alert title -->
@@ -375,14 +375,14 @@
     <!-- Import wallet left message -->
   <string name="Settings.importLeftMessage">ארנק לייבוא</string>
   <!-- Import wallet right message -->
-  <string name="Settings.importRightMessage">ארנק ה-DigiWallet שלך</string>
+  <string name="Settings.importRightMessage">ארנק ה-NoirWallet שלך</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">ייבוא ארנק</string>
   <!-- Manage settings section header -->
   <string name="Settings.manage">ניהול</string>
   <!-- Notifications label -->
     <!-- Restore screen lower label. -->
-  <string name="Settings.restore_label">ארנק ה-DigiWallet על המכשיר הזה</string>
+  <string name="Settings.restore_label">ארנק ה-NoirWallet על המכשיר הזה</string>
   <!-- Leave review button label -->
     <!-- Share anonymous data label -->
     <!-- Sync blockchain label -->
@@ -400,7 +400,7 @@
     <!-- Share data switch label. -->
     <!-- button label -->
     <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">המפתח האישי שלך הוא הדרך היחידה בה ניתן לשחזר את ארנק ה-DigiByte במקרה של אובדן, גניבה, שבר או שדרוג של המכשיר. \n\n יוצגו בפניך רשימה של מילים שיש לרשום אותן על נייר ולשמור במקום בטוח.</string>
+  <string name="StartPaperPhrase.body">המפתח האישי שלך הוא הדרך היחידה בה ניתן לשחזר את ארנק ה-Noir במקרה של אובדן, גניבה, שבר או שדרוג של המכשיר. \n\n יוצגו בפניך רשימה של מילים שיש לרשום אותן על נייר ולשמור במקום בטוח.</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">נא לרשום את המפתח הפרטי</string>
   <!-- Argument is date -->
@@ -422,7 +422,7 @@
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">זיהוי באמצעות טביעת אצבע לא מאופשר</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">יש להשתמש בטביעת האצבע על מנת לפתוח את ארנק ה-DigiWallet ולשלוח DigiByte עד למגבלה שהוגדרה.</string>
+  <string name="TouchIdSettings.label">יש להשתמש בטביעת האצבע על מנת לפתוח את ארנק ה-NoirWallet ולשלוח Noir עד למגבלה שהוגדרה.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
     <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">מגבלת משיכה: %1$s (%2$s)</string>
@@ -494,9 +494,9 @@
   <string name="UnlockScreen.touchIdTitle.android">אימות נדרש</string>
   <!-- Wallet unlocked message -->
     <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">לא לשכוח את הקוד. במקרה של שכחה, לא תוכל/י לגשת לארנק ה-DigiWallet.</string>
+  <string name="UpdatePin.caption">לא לשכוח את הקוד. במקרה של שכחה, לא תוכל/י לגשת לארנק ה-NoirWallet.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">הקוד האישי ישמש לפתוח את הנעילה של ארנק ה-DigiWallet ולשליחה של DigiByte.</string>
+  <string name="UpdatePin.createInstruction">הקוד האישי ישמש לפתוח את הנעילה של ארנק ה-NoirWallet ולשליחה של Noir.</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">הגדר/י קוד אישי</string>
   <!-- Update PIN title -->
@@ -525,9 +525,9 @@
     <!-- Updating webview message -->
   <string name="Webview.updating">מעדכן...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">לארנק ה-DigiWallet יש מראה חדש ותכונות חדשות. \n\nlf אם יש צורך בעזרה, ניתן להשתמש ב-סימן שאלה (?) בחלק העליון ימני של רוב המסכים.</string>
+  <string name="Welcome.body">לארנק ה-NoirWallet יש מראה חדש ותכונות חדשות. \n\nlf אם יש צורך בעזרה, ניתן להשתמש ב-סימן שאלה (?) בחלק העליון ימני של רוב המסכים.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">ברוכים הבאים לארנק ה-DigiWallet!</string>
+  <string name="Welcome.title">ברוכים הבאים לארנק ה-NoirWallet!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">האם את/ה בטוח/ה שברצונך למחוק את הארנק הנוכחי?</string>
   <!-- Wipe wallet alert title -->
@@ -537,7 +537,7 @@
     <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">על מנת לפתוח ארנק חדש או לשחזר ארנק קיים, יש למחוק את הארנק שמותקן כרגע. להמשך, יש להזין את המפתח הפרטי של הארנק הנוכחי.</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">אתחול או שחזור של ארנק אחר יאפשרו גישה וניהול של ארנק DigiWallet אחר על המכשיר הנוכחי.</string>
+  <string name="WipeWallet.startMessage">אתחול או שחזור של ארנק אחר יאפשרו גישה וניהול של ארנק NoirWallet אחר על המכשיר הנוכחי.</string>
   <!-- Start wipe wallet view warning -->
   <string name="WipeWallet.startWarning">הארנק הנוכחי יוסר מהמכשיר. אם תרצה/י לשחזרו בעתיד, תצטרך/י להזין את המפתח האישי.</string>
   <!-- Wipe wallet navigation item title. -->

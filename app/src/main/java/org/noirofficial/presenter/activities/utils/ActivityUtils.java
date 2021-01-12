@@ -85,7 +85,7 @@ public class ActivityUtils {
         return isMain;
     }
 
-    public static void updateDigibyteDollarValues(Context context, TextView primary,
+    public static void updateNoirDollarValues(Context context, TextView primary,
             TextView secondary) {
         if (!BRSharedPrefs.getBalanceVisibility(context)) {
             primary.setText(String.format(context.getString(R.string.amount_hidden), BRExchange.getBitcoinSymbol(context)));
@@ -123,7 +123,7 @@ public class ActivityUtils {
                     secondary.setText(BRCurrency.getFormattedCurrencyString(
                             context, iso, new BigDecimal(fiatIntervals[0])));
                     primary.setText(BRCurrency.getFormattedCurrencyString(
-                            context, "DGB", new BigDecimal(btcIntervals[0])));
+                            context, "NOR", new BigDecimal(btcIntervals[0])));
                     return;
                 }
 
@@ -131,7 +131,7 @@ public class ActivityUtils {
                 btcAnimator.addUpdateListener(animation -> {
                     float value = (float) animation.getAnimatedValue();
                     primary.setText(BRCurrency.getFormattedCurrencyString(
-                            context, "DGB", new BigDecimal(value)));
+                            context, "NOR", new BigDecimal(value)));
                 });
                 btcAnimator.setDuration(1500);
                 btcAnimator.start();

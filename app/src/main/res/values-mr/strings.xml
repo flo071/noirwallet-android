@@ -2,13 +2,13 @@
 <resources>
   <!-- App name -->
     <!-- About screen blog label -->
-  <string name="About.blog">https://digibyte.io/</string>
+  <string name="About.blog">https://noirofficial.org/</string>
   <!-- About screen footer -->
   <string name="About.footer">जागतिक डिजिपाकिट संघाद्वारे बनविण्यात आलेली आहे.  आवृत्ती % 1 $ @</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">गोपनीयता  धोरण</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/Noirofficial/</string>
   <!-- Terms of Use button label -->
     <!--
     Terms of Use button label
@@ -16,7 +16,7 @@
     -->
   <string name="About.title">जलद, सोपे, सुरक्षित!: डिजिपॅकेट हे अँड्रॉइड साठी डिजिबाईट पाठवणे आणि स्वीकारणे यासाठी अत्यंत सोपा मार्ग आहे.  डिजिपॅकेट हे अँड्रॉइड वापरणाऱ्या नवीन व अनुभवी लोकांसाठी तयार करण्यात आलेले आहे , तसेच पहिल्यांदाच उपयोग करणाऱ्या लोकांसाठी खूप सोपे आहे आणि नेहमी  वापर करणाऱ्यांसाठी  सुद्धा तितकेच उपयुक्त आहे.</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/Noircoin</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">बंद</string>
   <!-- Support center accessibiliy label -->
@@ -27,7 +27,7 @@
   <!-- Error alert title -->
   <string name="Alert.error">त्रुटी</string>
   <!-- Keystore error -->
-  <string name="Alert.keystore.generic.android">आपल्या एंड्रॉइड ओएस कीस्टोर मध्ये एक समस्या आहे, कृपया support@digibyte.io ला संपर्क साधा.</string>
+  <string name="Alert.keystore.generic.android">आपल्या एंड्रॉइड ओएस कीस्टोर मध्ये एक समस्या आहे, कृपया support@noirofficial.org ला संपर्क साधा.</string>
   <!-- KeyStore error, keys are invalidated -->
   <string name="Alert.keystore.invalidated.android">आपल्या डीजीपाकिटाचा नुकताच कुटबद्ध केलेला डेटा अवैध होता, कारण आपली अँड्राईड लॉक स्क्रीन असमर्थ होती.</string>
   <!-- Keystore error title -->

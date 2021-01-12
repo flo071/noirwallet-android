@@ -88,21 +88,21 @@ public class FingerprintActivity extends BRActivity {
         try {
             String iso = BRSharedPrefs.getIso(this);
             //amount in satoshis
-            BigDecimal digibyte;
+            BigDecimal noir;
             try {
-                digibyte = new BigDecimal(BRKeyStore.getSpendLimit(this));
+                noir = new BigDecimal(BRKeyStore.getSpendLimit(this));
             } catch (UnknownFormatConversionException e) {
-                digibyte = BigDecimal.ZERO;
+                noir = BigDecimal.ZERO;
             }
-            if (digibyte.equals(BigDecimal.ZERO)) {
+            if (noir.equals(BigDecimal.ZERO)) {
                 return String.format(getString(R.string.TouchIdSettings_spendingLimit),
-                        BRCurrency.getFormattedCurrencyString(this, "DGB", digibyte),
+                        BRCurrency.getFormattedCurrencyString(this, "NOR", noir),
                         NoirWallet.getContext().getString(R.string.no_limit));
             }
-            BigDecimal curAmount = BRExchange.getAmountFromSatoshis(this, iso, digibyte.multiply(new BigDecimal(100000000)));
+            BigDecimal curAmount = BRExchange.getAmountFromSatoshis(this, iso, noir.multiply(new BigDecimal(100000000)));
             //formatted string for the label
             return String.format(getString(R.string.TouchIdSettings_spendingLimit),
-                    BRCurrency.getFormattedCurrencyString(this, "DGB", digibyte),
+                    BRCurrency.getFormattedCurrencyString(this, "NOR", noir),
                     BRCurrency.getFormattedCurrencyString(this, iso, curAmount));
         } catch (Exception e) {
             //Lazy support for invalid limit settings

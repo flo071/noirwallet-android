@@ -2,21 +2,21 @@
 <resources>
   <!-- App name -->
     <!-- About screen blog label -->
-  <string name="About.blog">https://digibyte.io/</string>
+  <string name="About.blog">https://noirofficial.org/</string>
   <!-- About screen footer -->
-  <string name="About.footer">Stworzony przez globalny zespół DigiWallet. Wersja %1$s</string>
+  <string name="About.footer">Stworzony przez globalny zespół NoirWallet. Wersja %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Polityka prywatności</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/Noirofficial/</string>
   <!-- Terms of Use button label -->
     <!--
     Terms of Use button label
     About screen title
     -->
-  <string name="About.title">Szybki, prosty i bezpieczny!: DigiWallet dla Android to najłatwiejszy sposób aby zacząć odbierać i wysyłać DigiByte. Zaprojektowany z myślą zarówno o nowych, jak i doświadczonych użytkownikach, DigiWallet dla Android jest dość prosty dla użytkowników rozpoczynających swoją przygodę z DigiByte, a także na tyle potężny aby sprostać wymaganiom profesjonalistów.</string>
+  <string name="About.title">Szybki, prosty i bezpieczny!: NoirWallet dla Android to najłatwiejszy sposób aby zacząć odbierać i wysyłać Noir. Zaprojektowany z myślą zarówno o nowych, jak i doświadczonych użytkownikach, NoirWallet dla Android jest dość prosty dla użytkowników rozpoczynających swoją przygodę z Noir, a także na tyle potężny aby sprostać wymaganiom profesjonalistów.</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/Noircoin</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">Zamknij</string>
   <!-- Support center accessibiliy label -->
@@ -27,9 +27,9 @@
   <!-- Error alert title -->
   <string name="Alert.error">Błąd</string>
   <!-- Keystore error -->
-  <string name="Alert.keystore.generic.android">Wystąpił problem z pękiem kluczy systemu Android KeyStore, skontaktuj się z support@digibyte.io</string>
+  <string name="Alert.keystore.generic.android">Wystąpił problem z pękiem kluczy systemu Android KeyStore, skontaktuj się z support@noirofficial.org</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">Twoje zaszyfrowane dane DigiWallet zostały unieważnione, ponieważ został wyłączony  ekran blokady Twojego telefonu.</string>
+  <string name="Alert.keystore.invalidated.android">Twoje zaszyfrowane dane NoirWallet zostały unieważnione, ponieważ został wyłączony  ekran blokady Twojego telefonu.</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">Błąd Android KeyStore</string>
   <!-- No internet alert message -->
@@ -47,7 +47,7 @@
   <!-- Send success alert header label (confirmation that the send happened) -->
   <string name="Alerts.sendSuccess">Wyślij potwierdzenie</string>
   <!-- Send success alert subheader label (e.g. the money was sent) -->
-  <string name="Alerts.sendSuccessSubheader">Wysłano DigiByte!</string>
+  <string name="Alerts.sendSuccessSubheader">Wysłano Noir!</string>
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">Rozpoznano odcisk palca</string>
   <string name="all">Wszystko</string>
@@ -110,7 +110,7 @@
   <!-- Email unavailable alert title -->
     <!-- Email unavailable alert title -->
     <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
-  <string name="ErrorMessages.loopingLockScreen.android">DigiWallet nie może zostać uwierzytelniony przez błąd w Twojej wersji systemu Android. [Stuknij tutaj, aby uzyskać więcej informacji.]</string>
+  <string name="ErrorMessages.loopingLockScreen.android">NoirWallet nie może zostać uwierzytelniony przez błąd w Twojej wersji systemu Android. [Stuknij tutaj, aby uzyskać więcej informacji.]</string>
   <!-- Messaging unavailable alert title -->
     <!-- Messaging unavailable alert title -->
     <!-- Fingerprint was not recognized by the scanner, please try scanning again -->
@@ -125,7 +125,7 @@
     <!-- Checking private key balance progress view text -->
   <string name="Import.checking">Sprawdzanie salda...</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">Wysłać %1$s z prywatnego klucza na Twój portfel? Sieć DigiByte otrzyma opłatę w wysokości %2$s.</string>
+  <string name="Import.confirm">Wysłać %1$s z prywatnego klucza na Twój portfel? Sieć Noir otrzyma opłatę w wysokości %2$s.</string>
   <!-- Duplicate key error message -->
     <!-- empty private key error message -->
   <string name="Import.Error.empty">Ten klucz prywatny jest pusty.</string>
@@ -138,7 +138,7 @@
     <!-- Importing wallet progress view label -->
     <!-- Caption for graphics -->
     <!-- Import wallet intro screen message -->
-  <string name="Import.message">Import portfela przenosi całość DigiByte z innego portfela do DigiWallet za pomocą jednej transakcji.</string>
+  <string name="Import.message">Import portfela przenosi całość Noir z innego portfela do NoirWallet za pomocą jednej transakcji.</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">Ten klucz prywatny jest chroniony hasłem.</string>
   <!-- password textfield placeholder -->
@@ -160,7 +160,7 @@
     Ignore jailbreak warning button
     Jailbreak warning message
     -->
-  <string name="JailbreakWarnings.messageWithoutBalance">ZAGROŻENIA BEZPIECZEŃSTWA URZĄDZENIA\n Każda aplikacja \"jailbreak\" może uzyskać dostęp do danych pęku kluczy DigiWallet i wykraść Twój DigiByte! Korzystaj z DigiWallet tylko na urządzeniu, które nie posiada \"jailbreak\".</string>
+  <string name="JailbreakWarnings.messageWithoutBalance">ZAGROŻENIA BEZPIECZEŃSTWA URZĄDZENIA\n Każda aplikacja \"jailbreak\" może uzyskać dostęp do danych pęku kluczy NoirWallet i wykraść Twój Noir! Korzystaj z NoirWallet tylko na urządzeniu, które nie posiada \"jailbreak\".</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">OSTRZEŻENIE</string>
   <!-- Location services disabled error -->
@@ -201,7 +201,7 @@
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">Status połączenia z węzłem</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">Węzły DigiByte</string>
+  <string name="NodeSelector.title">Węzły Noir</string>
   <string name="no_limit">Bez limitu</string>
   <string name="original_amount">Oorspronkelijke waarde: %s</string>
   <!-- Bad Payment request alert title -->
@@ -210,9 +210,9 @@
     <!-- Request expired payment protocol error message -->
     <!-- Payment too small alert title -->
     <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">Płatność DigiByte nie może być mniejsza niż %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallPayment">Płatność Noir nie może być mniejsza niż %1$s.</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">Minimalna kwota transakcji DigiByte nie może być niższa niż %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">Minimalna kwota transakcji Noir nie może być niższa niż %1$s.</string>
   <!-- Unsupported signature type payment protocol error message -->
     <!-- Untrusted certificate payment protocol error message -->
     <string name="processed">Obrobiony</string>
@@ -236,7 +236,7 @@
   <!-- Upgrade PIN prompt body. -->
     <!-- Upgrade PIN prompt title. -->
     <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">Włącz powiadomienia, aby otrzymywać specjalne wiadomości z DigiWallet w przyszłości.</string>
+  <string name="PushNotifications.body">Włącz powiadomienia, aby otrzymywać specjalne wiadomości z NoirWallet w przyszłości.</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Powiadomienia Push</string>
   <!-- Push notifications are off label -->
@@ -262,7 +262,7 @@
   <string name="RecoverWallet.header_reset_pin">Zresetuj PIN</string>
   <!-- Enter paper key instruction -->
     <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">Odzyskaj Twój DigiWallet za pomocą Osobistego Klucza Odzyskiwania.</string>
+  <string name="RecoverWallet.intro">Odzyskaj Twój NoirWallet za pomocą Osobistego Klucza Odzyskiwania.</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">Wpisany Osobisty Klucz Odzyskiwania jest nieprawidłowy. Sprawdź każde słowo i spróbuj ponownie.</string>
   <!-- Previous button accessibility label -->
@@ -284,13 +284,13 @@
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 minut</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Jeśli transakcja jest zakończona w sieci DigiByte, ale nie w DigiWallet.</string>
+  <string name="ReScan.body2">Jeśli transakcja jest zakończona w sieci Noir, ale nie w NoirWallet.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">Ciągle pojawia się błąd informujący, że transakcja została odrzucona.</string>
   <!-- Start Sync button label -->
   <string name="ReScan.buttonTitle">Rozpocznij synchronizację</string>
   <!-- Sync blockchain view footer -->
-  <string name="ReScan.footer">Nie będzie możliwe wysyłanie DigiByte podczas synchronizacji z blockchain.</string>
+  <string name="ReScan.footer">Nie będzie możliwe wysyłanie Noir podczas synchronizacji z blockchain.</string>
   <!-- Sync Blockchain view header -->
     <!-- Subheader label -->
   <string name="ReScan.subheader1">Przewidywany czas</string>
@@ -304,26 +304,26 @@
     <!-- Security Center Info -->
   <string name="SecurityCenter.info">Włącz wszystkie opcje bezpieczeństwa dla maksymalnej ochrony.</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">"To jest jedyny sposób, aby odzyskać dostęp do Twoich DigiByte, gdy zgubisz lub zmienisz telefon. "</string>
+  <string name="SecurityCenter.paperKeyDescription">"To jest jedyny sposób, aby odzyskać dostęp do Twoich Noir, gdy zgubisz lub zmienisz telefon. "</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Osobisty Klucz Odzyskiwania</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">Chroni Twój DigiWallet przed nieautoryzowanymi użytkownikami.</string>
+  <string name="SecurityCenter.pinDescription">Chroni Twój NoirWallet przed nieautoryzowanymi użytkownikami.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">6-cio cyfrowy PIN</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Centrum Bezpieczeństwa</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">W łatwy sposób odblokuj DigiWallet i wyślij DigiByte do wysokości ustalonego limitu.</string>
+  <string name="SecurityCenter.touchIdDescription">W łatwy sposób odblokuj NoirWallet i wyślij Noir do wysokości ustalonego limitu.</string>
   <!-- Touch ID button title -->
     <!-- Security center fingerprint authentication button -->
   <string name="SecurityCenter.touchIdTitle.android">Uwierzytelnienie za pomocą odcisku palca</string>
   <!-- Send money amount label -->
     <!-- Balance: $4.00 -->
     <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">Zezwól na dostęp do aparatu: \"Ustawienia\" &gt; \"Aplikacje\" &gt; \"DigiWallet\" &gt; \"Uprawnienia\"</string>
+  <string name="Send.cameraUnavailabeMessage.android">Zezwól na dostęp do aparatu: \"Ustawienia\" &gt; \"Aplikacje\" &gt; \"NoirWallet\" &gt; \"Uprawnienia\"</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">DigiWallet nie ma dostępu do aparatu</string>
+  <string name="Send.cameraUnavailabeTitle.android">NoirWallet nie ma dostępu do aparatu</string>
   <!-- Camera not allowed message -->
     <!-- Camera not allowed alert title -->
     <!-- Warning when sending to self. -->
@@ -359,7 +359,7 @@
   <!-- Send money to label -->
   <string name="Send.toLabel">Do</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">Ze względów bezpieczeństwa zalecane jest jednorazowe użycie adresów DigiByte.</string>
+  <string name="Send.UsedAddress.firstLine">Ze względów bezpieczeństwa zalecane jest jednorazowe użycie adresów Noir.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">Ponowne użycie zmniejsza prywatność zarówno Twoją, jak i odbiorcy i może doprowadzić do straty, jeśli odbiorca nie będzie bezpośrednio kontrolować adresu.</string>
   <!-- Adress already used alert title -->
@@ -375,14 +375,14 @@
     <!-- Import wallet left message -->
   <string name="Settings.importLeftMessage">Portfel do zaimportowania</string>
   <!-- Import wallet right message -->
-  <string name="Settings.importRightMessage">Twój DigiWallet</string>
+  <string name="Settings.importRightMessage">Twój NoirWallet</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Importuj portfel</string>
   <!-- Manage settings section header -->
   <string name="Settings.manage">Zarządzaj</string>
   <!-- Notifications label -->
     <!-- Restore screen lower label. -->
-  <string name="Settings.restore_label">Twój DigiWallet na tym urządzeniu</string>
+  <string name="Settings.restore_label">Twój NoirWallet na tym urządzeniu</string>
   <!-- Leave review button label -->
     <!-- Share anonymous data label -->
     <!-- Sync blockchain label -->
@@ -400,7 +400,7 @@
     <!-- Share data switch label. -->
     <!-- button label -->
     <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">"Twój Osobisty Klucz Odzyskiwania to jedyny sposób na odtworzenie DigiWallet jeśli stracisz lub zmienisz telefon. \n\nPokażemy Ci listę słów do zapisania na kartce papieru i przechowywania w bezpiecznym miejscu. "</string>
+  <string name="StartPaperPhrase.body">"Twój Osobisty Klucz Odzyskiwania to jedyny sposób na odtworzenie NoirWallet jeśli stracisz lub zmienisz telefon. \n\nPokażemy Ci listę słów do zapisania na kartce papieru i przechowywania w bezpiecznym miejscu. "</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">Zapisz Osobisty Klucz Odzyskiwania</string>
   <!-- Argument is date -->
@@ -422,7 +422,7 @@
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">Autoryzacja odciskiem palca wyłączona</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">Użyj odcisku palca, aby odblokować DigiWallet i wysyłać DigiByte zgodnie z ustawionym limitem.</string>
+  <string name="TouchIdSettings.label">Użyj odcisku palca, aby odblokować NoirWallet i wysyłać Noir zgodnie z ustawionym limitem.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
     <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Limit wydatków: %1$s (%2$s)</string>
@@ -494,9 +494,9 @@
   <string name="UnlockScreen.touchIdTitle.android">Wymagane uwierzytelnienie</string>
   <!-- Wallet unlocked message -->
     <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">Zapamiętaj swój PIN. Jeśli go zapomnisz, nie będziesz miał dostępu do swoich DigiByte.</string>
+  <string name="UpdatePin.caption">Zapamiętaj swój PIN. Jeśli go zapomnisz, nie będziesz miał dostępu do swoich Noir.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">Twój PIN będzie używany do odblokowywania DigiWallet i wysyłania DigiByte.</string>
+  <string name="UpdatePin.createInstruction">Twój PIN będzie używany do odblokowywania NoirWallet i wysyłania Noir.</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">Ustaw PIN</string>
   <!-- Update PIN title -->
@@ -525,9 +525,9 @@
     <!-- Updating webview message -->
   <string name="Webview.updating">Aktualizowanie...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">DigiWallet ma zupełnie nowy wygląd i kilka nowych funkcji. Jeśli potrzebujesz pomocy, szukaj znaku (?) w prawnym górnym rogu na większości ekranów.</string>
+  <string name="Welcome.body">NoirWallet ma zupełnie nowy wygląd i kilka nowych funkcji. Jeśli potrzebujesz pomocy, szukaj znaku (?) w prawnym górnym rogu na większości ekranów.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">Witaj w DigiWallet!</string>
+  <string name="Welcome.title">Witaj w NoirWallet!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Czy na pewno chcesz skasować ten portfel?</string>
   <!-- Wipe wallet alert title -->
@@ -538,7 +538,7 @@
   <string name="WipeWallet.instruction">Aby stworzyć nowy portfel albo odtworzyć już istniejący, musisz najpierw usunąć portfel, który jest obecnie zainstalowany. Aby kontynuować wpisz Osobisty Klucz Odzyskiwania.</string>
   <!-- Start wipe wallet view message -->
   <string name="WipeWallet.startMessage">
-Tworzenie portfela lub odzyskiwanie innego portfela umożliwia dostęp do różnych portfeli DigiWallet i zarządzanie nimi na tym urządzeniu.</string>
+Tworzenie portfela lub odzyskiwanie innego portfela umożliwia dostęp do różnych portfeli NoirWallet i zarządzanie nimi na tym urządzeniu.</string>
   <!-- Start wipe wallet view warning -->
   <string name="WipeWallet.startWarning">Twój obecny portfel zostanie usunięty z tego urządzenia. Jeśli będziesz chciał go odtworzyć w przyszłości, konieczne będzie wpisanie Osobistego Klucza Odzyskiwania.</string>
   <!-- Wipe wallet navigation item title. -->

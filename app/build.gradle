@@ -45,7 +45,7 @@ android {
     flavorDimensions "mode"
 
     productFlavors {
-        digibyte {
+        noir {
             applicationId "org.noirofficial"
             dimension "mode"
             resValue "string", "app_name", "NoirWallet"
@@ -63,7 +63,7 @@ android {
             }
         }
 
-        digibyteTestnet {
+        noirtestnet {
             applicationId "org.noirofficialtestnet"
             dimension "mode"
             resValue "string", "app_name", "NoirWallet-testnet"

@@ -18,6 +18,7 @@
         android:animateLayoutChanges="true"
         android:filterTouchesWhenObscured="true"
         android:gravity="bottom"
+        android:background="@color/noir_light"
         android:onClick="@{() -> callback.onCancelClick()}"
         android:orientation="vertical">
 
@@ -29,7 +30,7 @@
             android:layout_marginBottom="12dp"
             android:layout_marginEnd="12dp"
             android:layout_marginStart="12dp"
-            android:background="@drawable/pin_round_corner"
+            android:background="@color/noir_light"
             android:clickable="true"
             android:focusable="true"
             android:orientation="vertical">

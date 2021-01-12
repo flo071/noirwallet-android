@@ -2,21 +2,21 @@
 <resources>
   <!-- App name -->
     <!-- About screen blog label -->
-  <string name="About.blog">https://digibyte.io/</string>
+  <string name="About.blog">https://noirofficial.org/</string>
   <!-- About screen footer -->
-  <string name="About.footer">Magħmul mit-tim globali tad-DigiWallet. Verżjoni % 1 $ s</string>
+  <string name="About.footer">Magħmul mit-tim globali tad-NoirWallet. Verżjoni % 1 $ s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Regoli tal-privatezza</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/Noirofficial/</string>
   <!-- Terms of Use button label -->
     <!--
     Terms of Use button label
     About screen title
     -->
-  <string name="About.title">DigiWallet għal Android huwa l-kartiera mobbli għal DigiByte.</string>
+  <string name="About.title">NoirWallet għal Android huwa l-kartiera mobbli għal Noir.</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/Noircoin</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">Agħlaq</string>
   <!-- Support center accessibiliy label -->
@@ -27,9 +27,9 @@
   <!-- Error alert title -->
   <string name="Alert.error">Errur</string>
   <!-- Keystore error -->
-  <string name="Alert.keystore.generic.android">Hemm problema bil-keystore Android OS tiegħek, jekk jogħġbok ikkuntattja support@digibyte.io</string>
+  <string name="Alert.keystore.generic.android">Hemm problema bil-keystore Android OS tiegħek, jekk jogħġbok ikkuntattja support@noirofficial.org</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">Id-data kkodifikata tad-DigiWallet tiegħek ġiet reċentement invalidata minħabba li l-iskrin tiegħek ta \'lock Android kien diżattivat.</string>
+  <string name="Alert.keystore.invalidated.android">Id-data kkodifikata tad-NoirWallet tiegħek ġiet reċentement invalidata minħabba li l-iskrin tiegħek ta \'lock Android kien diżattivat.</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">Android Key Store Error</string>
   <!-- No internet alert message -->
@@ -47,7 +47,7 @@
   <!-- Send success alert header label (confirmation that the send happened) -->
   <string name="Alerts.sendSuccess">Konferma mibgħuta</string>
   <!-- Send success alert subheader label (e.g. the money was sent) -->
-  <string name="Alerts.sendSuccessSubheader">DigiByte mibgħuti!</string>
+  <string name="Alerts.sendSuccessSubheader">Noir mibgħuti!</string>
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">Marki tas-swaba rikonoxxuti</string>
   <string name="all">Kollha</string>
@@ -111,7 +111,7 @@ Kelma # %1$s</string>
   <!-- Email unavailable alert title -->
     <!-- Email unavailable alert title -->
     <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
-  <string name="ErrorMessages.loopingLockScreen.android">DigiWallet ma jistax jiġi awtentikat minħabba bug fil-verżjoni tiegħek ta \'Android. [Jekk jogħġbok ikklikkja hawn għal aktar informazzjoni.]</string>
+  <string name="ErrorMessages.loopingLockScreen.android">NoirWallet ma jistax jiġi awtentikat minħabba bug fil-verżjoni tiegħek ta \'Android. [Jekk jogħġbok ikklikkja hawn għal aktar informazzjoni.]</string>
   <!-- Messaging unavailable alert title -->
     <!-- Messaging unavailable alert title -->
     <!-- Fingerprint was not recognized by the scanner, please try scanning again -->
@@ -127,7 +127,7 @@ Kelma # %1$s</string>
     <!-- Checking private key balance progress view text -->
   <string name="Import.checking">Iċċekkjar tal-bilanċ ewlieni privat ...</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">Ibgħat% 1 $ s minn din iċ-ċavetta privata fil-kartiera tiegħek? In-netwerk DigiByte jirċievi tariffa ta \'% 2 $ s.</string>
+  <string name="Import.confirm">Ibgħat% 1 $ s minn din iċ-ċavetta privata fil-kartiera tiegħek? In-netwerk Noir jirċievi tariffa ta \'% 2 $ s.</string>
   <!-- Duplicate key error message -->
     <!-- empty private key error message -->
   <string name="Import.Error.empty">Din iċ-ċavetta privata hija vojta.</string>
@@ -140,7 +140,7 @@ Kelma # %1$s</string>
     <!-- Importing wallet progress view label -->
     <!-- Caption for graphics -->
     <!-- Import wallet intro screen message -->
-  <string name="Import.message">L-importazzjoni ta \'kartiera tittrasferixxi d-DigiByte kollu mill-portafoll l-ieħor tiegħek fis-DigiWallet tiegħek billi tuża tranżazzjoni waħda.</string>
+  <string name="Import.message">L-importazzjoni ta \'kartiera tittrasferixxi d-Noir kollu mill-portafoll l-ieħor tiegħek fis-NoirWallet tiegħek billi tuża tranżazzjoni waħda.</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">Din iċ-ċavetta privata hija protetta bil password.</string>
   <!-- password textfield placeholder -->
@@ -162,7 +162,7 @@ Kelma # %1$s</string>
     Ignore jailbreak warning button
     Jailbreak warning message
     -->
-  <string name="JailbreakWarnings.messageWithoutBalance">SIGURTÀ TAL-MEKKANIŻMU KOMPLEMITAT \ Kull applikazzjoni \"jailbreak\" tista \'taċċessa d-data ta\' keychain ta \'DigiWallet u tisraq id-DigiByte tiegħek. Jekk jogħġbok uża biss id-DigiWallet fuq strument li ma jailbroken.</string>
+  <string name="JailbreakWarnings.messageWithoutBalance">SIGURTÀ TAL-MEKKANIŻMU KOMPLEMITAT \ Kull applikazzjoni \"jailbreak\" tista \'taċċessa d-data ta\' keychain ta \'NoirWallet u tisraq id-Noir tiegħek. Jekk jogħġbok uża biss id-NoirWallet fuq strument li ma jailbroken.</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">TWISSIJA</string>
   <!-- Location services disabled error -->
@@ -206,7 +206,7 @@ Kelma # %1$s</string>
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">L-Istatus tal-Konnessjoni tan-Nodi</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">Nodi DigiByte</string>
+  <string name="NodeSelector.title">Nodi Noir</string>
   <string name="no_limit">Nru Limitu</string>
   <string name="original_amount">Valur Oriġinali: %s</string>
   <!-- Bad Payment request alert title -->
@@ -215,9 +215,9 @@ Kelma # %1$s</string>
     <!-- Request expired payment protocol error message -->
     <!-- Payment too small alert title -->
     <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">Il-ħlasijiet DigiByte ma jistgħux ikunu anqas minn %1$s</string>
+  <string name="PaymentProtocol.Errors.smallPayment">Il-ħlasijiet Noir ma jistgħux ikunu anqas minn %1$s</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">Ir-riżultati tat-tranżazzjonijiet DigiByte ma jistgħux ikunu anqas minn %1$s</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">Ir-riżultati tat-tranżazzjonijiet Noir ma jistgħux ikunu anqas minn %1$s</string>
   <!-- Unsupported signature type payment protocol error message -->
     <!-- Untrusted certificate payment protocol error message -->
     <string name="processed">Ipproċessat</string>
@@ -241,7 +241,7 @@ Kelma # %1$s</string>
   <!-- Upgrade PIN prompt body. -->
     <!-- Upgrade PIN prompt title. -->
     <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">Ixgħel in-notifiki biex jirċievi messaġġi speċjali minn DigiWallet fil-futur.</string>
+  <string name="PushNotifications.body">Ixgħel in-notifiki biex jirċievi messaġġi speċjali minn NoirWallet fil-futur.</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Imbotta Notifiki</string>
   <!-- Push notifications are off label -->
@@ -268,7 +268,7 @@ Kelma # %1$s</string>
   <string name="RecoverWallet.header_reset_pin">Pinna mill-ġdid/Reset PIN</string>
   <!-- Enter paper key instruction -->
     <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">Irkupra d-DigiWallet tiegħek mal-Ewlenin ta \'rkupru personali tiegħek.</string>
+  <string name="RecoverWallet.intro">Irkupra d-NoirWallet tiegħek mal-Ewlenin ta \'rkupru personali tiegħek.</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">l-Pinna Personali ta \'Rkupru li daħħalt hija invalida. Jekk jogħġbok iċċekkja kull kelma u erġa \'pprova.</string>
   <!-- Previous button accessibility label -->
@@ -277,7 +277,7 @@ Kelma # %1$s</string>
   <!-- Reset PIN with paper key: more information button. -->
     <!-- Next button accessibility label -->
     <!-- Recover wallet sub-header -->
-  <string name="RecoverWallet.subheader">Daħħal il-Kjavi ta \'Rkupru Personali għad-DigiWallet li tixtieq tirkupra.</string>
+  <string name="RecoverWallet.subheader">Daħħal il-Kjavi ta \'Rkupru Personali għad-NoirWallet li tixtieq tirkupra.</string>
   <!-- Reset PIN with paper key: sub-header -->
   <string name="RecoverWallet.subheader_reset_pin">Biex  t\'resetja il-PIN tiegħek, daħħal il-kliem mill-Ewlenin ta\' Rkupru Personali fil-kaxxi ta \'hawn taħt.
 </string>
@@ -291,13 +291,13 @@ Kelma # %1$s</string>
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 minuti</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Jekk tranżazzjoni turi kif tlestiet fuq in-netwerk DigiByte iżda mhux fid-DigiWallet tiegħek.</string>
+  <string name="ReScan.body2">Jekk tranżazzjoni turi kif tlestiet fuq in-netwerk Noir iżda mhux fid-NoirWallet tiegħek.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">Int ripetutament tikseb żball billi tgħid li t-tranżazzjoni tiegħek ġiet miċħuda</string>
   <!-- Start Sync button label -->
   <string name="ReScan.buttonTitle">Ibda Sync</string>
   <!-- Sync blockchain view footer -->
-  <string name="ReScan.footer">Mhux se tkun tista \'tibgħat id-DigiByte waqt li tissinkronja mal-blockchain</string>
+  <string name="ReScan.footer">Mhux se tkun tista \'tibgħat id-Noir waqt li tissinkronja mal-blockchain</string>
   <!-- Sync Blockchain view header -->
     <!-- Subheader label -->
   <string name="ReScan.subheader1">Ħin stmat</string>
@@ -311,26 +311,26 @@ Kelma # %1$s</string>
     <!-- Security Center Info -->
   <string name="SecurityCenter.info">Jippermettu l-karatteristiċi ta \'sigurtà kollha għall-protezzjoni massima.</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">L-uniku mod ta \'aċċess għad-DigiByte tiegħek jekk titlifha jew ittejjeb it-telefon tiegħek.</string>
+  <string name="SecurityCenter.paperKeyDescription">L-uniku mod ta \'aċċess għad-Noir tiegħek jekk titlifha jew ittejjeb it-telefon tiegħek.</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Kjavi ta \'Rkupru Personali</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">Tipproteġi d-DigiWallet tiegħek minn utenti mhux awtorizzati.</string>
+  <string name="SecurityCenter.pinDescription">Tipproteġi d-NoirWallet tiegħek minn utenti mhux awtorizzati.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">6-Digit PIN</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Ċentru ta \'Sigurtà</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">Konvenjentament niftħu id-DigiWallet tiegħek u ibgħat DigiByte sa limitu stabbilit.</string>
+  <string name="SecurityCenter.touchIdDescription">Konvenjentament niftħu id-NoirWallet tiegħek u ibgħat Noir sa limitu stabbilit.</string>
   <!-- Touch ID button title -->
     <!-- Security center fingerprint authentication button -->
   <string name="SecurityCenter.touchIdTitle.android">Marki tas-swaba \'Awtentikazzjoni</string>
   <!-- Send money amount label -->
     <!-- Balance: $4.00 -->
     <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">Ħalli aċċess għall-kamera f \'\"Settings\"&gt; \"Apps\"&gt; \"DigiWallet\"&gt; \"Permessi\"</string>
+  <string name="Send.cameraUnavailabeMessage.android">Ħalli aċċess għall-kamera f \'\"Settings\"&gt; \"Apps\"&gt; \"NoirWallet\"&gt; \"Permessi\"</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">DigiWallet m\'għandux permess aċċess għall-kamera</string>
+  <string name="Send.cameraUnavailabeTitle.android">NoirWallet m\'għandux permess aċċess għall-kamera</string>
   <!-- Camera not allowed message -->
     <!-- Camera not allowed alert title -->
     <!-- Warning when sending to self. -->
@@ -367,7 +367,7 @@ Kelma # %1$s</string>
   <!-- Send money to label -->
   <string name="Send.toLabel">Lil</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">L-indirizzi DigiByte huma maħsuba biss għal użu wieħed.</string>
+  <string name="Send.UsedAddress.firstLine">L-indirizzi Noir huma maħsuba biss għal użu wieħed.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">L-użu tal Indirizzi diġà użati inaqqas il-privatezza kemm għalik kif ukoll għar-riċevitur u jista \'jirriżulta f\'telf jekk ir-riċevitur ma jikkontrollax direttament l-indirizz.
 </string>
@@ -385,7 +385,7 @@ Kelma # %1$s</string>
   <string name="Settings.importLeftMessage">Kartiera li għandha tiġi Importata
 </string>
   <!-- Import wallet right message -->
-  <string name="Settings.importRightMessage">DigiWallet tiegħek</string>
+  <string name="Settings.importRightMessage">NoirWallet tiegħek</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">" Importa il-Kartiera "</string>
   <!-- Manage settings section header -->
@@ -393,7 +393,7 @@ Kelma # %1$s</string>
 </string>
   <!-- Notifications label -->
     <!-- Restore screen lower label. -->
-  <string name="Settings.restore_label">DigiWallet tiegħek fuq dan l-Apparat</string>
+  <string name="Settings.restore_label">NoirWallet tiegħek fuq dan l-Apparat</string>
   <!-- Leave review button label -->
     <!-- Share anonymous data label -->
     <!-- Sync blockchain label -->
@@ -412,7 +412,7 @@ Kelma # %1$s</string>
     <!-- button label -->
     <!-- Paper key explanation text. -->
   <string name="StartPaperPhrase.body">
-Il-Kjavi Personali ta \'Rkupru huwa l-uniku mod biex terġa\' tiddaħħal id-DigiWallet tiegħek jekk it-telefon tiegħek jintilef, jiġi misruq, imkisser jew aġġornat. Nisperawlek lista ta \'kliem biex tikteb fuq biċċa karta u żomm safe u privat</string>
+Il-Kjavi Personali ta \'Rkupru huwa l-uniku mod biex terġa\' tiddaħħal id-NoirWallet tiegħek jekk it-telefon tiegħek jintilef, jiġi misruq, imkisser jew aġġornat. Nisperawlek lista ta \'kliem biex tikteb fuq biċċa karta u żomm safe u privat</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">" Ikteb il-Key Recovery Personali "</string>
   <!-- Argument is date -->
@@ -434,7 +434,7 @@ Il-Kjavi Personali ta \'Rkupru huwa l-uniku mod biex terġa\' tiddaħħal id-Dig
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">Marki tas-swaba \'L-awtentikazzjoni mhix permessa</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">Uża s-swaba \'tiegħek biex tiftaħ il-DigiWallet tiegħek u ibgħat DigiByte sa limitu stabbilit.</string>
+  <string name="TouchIdSettings.label">Uża s-swaba \'tiegħek biex tiftaħ il-NoirWallet tiegħek u ibgħat Noir sa limitu stabbilit.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
     <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Limitu tal-infiq: %1$s %2$s</string>
@@ -507,9 +507,9 @@ Il-Kjavi Personali ta \'Rkupru huwa l-uniku mod biex terġa\' tiddaħħal id-Dig
   <string name="UnlockScreen.touchIdTitle.android">Tinħtieġ awtentikazzjoni</string>
   <!-- Wallet unlocked message -->
     <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">takar dan il-PIN. Jekk tinsaha, ma jkollokx aċċess għad-DigiByte tiegħek.</string>
+  <string name="UpdatePin.caption">takar dan il-PIN. Jekk tinsaha, ma jkollokx aċċess għad-Noir tiegħek.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">Il-PIN tiegħek ser jintuża biex tiftaħ id-DigiWallet tiegħek u ibgħat id-DigiByte.</string>
+  <string name="UpdatePin.createInstruction">Il-PIN tiegħek ser jintuża biex tiftaħ id-NoirWallet tiegħek u ibgħat id-Noir.</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">Set PIN</string>
   <!-- Update PIN title -->
@@ -538,9 +538,9 @@ Il-Kjavi Personali ta \'Rkupru huwa l-uniku mod biex terġa\' tiddaħħal id-Dig
     <!-- Updating webview message -->
   <string name="Webview.updating">Aġġornament ...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">DigiWallet għandu ħarsa ġdida fjamanta u xi karatteristiċi ġodda. \ N \ nJekk għandek bżonn l-għajnuna, fittex (?) Fid-dritt ta \'fuq tal-maġġoranza tal-iskrins.</string>
+  <string name="Welcome.body">NoirWallet għandu ħarsa ġdida fjamanta u xi karatteristiċi ġodda. \ N \ nJekk għandek bżonn l-għajnuna, fittex (?) Fid-dritt ta \'fuq tal-maġġoranza tal-iskrins.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">Merħba għad-DigiWallet!</string>
+  <string name="Welcome.title">Merħba għad-NoirWallet!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Int żgur li tixtieq tħassar din il-kartiera?</string>
   <!-- Wipe wallet alert title -->
@@ -550,7 +550,7 @@ Il-Kjavi Personali ta \'Rkupru huwa l-uniku mod biex terġa\' tiddaħħal id-Dig
     <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">Biex tibda kartiera ġdida jew terġa \'ġġorr kartiera eżistenti, l-ewwel trid tħassar il-kartiera li bħalissa hija installata. Biex tkompli, ikteb il-Key Recovery Personale tal-kartiera kurrenti.</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">Il-bidu jew l-irkupru ta \'kartiera oħra jippermettilek li taċċessa u tmexxi DigiWallet differenti fuq dan l-apparat.
+  <string name="WipeWallet.startMessage">Il-bidu jew l-irkupru ta \'kartiera oħra jippermettilek li taċċessa u tmexxi NoirWallet differenti fuq dan l-apparat.
 </string>
   <!-- Start wipe wallet view warning -->
   <string name="WipeWallet.startWarning">Il-kartiera attwali tiegħek titneħħa minn dan l-apparat. Jekk tixtieq tirrestawraha fil-futur, ser ikollok bżonn tidħol il-Mejda Personali ta \'Rkupru tiegħek.

@@ -128,7 +128,7 @@ public class BRApiManager {
     }
 
 //    public static boolean updateFeePerKb(Context app) {
-//        String jsonString = urlGET(app, DigiByte.FEE_URL);
+//        String jsonString = urlGET(app, NoirWallet.FEE_URL);
 //        long fee = 0;
 //        long economyFee = 0;
 //        try {

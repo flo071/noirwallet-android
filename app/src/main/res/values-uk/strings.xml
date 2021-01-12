@@ -2,22 +2,22 @@
 <resources>
   <!-- App name -->
     <!-- About screen blog label -->
-  <string name="About.blog">https://digibyte.io/</string>
+  <string name="About.blog">https://noirofficial.org/</string>
   <!-- About screen footer -->
-  <string name="About.footer">Розроблено міжнародною командою DigiWallet. Версія %1$s</string>
+  <string name="About.footer">Розроблено міжнародною командою NoirWallet. Версія %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Політика конфідеційності</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/Noirofficial/</string>
   <!-- Terms of Use button label -->
     <!--
     Terms of Use button label
     About screen title
     -->
-  <string name="About.title">Швидко, просто та безпечно! DigiWallet для Android - це найпростіший спосіб почати надсилати та приймати DigiByte. Розроблений з урахуванням потреб різних типів користувачів, DigiWallet для Android є достатньо простим у використанні для новачків та, водночас, достатньо потужним для звичайних досвідчених користувачів.
+  <string name="About.title">Швидко, просто та безпечно! NoirWallet для Android - це найпростіший спосіб почати надсилати та приймати Noir. Розроблений з урахуванням потреб різних типів користувачів, NoirWallet для Android є достатньо простим у використанні для новачків та, водночас, достатньо потужним для звичайних досвідчених користувачів.
 </string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/Noircoin</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">Закрити</string>
   <!-- Support center accessibiliy label -->
@@ -28,9 +28,9 @@
   <!-- Error alert title -->
   <string name="Alert.error">Помилка</string>
   <!-- Keystore error -->
-  <string name="Alert.keystore.generic.android">Виникла проблема з вашим сховищем ключів Androis OS. Будь ласка, зв\'яжіться з support@digibyte.io</string>
+  <string name="Alert.keystore.generic.android">Виникла проблема з вашим сховищем ключів Androis OS. Будь ласка, зв\'яжіться з support@noirofficial.org</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">Зашифровані дані DigiWallet недійсні, так як блокування екрану Android було відключено</string>
+  <string name="Alert.keystore.invalidated.android">Зашифровані дані NoirWallet недійсні, так як блокування екрану Android було відключено</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">Помилка сховища ключів Android</string>
   <!-- No internet alert message -->
@@ -48,7 +48,7 @@
   <!-- Send success alert header label (confirmation that the send happened) -->
   <string name="Alerts.sendSuccess">Підтвердження відправки</string>
   <!-- Send success alert subheader label (e.g. the money was sent) -->
-  <string name="Alerts.sendSuccessSubheader">DigiByte відправлено!</string>
+  <string name="Alerts.sendSuccessSubheader">Noir відправлено!</string>
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">Відбиток пальця розпізнано</string>
   <string name="all">Все</string>
@@ -113,7 +113,7 @@
   <!-- Email unavailable alert title -->
     <!-- Email unavailable alert title -->
     <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
-  <string name="ErrorMessages.loopingLockScreen.android">DigiWallet не може бути аутентифікований через помилку у вашій версії Android. [Будь ласка торкніться тут, щоб отримати додаткову інформацію.]</string>
+  <string name="ErrorMessages.loopingLockScreen.android">NoirWallet не може бути аутентифікований через помилку у вашій версії Android. [Будь ласка торкніться тут, щоб отримати додаткову інформацію.]</string>
   <!-- Messaging unavailable alert title -->
     <!-- Messaging unavailable alert title -->
     <!-- Fingerprint was not recognized by the scanner, please try scanning again -->
@@ -128,7 +128,7 @@
     <!-- Checking private key balance progress view text -->
   <string name="Import.checking">Перевірка балансу приватного ключа...</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">Надіслати %1$s з цього приватного ключа на ваш гаманець? Мережа DigiByte отримає комісію в розмірі %2$s</string>
+  <string name="Import.confirm">Надіслати %1$s з цього приватного ключа на ваш гаманець? Мережа Noir отримає комісію в розмірі %2$s</string>
   <!-- Duplicate key error message -->
     <!-- empty private key error message -->
   <string name="Import.Error.empty">Цей приватний ключ порожній</string>
@@ -141,7 +141,7 @@
     <!-- Importing wallet progress view label -->
     <!-- Caption for graphics -->
     <!-- Import wallet intro screen message -->
-  <string name="Import.message">Імпорт гаманця переносить всі Digibyte з вашого іншого гаманця на Ваш DigiWallet за допомогою всього однієї транзакції.</string>
+  <string name="Import.message">Імпорт гаманця переносить всі Noir з вашого іншого гаманця на Ваш NoirWallet за допомогою всього однієї транзакції.</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">Цей приватний ключ захищений паролем</string>
   <!-- password textfield placeholder -->
@@ -164,7 +164,7 @@
     Jailbreak warning message
     -->
   <string name="JailbreakWarnings.messageWithoutBalance">БЕЗПЕКА ПРИСТРОЮ ПІД ПИТАННЯМ
-Будь-яка програма \"Jailbreak\" може отримати доступ до даних Keychain DigiWallet та викрасти ваш DigiByte. Будь-ласка використовуйте DigiWallet лише на пристрої, що не мають встановленого \"Jailbreak\".</string>
+Будь-яка програма \"Jailbreak\" може отримати доступ до даних Keychain NoirWallet та викрасти ваш Noir. Будь-ласка використовуйте NoirWallet лише на пристрої, що не мають встановленого \"Jailbreak\".</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">УВАГА</string>
   <!-- Location services disabled error -->
@@ -205,7 +205,7 @@
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">Статус підключення вузла</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">Вузли DigiByte</string>
+  <string name="NodeSelector.title">Вузли Noir</string>
   <string name="no_limit">Без обмежень</string>
   <string name="original_amount">Оригінальне значення: %s</string>
   <!-- Bad Payment request alert title -->
@@ -214,9 +214,9 @@
     <!-- Request expired payment protocol error message -->
     <!-- Payment too small alert title -->
     <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">Платіж DigiByte не може бути меншим ніж %1$@.</string>
+  <string name="PaymentProtocol.Errors.smallPayment">Платіж Noir не може бути меншим ніж %1$@.</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">Виходи транзакції DigiByte не можуть бути менше $@.</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">Виходи транзакції Noir не можуть бути менше $@.</string>
   <!-- Unsupported signature type payment protocol error message -->
     <!-- Untrusted certificate payment protocol error message -->
     <string name="processed">Оброблено</string>
@@ -240,7 +240,7 @@
   <!-- Upgrade PIN prompt body. -->
     <!-- Upgrade PIN prompt title. -->
     <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">Увімкніть сповіщення, щоб отримувати спеціальні повідомлення від DigiWallet у майбутньому.</string>
+  <string name="PushNotifications.body">Увімкніть сповіщення, щоб отримувати спеціальні повідомлення від NoirWallet у майбутньому.</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Push Сповіщення</string>
   <!-- Push notifications are off label -->
@@ -266,7 +266,7 @@
   <string name="RecoverWallet.header_reset_pin">Скинути PIN-код</string>
   <!-- Enter paper key instruction -->
     <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">Відновити свій DigiWallet за допомогою особистого ключа відновлення.</string>
+  <string name="RecoverWallet.intro">Відновити свій NoirWallet за допомогою особистого ключа відновлення.</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">Введений ключ відновлення недійсний. Будь ласка, двічі перевірте кожне слово та повторіть спробу.</string>
   <!-- Previous button accessibility label -->
@@ -275,7 +275,7 @@
   <!-- Reset PIN with paper key: more information button. -->
     <!-- Next button accessibility label -->
     <!-- Recover wallet sub-header -->
-  <string name="RecoverWallet.subheader">Введіть Особистий Ключ Відновлення до DigiWallet, який ви хочете відновити.</string>
+  <string name="RecoverWallet.subheader">Введіть Особистий Ключ Відновлення до NoirWallet, який ви хочете відновити.</string>
   <!-- Reset PIN with paper key: sub-header -->
   <string name="RecoverWallet.subheader_reset_pin">Щоб скинути PIN-код, введіть слова з вашого персонального ключа відновлення в поля нижче.</string>
   <!-- No amount entered error message. -->
@@ -288,13 +288,13 @@
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 хвилин</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Якщо транзакція відображається як завершена в мережі DigiByte, але не в DigiWallet.</string>
+  <string name="ReScan.body2">Якщо транзакція відображається як завершена в мережі Noir, але не в NoirWallet.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">Ви неодноразово отримуєте повідомлення про те, що ваша транзакція була відхилена.</string>
   <!-- Start Sync button label -->
   <string name="ReScan.buttonTitle">Почніть синхронізацію</string>
   <!-- Sync blockchain view footer -->
-  <string name="ReScan.footer">Ви не зможете надсилати DigiByte під час синхронізації з блокчейном.</string>
+  <string name="ReScan.footer">Ви не зможете надсилати Noir під час синхронізації з блокчейном.</string>
   <!-- Sync Blockchain view header -->
     <!-- Subheader label -->
   <string name="ReScan.subheader1">Розрахунковий час</string>
@@ -308,26 +308,26 @@
     <!-- Security Center Info -->
   <string name="SecurityCenter.info">Увімкнути всі функції безпеки для максимального захисту.</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">Єдиний спосіб отримати доступ до вашого DigiByte, якщо ви втратите або оновите свій телефон.</string>
+  <string name="SecurityCenter.paperKeyDescription">Єдиний спосіб отримати доступ до вашого Noir, якщо ви втратите або оновите свій телефон.</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Особистий ключ відновлення</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">Захищає ваш DigiWallet від несанкціонованих користувачів.</string>
+  <string name="SecurityCenter.pinDescription">Захищає ваш NoirWallet від несанкціонованих користувачів.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">6-значний PIN-код</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Центр безпеки</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">Зручно розблоковуйте свій DigiWallet і відправляйте DigiByte до встановленого ліміту.</string>
+  <string name="SecurityCenter.touchIdDescription">Зручно розблоковуйте свій NoirWallet і відправляйте Noir до встановленого ліміту.</string>
   <!-- Touch ID button title -->
     <!-- Security center fingerprint authentication button -->
   <string name="SecurityCenter.touchIdTitle.android">Аутентифікація відбитків пальців</string>
   <!-- Send money amount label -->
     <!-- Balance: $4.00 -->
     <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">Дозволити доступ до камери в \"Налаштуваннях\"&gt; \"Програми\"&gt; \"DigiWallet\"&gt; \"Дозволи\"</string>
+  <string name="Send.cameraUnavailabeMessage.android">Дозволити доступ до камери в \"Налаштуваннях\"&gt; \"Програми\"&gt; \"NoirWallet\"&gt; \"Дозволи\"</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">DigiWallet не має доступу до камери</string>
+  <string name="Send.cameraUnavailabeTitle.android">NoirWallet не має доступу до камери</string>
   <!-- Camera not allowed message -->
     <!-- Camera not allowed alert title -->
     <!-- Warning when sending to self. -->
@@ -363,7 +363,7 @@
   <!-- Send money to label -->
   <string name="Send.toLabel">До</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">Адреси DigiByte призначені лише для одноразового використання.</string>
+  <string name="Send.UsedAddress.firstLine">Адреси Noir призначені лише для одноразового використання.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">Повторне використання зменшує конфіденційність як для вас, так і для одержувача, і може призвести до втрати, якщо адресат не безпосередньо контролює адресу.</string>
   <!-- Adress already used alert title -->
@@ -379,14 +379,14 @@
     <!-- Import wallet left message -->
   <string name="Settings.importLeftMessage">Кошик для імпорту</string>
   <!-- Import wallet right message -->
-  <string name="Settings.importRightMessage">Ваш DigiWallet</string>
+  <string name="Settings.importRightMessage">Ваш NoirWallet</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Імпортувати гаманець</string>
   <!-- Manage settings section header -->
   <string name="Settings.manage">Керувати</string>
   <!-- Notifications label -->
     <!-- Restore screen lower label. -->
-  <string name="Settings.restore_label">Ваш DigiWallet на цьому пристрої</string>
+  <string name="Settings.restore_label">Ваш NoirWallet на цьому пристрої</string>
   <!-- Leave review button label -->
     <!-- Share anonymous data label -->
     <!-- Sync blockchain label -->
@@ -404,7 +404,7 @@
     <!-- Share data switch label. -->
     <!-- button label -->
     <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">Ваш персональний ключ відновлення - це єдиний спосіб відновити ваш DigiWallet, якщо телефон втрачено, викрадено, пошкоджений або оновлено.\n\nМи покажемо вам список слів, які потрібно записати на аркуші паперу та зберігати безпечно.</string>
+  <string name="StartPaperPhrase.body">Ваш персональний ключ відновлення - це єдиний спосіб відновити ваш NoirWallet, якщо телефон втрачено, викрадено, пошкоджений або оновлено.\n\nМи покажемо вам список слів, які потрібно записати на аркуші паперу та зберігати безпечно.</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">Записати персональний ключ відновлення</string>
   <!-- Argument is date -->
@@ -426,7 +426,7 @@
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">Автентифікація відбитків пальців не ввімкнена</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">Використовуйте свій відбиток, щоб розблокувати DigiWallet і надіслати DigiByte до встановленого ліміту.</string>
+  <string name="TouchIdSettings.label">Використовуйте свій відбиток, щоб розблокувати NoirWallet і надіслати Noir до встановленого ліміту.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
     <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Ліміт витрат: %1$s (%2$s)</string>
@@ -498,9 +498,9 @@
   <string name="UnlockScreen.touchIdTitle.android">Потрібна аутентифікація</string>
   <!-- Wallet unlocked message -->
     <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">Пам\'ятайте цей PIN-код. Якщо ви його забудете, ви не зможете отримати доступу до свого DigiByte.</string>
+  <string name="UpdatePin.caption">Пам\'ятайте цей PIN-код. Якщо ви його забудете, ви не зможете отримати доступу до свого Noir.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">Ваш PIN-код буде використано для розблокування DigiWallet та відправки DigiByte.</string>
+  <string name="UpdatePin.createInstruction">Ваш PIN-код буде використано для розблокування NoirWallet та відправки Noir.</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">Встановити PIN-код</string>
   <!-- Update PIN title -->
@@ -529,9 +529,9 @@
     <!-- Updating webview message -->
   <string name="Webview.updating">Оновлення ...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">DigiWallet має новий вигляд і деякі нові функції. \n\nЯкщо вам потрібна допомога, шукайте (?) У верхньому правому куті більшості екранів.</string>
+  <string name="Welcome.body">NoirWallet має новий вигляд і деякі нові функції. \n\nЯкщо вам потрібна допомога, шукайте (?) У верхньому правому куті більшості екранів.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">Ласкаво просимо до DigiWallet!</string>
+  <string name="Welcome.title">Ласкаво просимо до NoirWallet!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Ви впевнені, що хочете видалити цей гаманець?</string>
   <!-- Wipe wallet alert title -->
@@ -541,7 +541,7 @@
     <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">Щоб запустити новий гаманець або відновити існуючий, спершу потрібно стерти існуючий гаманець, який був встановлений раніше. Щоб продовжити, введіть персональний ключ відновлення гаманця.</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">Запуск або відновлення іншого кошелька дозволяє отримати доступ до іншого DigiWallet та керувати ним на цьому пристрої.</string>
+  <string name="WipeWallet.startMessage">Запуск або відновлення іншого кошелька дозволяє отримати доступ до іншого NoirWallet та керувати ним на цьому пристрої.</string>
   <!-- Start wipe wallet view warning -->
   <string name="WipeWallet.startWarning">Ваш поточний гаманець буде вилучено з цього пристрою. Якщо ви хочете відновити його в майбутньому, вам потрібно буде ввести свій персональний ключ відновлення.</string>
   <!-- Wipe wallet navigation item title. -->

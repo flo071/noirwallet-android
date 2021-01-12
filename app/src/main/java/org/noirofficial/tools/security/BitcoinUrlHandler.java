@@ -52,11 +52,11 @@ public class BitcoinUrlHandler {
     public static RequestObject getScannedQRRequest(String str) {
         RequestObject obj = new RequestObject();
         String tmp = str.trim().replaceAll("\n", "").replaceAll(" ", "%20");
-        if (!tmp.startsWith("digibyte://")) {
-            if (!tmp.startsWith("digibyte:")) {
-                tmp = "digibyte://".concat(tmp);
+        if (!tmp.startsWith("noir://")) {
+            if (!tmp.startsWith("noir:")) {
+                tmp = "noir://".concat(tmp);
             } else {
-                tmp = tmp.replace("digibyte:", "digibyte://");
+                tmp = tmp.replace("noir:", "noir://");
             }
         }
         URI uri = URI.create(tmp);
@@ -87,11 +87,11 @@ public class BitcoinUrlHandler {
 
         String tmp = str.trim().replaceAll("\n", "").replaceAll(" ", "%20");
 
-        if (!tmp.startsWith("digibyte://")) {
-            if (!tmp.startsWith("digibyte:"))
-                tmp = "digibyte://".concat(tmp);
+        if (!tmp.startsWith("noir://")) {
+            if (!tmp.startsWith("noir:"))
+                tmp = "noir://".concat(tmp);
             else
-                tmp = tmp.replace("digibyte:", "digibyte://");
+                tmp = tmp.replace("noir:", "noir://");
         }
         URI uri;
         try {

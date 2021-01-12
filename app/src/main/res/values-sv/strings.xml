@@ -2,21 +2,21 @@
 <resources>
   <!-- App name -->
     <!-- About screen blog label -->
-  <string name="About.blog">https://digibyte.io/</string>
+  <string name="About.blog">https://noirofficial.org/</string>
   <!-- About screen footer -->
-  <string name="About.footer">Utvecklad av DigiWallets internationella team. Version %1$s</string>
+  <string name="About.footer">Utvecklad av NoirWallets internationella team. Version %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Integritetspolicy</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/Noirofficial/</string>
   <!-- Terms of Use button label -->
     <!--
     Terms of Use button label
     About screen title
     -->
-  <string name="About.title">DigiWallet för Android är den mobila plånboken för DigiByte.</string>
+  <string name="About.title">NoirWallet för Android är den mobila plånboken för Noir.</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/Noircoin</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">Stäng</string>
   <!-- Support center accessibiliy label -->
@@ -27,9 +27,9 @@
   <!-- Error alert title -->
   <string name="Alert.error">Felmeddelande</string>
   <!-- Keystore error -->
-  <string name="Alert.keystore.generic.android">Det uppstod ett problem med din Android OS KeyStore, vänligen kontakta support@digibyte.io</string>
+  <string name="Alert.keystore.generic.android">Det uppstod ett problem med din Android OS KeyStore, vänligen kontakta support@noirofficial.org</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">Din krypterade DigiWallet-data blev nyligen ogiltigförklarad på grund av att din Android-låsskärm var inaktiverad.</string>
+  <string name="Alert.keystore.invalidated.android">Din krypterade NoirWallet-data blev nyligen ogiltigförklarad på grund av att din Android-låsskärm var inaktiverad.</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">Android KeyStore Fel</string>
   <!-- No internet alert message -->
@@ -47,7 +47,7 @@
   <!-- Send success alert header label (confirmation that the send happened) -->
   <string name="Alerts.sendSuccess">Transaktionsbekräftelse</string>
   <!-- Send success alert subheader label (e.g. the money was sent) -->
-  <string name="Alerts.sendSuccessSubheader">DigiByte Skickade!</string>
+  <string name="Alerts.sendSuccessSubheader">Noir Skickade!</string>
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">Fingeravtryck accepterat</string>
   <string name="all">ALLT</string>
@@ -110,7 +110,7 @@
   <!-- Email unavailable alert title -->
     <!-- Email unavailable alert title -->
     <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
-  <string name="ErrorMessages.loopingLockScreen.android">DigiWallet kan inte verifieras på grund av en bugg i enhetens Android-version. [Tryck här för mer information.]</string>
+  <string name="ErrorMessages.loopingLockScreen.android">NoirWallet kan inte verifieras på grund av en bugg i enhetens Android-version. [Tryck här för mer information.]</string>
   <!-- Messaging unavailable alert title -->
     <!-- Messaging unavailable alert title -->
     <!-- Fingerprint was not recognized by the scanner, please try scanning again -->
@@ -125,7 +125,7 @@
     <!-- Checking private key balance progress view text -->
   <string name="Import.checking">Kontrollerar saldo på privatnyckel...</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">Överför %1$s från denna privatnyckel till din plånbok? DigiByte-nätverket erhåller en avgift på %2$s.</string>
+  <string name="Import.confirm">Överför %1$s från denna privatnyckel till din plånbok? Noir-nätverket erhåller en avgift på %2$s.</string>
   <!-- Duplicate key error message -->
     <!-- empty private key error message -->
   <string name="Import.Error.empty">Denna privatnyckel är tom.</string>
@@ -138,7 +138,7 @@
     <!-- Importing wallet progress view label -->
     <!-- Caption for graphics -->
     <!-- Import wallet intro screen message -->
-  <string name="Import.message">Att importera en plånbok innebär att alla DigiByte från din andra plånbok överförs till din DigiWallet med en enda transaktion.</string>
+  <string name="Import.message">Att importera en plånbok innebär att alla Noir från din andra plånbok överförs till din NoirWallet med en enda transaktion.</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">Denna privatnyckel är lösenordsskyddad.</string>
   <!-- password textfield placeholder -->
@@ -160,7 +160,7 @@
     Ignore jailbreak warning button
     Jailbreak warning message
     -->
-  <string name="JailbreakWarnings.messageWithoutBalance">ENHETENS SÄKERHET KOMPROMISSAD\n \'Jailbreak\'-appar kan få åtkomst till DigiWallets nyckeldata och stjäla dina DigiByte! Använd endast DigiWallet på en icke-jailbreakad enhet.</string>
+  <string name="JailbreakWarnings.messageWithoutBalance">ENHETENS SÄKERHET KOMPROMISSAD\n \'Jailbreak\'-appar kan få åtkomst till NoirWallets nyckeldata och stjäla dina Noir! Använd endast NoirWallet på en icke-jailbreakad enhet.</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">VARNING</string>
   <!-- Location services disabled error -->
@@ -201,7 +201,7 @@
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">Anslutningsstatus för Nod</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">DigiByte-noder</string>
+  <string name="NodeSelector.title">Noir-noder</string>
   <string name="no_limit">Ingen gräns</string>
   <string name="original_amount">Ursprungligt värde: %s</string>
   <!-- Bad Payment request alert title -->
@@ -210,9 +210,9 @@
     <!-- Request expired payment protocol error message -->
     <!-- Payment too small alert title -->
     <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">DigiByte-betalningar kan inte vara mindre än %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallPayment">Noir-betalningar kan inte vara mindre än %1$s.</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">Summan av DigiByte-transaktioner kan inte vara mindre än %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">Summan av Noir-transaktioner kan inte vara mindre än %1$s.</string>
   <!-- Unsupported signature type payment protocol error message -->
     <!-- Untrusted certificate payment protocol error message -->
     <string name="processed">Bearbetade</string>
@@ -236,7 +236,7 @@
   <!-- Upgrade PIN prompt body. -->
     <!-- Upgrade PIN prompt title. -->
     <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">Aktivera notifikationer för att få speciella meddelanden från DigiWallet i framtiden.</string>
+  <string name="PushNotifications.body">Aktivera notifikationer för att få speciella meddelanden från NoirWallet i framtiden.</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Pushnotiser</string>
   <!-- Push notifications are off label -->
@@ -262,7 +262,7 @@
   <string name="RecoverWallet.header_reset_pin">Återställ PIN</string>
   <!-- Enter paper key instruction -->
     <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">Återskapa din DigiWallet med din Personliga Återskapningsnyckel.</string>
+  <string name="RecoverWallet.intro">Återskapa din NoirWallet med din Personliga Återskapningsnyckel.</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">Den Personliga Återskapningsnyckeln som du angav är felaktig. Vänligen granska varje ord och försök igen.</string>
   <!-- Previous button accessibility label -->
@@ -271,7 +271,7 @@
   <!-- Reset PIN with paper key: more information button. -->
     <!-- Next button accessibility label -->
     <!-- Recover wallet sub-header -->
-  <string name="RecoverWallet.subheader">Ange den Personliga Återskapningsnyckeln för den DigiWallet som du vill återskapa.</string>
+  <string name="RecoverWallet.subheader">Ange den Personliga Återskapningsnyckeln för den NoirWallet som du vill återskapa.</string>
   <!-- Reset PIN with paper key: sub-header -->
   <string name="RecoverWallet.subheader_reset_pin">För att återställa din PIN, ange orden från din Personliga Återskapningsnyckel i nedanstående fält.</string>
   <!-- No amount entered error message. -->
@@ -284,13 +284,13 @@
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 minuter</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Om en transaktion visas som genomförd på DigiByte-nätverket men inte i din plånbok.</string>
+  <string name="ReScan.body2">Om en transaktion visas som genomförd på Noir-nätverket men inte i din plånbok.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">Om du vid upprepade tillfällen får ett felmeddelande om att din transaktion blev avvisad.</string>
   <!-- Start Sync button label -->
   <string name="ReScan.buttonTitle">Påbörja Synkronisering</string>
   <!-- Sync blockchain view footer -->
-  <string name="ReScan.footer">Du kommer inte kunna skicka DigiByte under synkronisering med blockkedjan.</string>
+  <string name="ReScan.footer">Du kommer inte kunna skicka Noir under synkronisering med blockkedjan.</string>
   <!-- Sync Blockchain view header -->
     <!-- Subheader label -->
   <string name="ReScan.subheader1">Förväntad tid</string>
@@ -304,26 +304,26 @@
     <!-- Security Center Info -->
   <string name="SecurityCenter.info">Aktivera alla säkerhetsfunktioner för maximal säkerhet.</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">Det enda sättet att få åtkomst till dina DigiByte om du förlorar eller byter ut din enhet.</string>
+  <string name="SecurityCenter.paperKeyDescription">Det enda sättet att få åtkomst till dina Noir om du förlorar eller byter ut din enhet.</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Personlig Återskapningsnyckel</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">Skyddar din DigiWallet från obehöriga användare.</string>
+  <string name="SecurityCenter.pinDescription">Skyddar din NoirWallet från obehöriga användare.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">6-siffrig PIN</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Säkerhetscenter</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">Lås upp din DigiWallet på ett bekvämt sätt och skicka DigiByte upp till angiven en utgiftsbegränsning.</string>
+  <string name="SecurityCenter.touchIdDescription">Lås upp din NoirWallet på ett bekvämt sätt och skicka Noir upp till angiven en utgiftsbegränsning.</string>
   <!-- Touch ID button title -->
     <!-- Security center fingerprint authentication button -->
   <string name="SecurityCenter.touchIdTitle.android">Verifiering via Fingeravtryck</string>
   <!-- Send money amount label -->
     <!-- Balance: $4.00 -->
     <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">Tillåt kameraåtkomst under Inställningar &gt; Appar &gt; DigiWallet &gt; Behörigheter</string>
+  <string name="Send.cameraUnavailabeMessage.android">Tillåt kameraåtkomst under Inställningar &gt; Appar &gt; NoirWallet &gt; Behörigheter</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">DigiWallet har inte åtkomst till kameran</string>
+  <string name="Send.cameraUnavailabeTitle.android">NoirWallet har inte åtkomst till kameran</string>
   <!-- Camera not allowed message -->
     <!-- Camera not allowed alert title -->
     <!-- Warning when sending to self. -->
@@ -359,7 +359,7 @@
   <!-- Send money to label -->
   <string name="Send.toLabel">Till</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">DigiByte-adresser är endast avsedda för engångsbruk.</string>
+  <string name="Send.UsedAddress.firstLine">Noir-adresser är endast avsedda för engångsbruk.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">Återanvändning minskar integriteten för både dig och mottagaren och kan resultera i förlust om inte mottagaren har direktkontroll över adressen.</string>
   <!-- Adress already used alert title -->
@@ -375,14 +375,14 @@
     <!-- Import wallet left message -->
   <string name="Settings.importLeftMessage">Plånbok Att Importera</string>
   <!-- Import wallet right message -->
-  <string name="Settings.importRightMessage">Din DigiWallet</string>
+  <string name="Settings.importRightMessage">Din NoirWallet</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Importera Plånbok</string>
   <!-- Manage settings section header -->
   <string name="Settings.manage">Hantera</string>
   <!-- Notifications label -->
     <!-- Restore screen lower label. -->
-  <string name="Settings.restore_label">Din DigiWallet på Denna Enhet</string>
+  <string name="Settings.restore_label">Din NoirWallet på Denna Enhet</string>
   <!-- Leave review button label -->
     <!-- Share anonymous data label -->
     <!-- Sync blockchain label -->
@@ -400,7 +400,7 @@
     <!-- Share data switch label. -->
     <!-- button label -->
     <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">Din Personliga Återskapningsnyckel är det enda sättet att återskapa din DigiWallet om din enhet blir borttappad, stulen, trasig och eller uppgraderad.\n\n\Du kommer att få se en lista med ord som du skall skriva ner på ett papper och förvara på en säker plats.</string>
+  <string name="StartPaperPhrase.body">Din Personliga Återskapningsnyckel är det enda sättet att återskapa din NoirWallet om din enhet blir borttappad, stulen, trasig och eller uppgraderad.\n\n\Du kommer att få se en lista med ord som du skall skriva ner på ett papper och förvara på en säker plats.</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">Skriv Ner Personlig Återskapningsnyckel</string>
   <!-- Argument is date -->
@@ -422,7 +422,7 @@
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">Verifiering via Fingeravtryck Inaktiverat</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">Använd ditt fingeravtryck för att låsa upp din DigiWallet och skicka DigiByte upp till en angiven utgiftsbegränsning.</string>
+  <string name="TouchIdSettings.label">Använd ditt fingeravtryck för att låsa upp din NoirWallet och skicka Noir upp till en angiven utgiftsbegränsning.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
     <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Utgiftsbegränsning: %1$s (%2$s)</string>
@@ -494,9 +494,9 @@
   <string name="UnlockScreen.touchIdTitle.android">Verifiering krävs</string>
   <!-- Wallet unlocked message -->
     <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">Kom ihåg denna PIN. Om du glömmer bort den kommer du att att förlora åtkomsten till dina DigiByte.</string>
+  <string name="UpdatePin.caption">Kom ihåg denna PIN. Om du glömmer bort den kommer du att att förlora åtkomsten till dina Noir.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">Din PIN kommer att användas för att låsa upp din DigiWallet och för att skicka DigiByte.</string>
+  <string name="UpdatePin.createInstruction">Din PIN kommer att användas för att låsa upp din NoirWallet och för att skicka Noir.</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">Ange PIN</string>
   <!-- Update PIN title -->
@@ -525,9 +525,9 @@
     <!-- Updating webview message -->
   <string name="Webview.updating">Uppdaterar...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">DigiWallet har fått ett nytt utseende och några nya funktioner.\n\nOm du behöver hjälp, tryck på (?)-ikonen i det övre högra hörnet där den finns tillgängligt.</string>
+  <string name="Welcome.body">NoirWallet har fått ett nytt utseende och några nya funktioner.\n\nOm du behöver hjälp, tryck på (?)-ikonen i det övre högra hörnet där den finns tillgängligt.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">Välkommen till DigiWallet!</string>
+  <string name="Welcome.title">Välkommen till NoirWallet!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Är du säker på att du vill radera denna plånbok?</string>
   <!-- Wipe wallet alert title -->
@@ -537,7 +537,7 @@
     <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">För att skapa en ny plånbok eller för att återskapa en befintlig måste du först radera den nuvarande plånboken som är installerad på enheten. För att fortsätta, ange den nuvarande plånbokens Personliga Återskapningsnyckel.</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">Att skapa eller att återskapa en annan plånbok ger dig möjligheten att få tillgång till och hantera en annan DigiWallet på denna enhet.</string>
+  <string name="WipeWallet.startMessage">Att skapa eller att återskapa en annan plånbok ger dig möjligheten att få tillgång till och hantera en annan NoirWallet på denna enhet.</string>
   <!-- Start wipe wallet view warning -->
   <string name="WipeWallet.startWarning">Din nuvarande plånbok kommer att bli borttagen från denna enhet. Om du önskar att återskapa den i framtiden så kommer du behöva ange din Personliga Återskapningsnyckel.</string>
   <!-- Wipe wallet navigation item title. -->

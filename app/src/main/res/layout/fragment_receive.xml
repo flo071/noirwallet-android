@@ -176,11 +176,11 @@
                             android:id="@+id/share_button"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            app:backgroundTint="#0066cc"
+                            app:backgroundTint="@color/noir_moolight_grey"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:onClick="@{() -> callback.shareButtonClick()}"
                             android:text="@string/Receive.share"
-                            android:textColor="@color/white"
+                            android:textColor="@color/noir_jupiter_grey"
                             android:textSize="14sp"/>
 
                         <LinearLayout
@@ -235,7 +235,8 @@
                                 android:layout_marginTop="4dp"
                                 android:baselineAlignBottom="true"
                                 android:scaleType="fitCenter"
-                                android:src="@drawable/astronaut_only_white" />
+                                android:src="@drawable/astronaut_only_white"
+                                android:visibility="gone"/>
 
                         </LinearLayout>
                     </ViewAnimator>
@@ -251,11 +252,11 @@
                 android:layout_marginBottom="12dp"
                 android:layout_marginEnd="12dp"
                 android:layout_marginStart="12dp"
-                android:background="@drawable/intro_create_button"
+                android:background="@color/noir_moolight_grey"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:onClick="@{() -> callback.requestButtonClick()}"
                 android:text="@string/Receive.request"
-                android:textColor="@color/white"
+                android:textColor="@color/noir_jupiter_grey"
                 android:textSize="14sp"
                 android:visibility="@{data.requestButtonVisibility ? View.VISIBLE : View.GONE}"/>
 

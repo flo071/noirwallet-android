@@ -2,7 +2,7 @@
 <resources>
 
 <!-- About screen blog label -->
-<string name="About.blog">"https://digibyte.io/"</string>
+<string name="About.blog">"https://noirofficial.org/"</string>
 
 <!-- About screen footer -->
 <string name="About.footer">"由全球極特錢包團隊完成。版本 %1$@"</string>
@@ -11,14 +11,14 @@
 <string name="About.privacy">"隱私政策"</string>
 
 <!-- About screen reddit label -->
-<string name="About.reddit">"https://www.reddit.com/r/Digibyte/"</string>
+<string name="About.reddit">"https://www.reddit.com/r/Noirofficial/"</string>
 
 <!-- Terms of Use button label 
  About screen title -->
 <string name="About.title">"關於"</string>
 
 <!-- About screen twitter label -->
-<string name="About.twitter">"https://twitter.com/digibytecoin"</string>
+<string name="About.twitter">"https://twitter.com/Noircoin"</string>
 
 <!-- Close modal button accessibility label -->
 <string name="AccessibilityLabels.close">"關閉"</string>
@@ -30,7 +30,7 @@
 <string name="Alert.error">"錯誤"</string>
 
 <!-- Keystore error -->
-<string name="Alert.keystore.generic.android">"Keystore發生錯誤請您聯絡 support@digibyte.io"</string>
+<string name="Alert.keystore.generic.android">"Keystore發生錯誤請您聯絡 support@noirofficial.org"</string>
 
 <!-- KeyStore error, keys are invalidated -->
 <string name="Alert.keystore.invalidated.android">"您極特錢包內的加密資訊已被消除 因您移除了安卓屏幕保護。"</string>

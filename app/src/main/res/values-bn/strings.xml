@@ -2,13 +2,13 @@
 <resources>
   <!-- App name -->
     <!-- About screen blog label -->
-  <string name="About.blog">https://digibyte.io/</string>
+  <string name="About.blog">https://noirofficial.org/</string>
   <!-- About screen footer -->
-  <string name="About.footer">আন্তর্জাতিক DigiWallet টিম দ্বারা তৈরি। সংস্করণ  %১$s</string>
+  <string name="About.footer">আন্তর্জাতিক NoirWallet টিম দ্বারা তৈরি। সংস্করণ  %১$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">গোপনীয় নীতি</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/Noirofficial/</string>
   <!-- Terms of Use button label -->
     <!--
     Terms of Use button label
@@ -16,7 +16,7 @@
     -->
   <string name="About.title">আমাদের সম্পর্কে</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/Noircoin</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">বন্ধ</string>
   <!-- Support center accessibiliy label -->
@@ -27,9 +27,9 @@
   <!-- Error alert title -->
   <string name="Alert.error">ভুল</string>
   <!-- Keystore error -->
-  <string name="Alert.keystore.generic.android">আপনার অ্যান্ড্রয়েড অপারেটিং সিস্টেম keystore একটি সমস্যা আছে, দয়া করে support@digibyte.io এ যোগাযোগ করুন।</string>
+  <string name="Alert.keystore.generic.android">আপনার অ্যান্ড্রয়েড অপারেটিং সিস্টেম keystore একটি সমস্যা আছে, দয়া করে support@noirofficial.org এ যোগাযোগ করুন।</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">আপনার DigiWallet এনক্রিপ্ট ডেটা সম্প্রতি অকার্যকর হয়েছে, কারণ আপনার Android লক স্ক্রিনটি অক্ষম করা আছে।</string>
+  <string name="Alert.keystore.invalidated.android">আপনার NoirWallet এনক্রিপ্ট ডেটা সম্প্রতি অকার্যকর হয়েছে, কারণ আপনার Android লক স্ক্রিনটি অক্ষম করা আছে।</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">"অ্যান্ড্রয়েড কীস্টোর ভুল "</string>
   <!-- No internet alert message -->
@@ -110,7 +110,7 @@
   <!-- Email unavailable alert title -->
     <!-- Email unavailable alert title -->
     <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
-  <string name="ErrorMessages.loopingLockScreen.android">আপনার অ্যান্ড্রয়েডের সংস্করণের একটি বাগের কারণে DigiWallet প্রমাণীকরণ করা যাবে না। [আরও তথ্যের জন্য এখানে  ক্লিক করুন।]</string>
+  <string name="ErrorMessages.loopingLockScreen.android">আপনার অ্যান্ড্রয়েডের সংস্করণের একটি বাগের কারণে NoirWallet প্রমাণীকরণ করা যাবে না। [আরও তথ্যের জন্য এখানে  ক্লিক করুন।]</string>
   <!-- Messaging unavailable alert title -->
     <!-- Messaging unavailable alert title -->
     <!-- Fingerprint was not recognized by the scanner, please try scanning again -->
@@ -125,7 +125,7 @@
     <!-- Checking private key balance progress view text -->
   <string name="Import.checking">ব্যক্তিগত কী ব্যালেন্স চেক করা হচ্ছে ...</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">এই ব্যক্তিগত কী থেকে আপনার ওয়ালেট এ %১$@ পাঠান? DigiByte নেটওয়ার্ক একটি %২$@ ফি পাবেন</string>
+  <string name="Import.confirm">এই ব্যক্তিগত কী থেকে আপনার ওয়ালেট এ %১$@ পাঠান? Noir নেটওয়ার্ক একটি %২$@ ফি পাবেন</string>
   <!-- Duplicate key error message -->
     <!-- empty private key error message -->
   <string name="Import.Error.empty">এই ব্যক্তিগত কী টি ফাঁকা।</string>
@@ -138,7 +138,7 @@
     <!-- Importing wallet progress view label -->
     <!-- Caption for graphics -->
     <!-- Import wallet intro screen message -->
-  <string name="Import.message">একটি লেনদেন ব্যবহার করে আপনার অন্যান্য ওয়ালেট থেকে আপনার DigiWallet ওয়ালেটএ সব টাকা স্থানান্তর করুন।</string>
+  <string name="Import.message">একটি লেনদেন ব্যবহার করে আপনার অন্যান্য ওয়ালেট থেকে আপনার NoirWallet ওয়ালেটএ সব টাকা স্থানান্তর করুন।</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">এই ব্যক্তিগত কী/চাবি পাসওয়ার্ড সুরক্ষিত।</string>
   <!-- password textfield placeholder -->
@@ -160,7 +160,7 @@
     Ignore jailbreak warning button
     Jailbreak warning message
     -->
-  <string name="JailbreakWarnings.messageWithoutBalance">ডিভাইস নিরাপত্তা কম্প্রোমাইজড\n কোনো \'জেলব্রেক\' অ্যাপ্লিকেশন DigiWallet এর কী চেইন ডেটা অ্যাক্সেস করতে পারে এবং আপনার DigiByte চুরি করতে পারে।  অনুগ্রহ করে DigiWallet শুধুমাত্র একটি নন-জেলব্রোকেন ডিভাইস ব্যবহার করুন।</string>
+  <string name="JailbreakWarnings.messageWithoutBalance">ডিভাইস নিরাপত্তা কম্প্রোমাইজড\n কোনো \'জেলব্রেক\' অ্যাপ্লিকেশন NoirWallet এর কী চেইন ডেটা অ্যাক্সেস করতে পারে এবং আপনার Noir চুরি করতে পারে।  অনুগ্রহ করে NoirWallet শুধুমাত্র একটি নন-জেলব্রোকেন ডিভাইস ব্যবহার করুন।</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">সতর্কীকরণ</string>
   <!-- Location services disabled error -->
@@ -201,7 +201,7 @@
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">নোড সংযোগের অবস্থা</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">DigiByte নোড</string>
+  <string name="NodeSelector.title">Noir নোড</string>
   <string name="no_limit">সীমাহীন</string>
   <string name="original_amount">বর্তমান মূল্য: %s</string>
   <!-- Bad Payment request alert title -->
@@ -210,9 +210,9 @@
     <!-- Request expired payment protocol error message -->
     <!-- Payment too small alert title -->
     <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">DigiByte অর্থ প্রদান %১$@ এর চেয়ে কম হতে পারে না</string>
+  <string name="PaymentProtocol.Errors.smallPayment">Noir অর্থ প্রদান %১$@ এর চেয়ে কম হতে পারে না</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">DigiByte লেনদেনের আউটপুট  $১@ এর চেয়ে কম হতে পারে না</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">Noir লেনদেনের আউটপুট  $১@ এর চেয়ে কম হতে পারে না</string>
   <!-- Unsupported signature type payment protocol error message -->
     <!-- Untrusted certificate payment protocol error message -->
     <string name="processed">প্রক্রিয়াজাত</string>
@@ -236,7 +236,7 @@
   <!-- Upgrade PIN prompt body. -->
     <!-- Upgrade PIN prompt title. -->
     <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">ভবিষ্যতে DigiWallet থেকে বিশেষ বার্তা পেতে  নোটিফিকেশন  চালু করুন।</string>
+  <string name="PushNotifications.body">ভবিষ্যতে NoirWallet থেকে বিশেষ বার্তা পেতে  নোটিফিকেশন  চালু করুন।</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">নোটিফিকেশন পুশ</string>
   <!-- Push notifications are off label -->
@@ -262,7 +262,7 @@
   <string name="RecoverWallet.header_reset_pin">PIN পুনরায় সেট করুন</string>
   <!-- Enter paper key instruction -->
     <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">আপনার কাগজ কী দিয়ে আপনার DigiWallet পুনরুদ্ধার করুন।</string>
+  <string name="RecoverWallet.intro">আপনার কাগজ কী দিয়ে আপনার NoirWallet পুনরুদ্ধার করুন।</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">আপনি যে কাগজ কীটি/চাবি টি প্রবেশ করিয়েছেন তা অকার্যকর। দয়া করে প্রতিটি শব্দ দুইবার পরীক্ষা করুন এবং আবার চেষ্টা করুন।</string>
   <!-- Previous button accessibility label -->
@@ -284,7 +284,7 @@
   <!-- extimated time -->
   <string name="ReScan.body1">২০-৪৫ মিনিট</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">যদি DigiByte নেটওয়ার্কে একটি লেনদেন সম্পন্ন দেখায় কিন্তু আপনার DigiWallet মধ্যে না।</string>
+  <string name="ReScan.body2">যদি Noir নেটওয়ার্কে একটি লেনদেন সম্পন্ন দেখায় কিন্তু আপনার NoirWallet মধ্যে না।</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">আপনার লেনদেন প্রত্যাখ্যান করা হয়েছে বলে আপনি বারবার একটি ত্রূটি পান।</string>
   <!-- Start Sync button label -->
@@ -304,26 +304,26 @@
     <!-- Security Center Info -->
   <string name="SecurityCenter.info">সর্বাধিক সুরক্ষার জন্য সমস্ত নিরাপত্তা ব্যাবস্থা সক্রিয় করুন।</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">আপনি আপনার ফোন হারিয়ে ফেললে বা আপগ্রেড করলে এটি আপনার DigiByte অ্যাক্সেস করার একমাত্র উপায়।</string>
+  <string name="SecurityCenter.paperKeyDescription">আপনি আপনার ফোন হারিয়ে ফেললে বা আপগ্রেড করলে এটি আপনার Noir অ্যাক্সেস করার একমাত্র উপায়।</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">পেপার চাবি/কী</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">"অ-অনুমোদিত ব্যবহারকারীদের কাছ থেকে আপনার DigiWallet রক্ষা করুন।  "</string>
+  <string name="SecurityCenter.pinDescription">"অ-অনুমোদিত ব্যবহারকারীদের কাছ থেকে আপনার NoirWallet রক্ষা করুন।  "</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">৬-সংখ্যার পিন</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">নিরাপত্তা কেন্দ্র</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">সুবিধামত আপনার DigiWallet আনলক করুন এবং একটি নিদিষ্ট সীমা পর্যন্ত টাকা পাঠান।</string>
+  <string name="SecurityCenter.touchIdDescription">সুবিধামত আপনার NoirWallet আনলক করুন এবং একটি নিদিষ্ট সীমা পর্যন্ত টাকা পাঠান।</string>
   <!-- Touch ID button title -->
     <!-- Security center fingerprint authentication button -->
   <string name="SecurityCenter.touchIdTitle.android">ফিঙ্গারপ্রিন্ট প্রমাণীকরণ</string>
   <!-- Send money amount label -->
     <!-- Balance: $4.00 -->
     <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">"ক্যামেরা অ্যাক্সেসের অনুমতি দিন \"সেটিংস\" &gt; \"আপস\" &gt; \"DigiWallet\" &gt; \"পারমিশন\" "</string>
+  <string name="Send.cameraUnavailabeMessage.android">"ক্যামেরা অ্যাক্সেসের অনুমতি দিন \"সেটিংস\" &gt; \"আপস\" &gt; \"NoirWallet\" &gt; \"পারমিশন\" "</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">DigiWallet এই ক্যামেরা অ্যাক্সেস করার অনুমতি নেই</string>
+  <string name="Send.cameraUnavailabeTitle.android">NoirWallet এই ক্যামেরা অ্যাক্সেস করার অনুমতি নেই</string>
   <!-- Camera not allowed message -->
     <!-- Camera not allowed alert title -->
     <!-- Warning when sending to self. -->
@@ -359,7 +359,7 @@
   <!-- Send money to label -->
   <string name="Send.toLabel">থেকে</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">DigiByte ঠিকানা শুধুমাত্র একবার ব্যবহারের জন্য লক্ষ্য করা হয়।</string>
+  <string name="Send.UsedAddress.firstLine">Noir ঠিকানা শুধুমাত্র একবার ব্যবহারের জন্য লক্ষ্য করা হয়।</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">পুনরায় ব্যবহার আপনার এবং প্রাপক উভয়ের জন্য গোপনীয়তা হ্রাস করে এবং প্রাপক যদি সরাসরি ঠিকানা নিয়ন্ত্রণ করে না তাহলে ক্ষতি হতে পারে।</string>
   <!-- Adress already used alert title -->
@@ -375,14 +375,14 @@
     <!-- Import wallet left message -->
   <string name="Settings.importLeftMessage">ওয়ালেট ইম্পোর্টেড হতে হবে</string>
   <!-- Import wallet right message -->
-  <string name="Settings.importRightMessage">আপনার DigiWallet ওয়ালেট</string>
+  <string name="Settings.importRightMessage">আপনার NoirWallet ওয়ালেট</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">ইম্পোর্ট ওয়ালেট</string>
   <!-- Manage settings section header -->
   <string name="Settings.manage">পরিচালনা</string>
   <!-- Notifications label -->
     <!-- Restore screen lower label. -->
-  <string name="Settings.restore_label">এই ডিভাইসে আপনার DigiWallet</string>
+  <string name="Settings.restore_label">এই ডিভাইসে আপনার NoirWallet</string>
   <!-- Leave review button label -->
     <!-- Share anonymous data label -->
     <!-- Sync blockchain label -->
@@ -400,7 +400,7 @@
     <!-- Share data switch label. -->
     <!-- button label -->
     <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">আপনার ফোনের হারিয়ে গেলে, চুরি হলে, ভেঙে গেলে বা আপগ্রেড করা হলে কাগজের/পেপার  চাবি  আপনার DigiWallet পুনরুদ্ধার করার একমাত্র উপায়।\n\nআমরা কাগজের একটি টুকরো লিখতে এবং নিরাপদ রাখার জন্য আপনাকে শব্দগুলির একটি তালিকা দেখাব।</string>
+  <string name="StartPaperPhrase.body">আপনার ফোনের হারিয়ে গেলে, চুরি হলে, ভেঙে গেলে বা আপগ্রেড করা হলে কাগজের/পেপার  চাবি  আপনার NoirWallet পুনরুদ্ধার করার একমাত্র উপায়।\n\nআমরা কাগজের একটি টুকরো লিখতে এবং নিরাপদ রাখার জন্য আপনাকে শব্দগুলির একটি তালিকা দেখাব।</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">নিচে পেপার কী লিখুন</string>
   <!-- Argument is date -->
@@ -422,7 +422,7 @@
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">ফিঙ্গারপ্রিন্ট প্রমাণীকরণ সক্ষম নয়</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">আপনার DigiWallet আনলক করতে আপনার আঙ্গুলের ছাপ ব্যবহার করুন এবং একটি সেট করা সীমা পর্যন্ত টাকা পাঠান।</string>
+  <string name="TouchIdSettings.label">আপনার NoirWallet আনলক করতে আপনার আঙ্গুলের ছাপ ব্যবহার করুন এবং একটি সেট করা সীমা পর্যন্ত টাকা পাঠান।</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
     <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">খরচ সীমা: %১$@ (%২$@)</string>
@@ -494,9 +494,9 @@
   <string name="UnlockScreen.touchIdTitle.android">প্রমাণীকরণ প্রয়োজন</string>
   <!-- Wallet unlocked message -->
     <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">এই পিনটি মনে রাখুন। যদি আপনি এটি ভুলে যান, তাহলে আপনি আপনার DigiByte এ প্রবেশ করতে পারবেন না।</string>
+  <string name="UpdatePin.caption">এই পিনটি মনে রাখুন। যদি আপনি এটি ভুলে যান, তাহলে আপনি আপনার Noir এ প্রবেশ করতে পারবেন না।</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">আপনার পিন টি আপনার DigiWallet আনলক করতে এবং অর্থ পাঠাতে ব্যবহার করা হবে।</string>
+  <string name="UpdatePin.createInstruction">আপনার পিন টি আপনার NoirWallet আনলক করতে এবং অর্থ পাঠাতে ব্যবহার করা হবে।</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">PIN সেট করুন</string>
   <!-- Update PIN title -->
@@ -525,9 +525,9 @@
     <!-- Updating webview message -->
   <string name="Webview.updating">হালনাগাদ করা হচ্ছে ...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">OS এর জন্য DigiWallet তার নাম পরিবর্তন  করে DigiWallet করেছে, একটি নতুন চেহারা এবং কিছু নতুন বৈশিষ্ট্য যুক্ত হয়েছে।\n\nযদি আপনার সাহায্যের প্রয়োজন হয়, তবে স্ক্রিনের উপরের ডানদিকে (?) চিহ্ন সন্ধান করুন।</string>
+  <string name="Welcome.body">OS এর জন্য NoirWallet তার নাম পরিবর্তন  করে NoirWallet করেছে, একটি নতুন চেহারা এবং কিছু নতুন বৈশিষ্ট্য যুক্ত হয়েছে।\n\nযদি আপনার সাহায্যের প্রয়োজন হয়, তবে স্ক্রিনের উপরের ডানদিকে (?) চিহ্ন সন্ধান করুন।</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">DigiWallet এ স্বাগতম!</string>
+  <string name="Welcome.title">NoirWallet এ স্বাগতম!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">আপনি কি এই ওয়ালেটটি মুছে ফেলতে চান?</string>
   <!-- Wipe wallet alert title -->
@@ -537,7 +537,7 @@
     <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">একটি নতুন ওয়ারলেস শুরু বা একটি পুরাতন ওয়ালেট পুনরুদ্ধার করতে, প্রথমে আপনাকে যে ওয়ালেট  ইনস্টল করা আছে সেটি মুছে ফেলতে হবে। চালিয়ে যেতে, বর্তমান ওয়ালেটের কাগজ কীটি লিখুন।</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">অন্য একটি ওয়ালেট চালু বা পুনরুদ্ধার করেত আপনাকে এই ডিভাইসে একটি ভিন্ন DigiWallet প্রবেশ এবং পরিচালনা করতে দেয়।</string>
+  <string name="WipeWallet.startMessage">অন্য একটি ওয়ালেট চালু বা পুনরুদ্ধার করেত আপনাকে এই ডিভাইসে একটি ভিন্ন NoirWallet প্রবেশ এবং পরিচালনা করতে দেয়।</string>
   <!-- Start wipe wallet view warning -->
   <string name="WipeWallet.startWarning">আপনার বর্তমান ওয়ালেটটি এই ডিভাইস থেকে সরানো হবে। আপনি যদি ভবিষ্যতে এটি পুনরুদ্ধার করতে চান, তাহলে আপনার কাগজের কীটি প্রবেশ করাতে হবে।</string>
   <!-- Wipe wallet navigation item title. -->

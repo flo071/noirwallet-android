@@ -2,13 +2,13 @@
 <resources>
   <!-- App name -->
     <!-- About screen blog label -->
-  <string name="About.blog">https://digibyte.io/</string>
+  <string name="About.blog">https://noirofficial.org/</string>
   <!-- About screen footer -->
   <string name="About.footer">由全球极特钱包团队打造。版本 %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">隐私政策</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/Noirofficial/</string>
   <!-- Terms of Use button label -->
     <!--
     Terms of Use button label
@@ -16,7 +16,7 @@
     -->
   <string name="About.title">快速，简单，安全！使用极特钱包安卓版是发送极特币最简单的方法。在设计之初特别考虑到新老客户不同的需求，安卓极特钱包对初次使用用户足够友好，对老用户又足够强大！</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/Noircoin</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">关闭</string>
   <!-- Support center accessibiliy label -->
@@ -27,7 +27,7 @@
   <!-- Error alert title -->
   <string name="Alert.error">故障</string>
   <!-- Keystore error -->
-  <string name="Alert.keystore.generic.android">您的安卓密钥库有问题，请联络support@digibyte.io</string>
+  <string name="Alert.keystore.generic.android">您的安卓密钥库有问题，请联络support@noirofficial.org</string>
   <!-- KeyStore error, keys are invalidated -->
   <string name="Alert.keystore.invalidated.android">最近您的极特钱包加密资料被无效，因为您的安卓锁屏被关</string>
   <!-- Keystore error title -->

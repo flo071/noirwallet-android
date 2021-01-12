@@ -2,7 +2,7 @@
 <resources>
   <!-- App name -->
     <!-- About screen blog label -->
-  <string name="About.blog">https://digibyte.io/
+  <string name="About.blog">https://noirofficial.org/
 
 </string>
   <!-- About screen footer -->
@@ -10,7 +10,7 @@
   <!-- Privay Policy button label -->
   <string name="About.privacy">தனியுரிமை கொள்கை</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/Noirofficial/</string>
   <!-- Terms of Use button label -->
     <!--
     Terms of Use button label
@@ -18,7 +18,7 @@
     -->
   <string name="About.title">வேகமானது, எளியது மற்றும் பாதுகாப்பானது!: ஆண்ட்ராய்டுக்கான டிஜிவாலட், டிஜிபைட் ஐ அனுப்ப மற்றும் பெற தொடங்குவதற்கான எளிய வழியாகும். புதிய மற்றும் அனுபவம் வாய்ந்த பயனர்கள் ஆகிய இருவரையும் மனதில் கொண்டு வடிவமைக்கபட்டது, ஆண்ட்ராய்டுக்கான டிஜிவாலட்டை முதல் முறை புதியதாக பயன்படுத்த மிகவும் எளிதானது, இது வழக்கமான திறன் பெற்ற பயனர்களுக்கு இன்னும்  போதுமான திறன் வாய்ந்ததாக இருக்கும்.</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/Noircoin</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">மூடு</string>
   <!-- Support center accessibiliy label -->
@@ -29,7 +29,7 @@
   <!-- Error alert title -->
   <string name="Alert.error">தவறு</string>
   <!-- Keystore error -->
-  <string name="Alert.keystore.generic.android">உங்கள் ஆண்ட்ராய்டு ஓஎஸ் விசைதொகுப்பில் சிக்கல் உள்ளது, தயவு செய்து தொடர்பு கொள்ளவும் support@digibyte.io
+  <string name="Alert.keystore.generic.android">உங்கள் ஆண்ட்ராய்டு ஓஎஸ் விசைதொகுப்பில் சிக்கல் உள்ளது, தயவு செய்து தொடர்பு கொள்ளவும் support@noirofficial.org
 </string>
   <!-- KeyStore error, keys are invalidated -->
   <string name="Alert.keystore.invalidated.android">உங்கள் ஆண்ட்ராய்டு பூட்டு திரை முடக்கப்பட்டதால் மறைகுறியாக்கப்பட்ட டிஜிவாலட் தகவல்கள் சமீபத்தில் செல்லாததாக்கப்பட்டது.</string>

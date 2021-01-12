@@ -2,13 +2,13 @@
 <resources>
   <!-- App name -->
     <!-- About screen blog label -->
-  <string name="About.blog">https://digibyte.io/</string>
+  <string name="About.blog">https://noirofficial.org/</string>
   <!-- About screen footer -->
   <string name="About.footer">વૈશ્વિક  ડિગિવોલેટ ટીમ દ્વારા બનાવેલ. આવૃત્તિ %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">ગોપનીયતા નીતિ</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/Noirofficial/</string>
   <!-- Terms of Use button label -->
     <!--
     Terms of Use button label
@@ -16,7 +16,7 @@
     -->
   <string name="About.title">"ડિગિવોલેટ એ એન્ડ્રોઇડ મોબાઈલ માટેનું ડીગીબાઈટ વોલેટ છે. "</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/Noircoin</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">બંધ કરો</string>
   <!-- Support center accessibiliy label -->
@@ -28,7 +28,7 @@
   <string name="Alert.error">ત્રુટિ</string>
   <!-- Keystore error -->
   <string name="Alert.keystore.generic.android">
-તમારી Android OS કીસ્ટોર સાથે કોઈ સમસ્યા છે, કૃપા કરીને support@digibyte.io નો સંપર્ક કરો</string>
+તમારી Android OS કીસ્ટોર સાથે કોઈ સમસ્યા છે, કૃપા કરીને support@noirofficial.org નો સંપર્ક કરો</string>
   <!-- KeyStore error, keys are invalidated -->
   <string name="Alert.keystore.invalidated.android">તમારા  ડીગીવોલેટનો  એન્ક્રિપ્ટ કરેલ ડેટા હાલમાં ગેરકાયદેસર છે કારણ કે તમારી Android લૉક સ્ક્રીન અક્ષમ હતી.
 </string>
@@ -49,7 +49,7 @@
   <!-- Send success alert header label (confirmation that the send happened) -->
   <string name="Alerts.sendSuccess">પુષ્ટિકરણ મોકલો</string>
   <!-- Send success alert subheader label (e.g. the money was sent) -->
-  <string name="Alerts.sendSuccessSubheader">DigiByte મોકલ્યો!</string>
+  <string name="Alerts.sendSuccessSubheader">Noir મોકલ્યો!</string>
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">ફિંગરપ્રિન્ટ ઓળખી</string>
   <string name="all">બધા</string>
@@ -267,7 +267,7 @@
   <string name="RecoverWallet.header_reset_pin">PIN ફરીથી સેટ કરો</string>
   <!-- Enter paper key instruction -->
     <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">તમારી વ્યક્તિગત પુનઃપ્રાપ્તિ કી સાથે તમારા DigiWallet પુનઃપ્રાપ્ત</string>
+  <string name="RecoverWallet.intro">તમારી વ્યક્તિગત પુનઃપ્રાપ્તિ કી સાથે તમારા NoirWallet પુનઃપ્રાપ્ત</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">તમે દાખલ કરેલ વ્યક્તિગત પુનઃપ્રાપ્તિ કી અમાન્ય છે. કૃપા કરીને દરેક શબ્દને ફરીથી તપાસો અને ફરીથી પ્રયાસ કરો.</string>
   <!-- Previous button accessibility label -->
@@ -295,7 +295,7 @@
   <!-- Start Sync button label -->
   <string name="ReScan.buttonTitle">સમન્વયન પ્રારંભ કરો</string>
   <!-- Sync blockchain view footer -->
-  <string name="ReScan.footer">બ્લોકચેન સાથે સમન્વયનકરતી વખતે તમે DigiByte મોકલી શકશો નહીં.</string>
+  <string name="ReScan.footer">બ્લોકચેન સાથે સમન્વયનકરતી વખતે તમે Noir મોકલી શકશો નહીં.</string>
   <!-- Sync Blockchain view header -->
     <!-- Subheader label -->
   <string name="ReScan.subheader1">અંદાજિત સમય</string>
@@ -537,7 +537,7 @@
     <!-- Updating webview message -->
   <string name="Webview.updating">અપડેટ કરી રહ્યું છે ...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">DigiWallet પાસે એક નવો દેખાવ અને કેટલીક નવી લાક્ષણિકતાઓ છે. \ N \ n જો તમને મદદની જરૂર હોય તો,  સ્ક્રીનોની સૌથી ઉપર જમણી બાજુએ (?) શોધો</string>
+  <string name="Welcome.body">NoirWallet પાસે એક નવો દેખાવ અને કેટલીક નવી લાક્ષણિકતાઓ છે. \ N \ n જો તમને મદદની જરૂર હોય તો,  સ્ક્રીનોની સૌથી ઉપર જમણી બાજુએ (?) શોધો</string>
   <!-- Top title of welcome screen -->
   <string name="Welcome.title">ડિગીવોલેટ પર આપનું સ્વાગત છે!
 </string>

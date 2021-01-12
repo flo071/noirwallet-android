@@ -2,21 +2,21 @@
 <resources>
   <!-- App name -->
   <!-- About screen blog label -->
-  <string name="About.blog">https://digibyte.io/</string>
+  <string name="About.blog">https://noirofficial.org/</string>
   <!-- About screen footer -->
-  <string name="About.footer">Изработено од глобалниот DigiWallet тим. Верзија %1$s</string>
+  <string name="About.footer">Изработено од глобалниот NoirWallet тим. Верзија %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Политика на приватност</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/Noirofficial/</string>
   <!-- Terms of Use button label -->
   <!--
   Terms of Use button label
   About screen title
   -->
-  <string name="About.title">DigiWallet за Android е мобилен новчаник за DigiByte.</string>
+  <string name="About.title">NoirWallet за Android е мобилен новчаник за Noir.</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/Noircoin</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">Затвори</string>
   <!-- Support center accessibiliy label -->
@@ -27,9 +27,9 @@
   <!-- Error alert title -->
   <string name="Alert.error">Грешка</string>
   <!-- Keystore error -->
-  <string name="Alert.keystore.generic.android">Постои проблем со Android OS keystore, ве молиме контактирајте support@digibyte.io</string>
+  <string name="Alert.keystore.generic.android">Постои проблем со Android OS keystore, ве молиме контактирајте support@noirofficial.org</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">Вашите DigiWallet енкриптирани податоци се штотуку девалидизирани заради тоа што е исклучена Android опцијата за заклучување на екранот.</string>
+  <string name="Alert.keystore.invalidated.android">Вашите NoirWallet енкриптирани податоци се штотуку девалидизирани заради тоа што е исклучена Android опцијата за заклучување на екранот.</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">Android KeyStore Error</string>
   <!-- No internet alert message -->
@@ -47,7 +47,7 @@
   <!-- Send success alert header label (confirmation that the send happened) -->
   <string name="Alerts.sendSuccess">Потврда за испратено</string>
   <!-- Send success alert subheader label (e.g. the money was sent) -->
-  <string name="Alerts.sendSuccessSubheader">DigiByte испратени!</string>
+  <string name="Alerts.sendSuccessSubheader">Noir испратени!</string>
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">Отисокот на прст препознаен</string>
   <string name="all">Сите</string>
@@ -110,7 +110,7 @@
   <!-- Email unavailable alert title -->
   <!-- Email unavailable alert title -->
   <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
-  <string name="ErrorMessages.loopingLockScreen.android">DigiWallet не може да се автентифицира поради грешка во верзијата на Android -от. [ Ве молиме притиснете овде за повеќе информации. ]</string>
+  <string name="ErrorMessages.loopingLockScreen.android">NoirWallet не може да се автентифицира поради грешка во верзијата на Android -от. [ Ве молиме притиснете овде за повеќе информации. ]</string>
   <!-- Messaging unavailable alert title -->
   <!-- Messaging unavailable alert title -->
   <!-- Fingerprint was not recognized by the scanner, please try scanning again -->
@@ -125,7 +125,7 @@
   <!-- Checking private key balance progress view text -->
   <string name="Import.checking">Го проверувам балансот на приватниот клуч...</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">Испратете %1$s од овој приватен клуч во вашиот новчаник? Провизијата на DigiByte мрежата ќе изнесува %2$s.</string>
+  <string name="Import.confirm">Испратете %1$s од овој приватен клуч во вашиот новчаник? Провизијата на Noir мрежата ќе изнесува %2$s.</string>
   <!-- Duplicate key error message -->
   <!-- empty private key error message -->
   <string name="Import.Error.empty">Празен приватен клуч</string>
@@ -138,7 +138,7 @@
   <!-- Importing wallet progress view label -->
   <!-- Caption for graphics -->
   <!-- Import wallet intro screen message -->
-  <string name="Import.message">Увезувањето на новчаникот ќе ги префрли сите DigiByte од другиот новчаник во вашиот DigiWallet со една трансакција.</string>
+  <string name="Import.message">Увезувањето на новчаникот ќе ги префрли сите Noir од другиот новчаник во вашиот NoirWallet со една трансакција.</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">Овој приватен клуч е заштитен со лозинка</string>
   <!-- password textfield placeholder -->
@@ -161,7 +161,7 @@
   Jailbreak warning message
   -->
   <string name="JailbreakWarnings.messageWithoutBalance">СИГУРНОСТА НА УРЕДОТ Е КОМПРОМИТИРАНА
-Било која \'jailbreak\' апликација може да пристапи на DigiWallet\'s клучевите и да ви ги украде DigiByte! Ве молиме исклучиво користете го  DigiWallet на уред без jailbreak.</string>
+Било која \'jailbreak\' апликација може да пристапи на NoirWallet\'s клучевите и да ви ги украде Noir! Ве молиме исклучиво користете го  NoirWallet на уред без jailbreak.</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">"ВНИМАНИЕ "</string>
   <!-- Location services disabled error -->
@@ -202,7 +202,7 @@
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">Статус на конекција за нодот</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">DigiByte Нодови</string>
+  <string name="NodeSelector.title">Noir Нодови</string>
   <string name="no_limit">Нема ограничување</string>
   <string name="original_amount">Почетна вредност: %s</string>
   <!-- Bad Payment request alert title -->
@@ -211,9 +211,9 @@
   <!-- Request expired payment protocol error message -->
   <!-- Payment too small alert title -->
   <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">DigiByte плаќањеро не може да е помалку од %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallPayment">Noir плаќањеро не може да е помалку од %1$s.</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">Излезните трансакции  на DigiByte не можат да се помали од %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">Излезните трансакции  на Noir не можат да се помали од %1$s.</string>
   <!-- Unsupported signature type payment protocol error message -->
   <!-- Untrusted certificate payment protocol error message -->
   <string name="processed">Обработени</string>
@@ -237,7 +237,7 @@
   <!-- Upgrade PIN prompt body. -->
   <!-- Upgrade PIN prompt title. -->
   <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">Вклучете ги известувањата за во иднина да добивате специјални пораки од DigiWallet</string>
+  <string name="PushNotifications.body">Вклучете ги известувањата за во иднина да добивате специјални пораки од NoirWallet</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Push Известувања</string>
   <!-- Push notifications are off label -->
@@ -263,7 +263,7 @@
   <string name="RecoverWallet.header_reset_pin">Reset PIN</string>
   <!-- Enter paper key instruction -->
   <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">Повратете го вашиот DigiWallet со користење на Personal Recovery Key.</string>
+  <string name="RecoverWallet.intro">Повратете го вашиот NoirWallet со користење на Personal Recovery Key.</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">Personal Recovery Key кој го внесовте не е валиден. Ве молиме повторно проверете го секој збор и обидете се повторно.</string>
   <!-- Previous button accessibility label -->
@@ -272,7 +272,7 @@
   <!-- Reset PIN with paper key: more information button. -->
   <!-- Next button accessibility label -->
   <!-- Recover wallet sub-header -->
-  <string name="RecoverWallet.subheader">Внесете го Personal Recovery Key за DigiWallet-от кој сакате да го повратите.</string>
+  <string name="RecoverWallet.subheader">Внесете го Personal Recovery Key за NoirWallet-от кој сакате да го повратите.</string>
   <!-- Reset PIN with paper key: sub-header -->
   <string name="RecoverWallet.subheader_reset_pin">За ресетирање на вашиот PIN, внесете ги зборовите од Personal Recovery Key во полињата подолу.</string>
   <!-- No amount entered error message. -->
@@ -285,13 +285,13 @@
   <!-- extimated time -->
   <string name="ReScan.body1">" 20-45 минути"</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Ако трансакцијата се прикажува како завршена на DigiByte мрежата но не и на вашиот DigiWallet.</string>
+  <string name="ReScan.body2">Ако трансакцијата се прикажува како завршена на Noir мрежата но не и на вашиот NoirWallet.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">Вие повторно добивате порака за грешка дека трансакцијата е одбиена.</string>
   <!-- Start Sync button label -->
   <string name="ReScan.buttonTitle">Старт на Синхронизација</string>
   <!-- Sync blockchain view footer -->
-  <string name="ReScan.footer">Нема да сте во можност да испраќате DigiByte за време на синхронизацијата со блокчеинот.</string>
+  <string name="ReScan.footer">Нема да сте во можност да испраќате Noir за време на синхронизацијата со блокчеинот.</string>
   <!-- Sync Blockchain view header -->
   <!-- Subheader label -->
   <string name="ReScan.subheader1">Проценето време</string>
@@ -305,26 +305,26 @@
   <!-- Security Center Info -->
   <string name="SecurityCenter.info">Овозможете ги сите безбедносни опции за максимална заштита.</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">Единствен начин за пристап на вашите DigiByte ако го изгубите или надградите вашиот телефон.</string>
+  <string name="SecurityCenter.paperKeyDescription">Единствен начин за пристап на вашите Noir ако го изгубите или надградите вашиот телефон.</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Personal Recovery Key</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">Заштитете го вашиот DigiWallet од неавторизирани корисници.</string>
+  <string name="SecurityCenter.pinDescription">Заштитете го вашиот NoirWallet од неавторизирани корисници.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">6-цифрен PIN</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Центар за безбедност</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">Удобно отклучете го вашиот DigiWallet и испратете DigiByte до зададениот лимит.</string>
+  <string name="SecurityCenter.touchIdDescription">Удобно отклучете го вашиот NoirWallet и испратете Noir до зададениот лимит.</string>
   <!-- Touch ID button title -->
   <!-- Security center fingerprint authentication button -->
   <string name="SecurityCenter.touchIdTitle.android">Автентификација со отисок на прстот</string>
   <!-- Send money amount label -->
   <!-- Balance: $4.00 -->
   <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">Дозволете пристап до камерата \"Нагодување\" &gt; \"Апликации \" &gt; \"\"DigiWallet\"&gt; \"Permissions\"</string>
+  <string name="Send.cameraUnavailabeMessage.android">Дозволете пристап до камерата \"Нагодување\" &gt; \"Апликации \" &gt; \"\"NoirWallet\"&gt; \"Permissions\"</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">DigiWallet нема дозвола за пристап до камерата.</string>
+  <string name="Send.cameraUnavailabeTitle.android">NoirWallet нема дозвола за пристап до камерата.</string>
   <!-- Camera not allowed message -->
   <!-- Camera not allowed alert title -->
   <!-- Warning when sending to self. -->
@@ -360,7 +360,7 @@
   <!-- Send money to label -->
   <string name="Send.toLabel">До</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">DigiByte адресите се наменети само за еднократна употреба.</string>
+  <string name="Send.UsedAddress.firstLine">Noir адресите се наменети само за еднократна употреба.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">Повторното користење ја намалува приватноста за обете страни и може да резултира со загуби ако примачот директно не ја контролира адресата.</string>
   <!-- Adress already used alert title -->
@@ -376,14 +376,14 @@
   <!-- Import wallet left message -->
   <string name="Settings.importLeftMessage">Новчаникот ќе биде импортиран</string>
   <!-- Import wallet right message -->
-  <string name="Settings.importRightMessage">Вашиот DigiWallet</string>
+  <string name="Settings.importRightMessage">Вашиот NoirWallet</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Увезете го Новчаникот</string>
   <!-- Manage settings section header -->
   <string name="Settings.manage">Manage</string>
   <!-- Notifications label -->
   <!-- Restore screen lower label. -->
-  <string name="Settings.restore_label">Вашиот DigiWallet на овој уред</string>
+  <string name="Settings.restore_label">Вашиот NoirWallet на овој уред</string>
   <!-- Leave review button label -->
   <!-- Share anonymous data label -->
   <!-- Sync blockchain label -->
@@ -401,7 +401,7 @@
   <!-- Share data switch label. -->
   <!-- button label -->
   <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">Вашиот Personal Recovery Key е единствен начин за да го реставрирате DigiWallet ако вашиот телефон е изгубен, украден, оштетен или надграден.\n\nЌе ви покажеме листа од зборови за да ја запишете на хартија и да ја зачувате на сигурно место.</string>
+  <string name="StartPaperPhrase.body">Вашиот Personal Recovery Key е единствен начин за да го реставрирате NoirWallet ако вашиот телефон е изгубен, украден, оштетен или надграден.\n\nЌе ви покажеме листа од зборови за да ја запишете на хартија и да ја зачувате на сигурно место.</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">Запишете го Personal Recovery Key</string>
   <!-- Argument is date -->
@@ -423,7 +423,7 @@
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">Автентификација со отисок на прстот не е овозможена</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">Користете го вашиот отисок на прст за отклучување на DigiWallet и испратете DigiByte до зададениот лимит.</string>
+  <string name="TouchIdSettings.label">Користете го вашиот отисок на прст за отклучување на NoirWallet и испратете Noir до зададениот лимит.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
   <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Лимит за трошење : %1$s (%2$s)</string>
@@ -495,9 +495,9 @@
   <string name="UnlockScreen.touchIdTitle.android">"Задолжителна Автентификација "</string>
   <!-- Wallet unlocked message -->
   <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">Запамтете го овој PIN. Ако го заборавите, нема да бидете во можност да пристапите до вашите DigiByte.</string>
+  <string name="UpdatePin.caption">Запамтете го овој PIN. Ако го заборавите, нема да бидете во можност да пристапите до вашите Noir.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">Вашиот PIN ќе се користи за отклучување на DigiWallet и испраќање DigiByte.</string>
+  <string name="UpdatePin.createInstruction">Вашиот PIN ќе се користи за отклучување на NoirWallet и испраќање Noir.</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">Наместете PIN</string>
   <!-- Update PIN title -->
@@ -526,9 +526,9 @@
   <!-- Updating webview message -->
   <string name="Webview.updating">Ажурирање ...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">DigiWallet има нов изглед и некои нови можности. \n\nIf ви треба помош, погледајте на (?) во горниот десен агол на повеќето дисплеји.</string>
+  <string name="Welcome.body">NoirWallet има нов изглед и некои нови можности. \n\nIf ви треба помош, погледајте на (?) во горниот десен агол на повеќето дисплеји.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">Добредојдовте во DigiWallet!</string>
+  <string name="Welcome.title">Добредојдовте во NoirWallet!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Дали сте сигурни дека сакате да го избришете овој новчаник?</string>
   <!-- Wipe wallet alert title -->
@@ -538,7 +538,7 @@
   <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">За да стартувате нов новчаник или да реставрирате постоен новчаник, мора најпрво да го избришете тековно инсталираниот. За продолжение, внесете го тековниот Personal Recovery Key на новчаникот.</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">Стартување или враќање на друг новчаник ви овозможува пристап и управување на различен DigiWallet на овој уред.</string>
+  <string name="WipeWallet.startMessage">Стартување или враќање на друг новчаник ви овозможува пристап и управување на различен NoirWallet на овој уред.</string>
   <!-- Start wipe wallet view warning -->
   <string name="WipeWallet.startWarning">Тековниот новчаник ќе ниде збришан од овој уред.  За да го реставрирате во иднина , потребно е да го внесете вашиот Personal Recovery Key.</string>
   <!-- Wipe wallet navigation item title. -->

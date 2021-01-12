@@ -141,23 +141,23 @@ public class QRUtils {
             app.startActivity(intent);
         } else {
             intent.setAction(android.content.Intent.ACTION_SEND);
-            intent.putExtra(Intent.EXTRA_SUBJECT, "DigiByte Address");
+            intent.putExtra(Intent.EXTRA_SUBJECT, "Noir Address");
             intent.putExtra(Intent.EXTRA_STREAM,qrImageUri);
             intent.setType("image/*");
             app.startActivity(Intent.createChooser(intent, app.getString(R.string.Receive_share)));
         }
     }
 
-    public static Uri getQRImageUri(Context context, String digibyteUri) {
+    public static Uri getQRImageUri(Context context, String noirUri) {
         try {
-            Bitmap qrImage = getQRImage(context, digibyteUri);
+            Bitmap qrImage = getQRImage(context, noirUri);
             File qrImageDirectory = new File(context.getFilesDir(), "qraddresses");
             qrImageDirectory.mkdirs();
             File qrImageFile = new File(qrImageDirectory, "public_address.jpg");
             qrImageFile.createNewFile();
             FileOutputStream fOut = new FileOutputStream(qrImageFile);
             qrImage.compress(Bitmap.CompressFormat.JPEG, 80, fOut);
-            return FileProvider.getUriForFile(context, "io.digibyte.fileprovider", qrImageFile);
+            return FileProvider.getUriForFile(context, "org.noirofficial.fileprovider", qrImageFile);
         } catch(Exception e) {
             e.printStackTrace();
         }

@@ -2,21 +2,21 @@
 <resources>
   <!-- App name -->
     <!-- About screen blog label -->
-  <string name="About.blog">https://digibyte.io/</string>
+  <string name="About.blog">https://noirofficial.org/</string>
   <!-- About screen footer -->
-  <string name="About.footer">Global DigiWallet ekibi tarafından geliştirilmiştir. Versiyon %1$s</string>
+  <string name="About.footer">Global NoirWallet ekibi tarafından geliştirilmiştir. Versiyon %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Gizlilik Politikası</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/Noirofficial/</string>
   <!-- Terms of Use button label -->
     <!--
     Terms of Use button label
     About screen title
     -->
-  <string name="About.title">Hızlı, basit ve güvenli!: Digibyte alıp göndermeye başlamanın en kolay yolu DigiWallet Android uygulaması. Hem yeni başlayanlar hem de tecrübeli kullanıcılar düşünülerek tasarlanan DigiWallet Android, yeniler için kullanımı kolay ve tecrübeliler için de yeterince güçlü.</string>
+  <string name="About.title">Hızlı, basit ve güvenli!: Noir alıp göndermeye başlamanın en kolay yolu NoirWallet Android uygulaması. Hem yeni başlayanlar hem de tecrübeli kullanıcılar düşünülerek tasarlanan NoirWallet Android, yeniler için kullanımı kolay ve tecrübeliler için de yeterince güçlü.</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/Noircoin</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">Kapat</string>
   <!-- Support center accessibiliy label -->
@@ -27,9 +27,9 @@
   <!-- Error alert title -->
   <string name="Alert.error">Hata</string>
   <!-- Keystore error -->
-  <string name="Alert.keystore.generic.android">Android OS anahtar deponuz ile ilgili bir problem var, lütfen support@digibyte.io ile irtibata geçin.</string>
+  <string name="Alert.keystore.generic.android">Android OS anahtar deponuz ile ilgili bir problem var, lütfen support@noirofficial.org ile irtibata geçin.</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">Android kilit ekranınız devre dışı bırakıldığı için DigiWallet şifrelenmiş verileriniz kısa süre önce geçersiz hale getirildi.</string>
+  <string name="Alert.keystore.invalidated.android">Android kilit ekranınız devre dışı bırakıldığı için NoirWallet şifrelenmiş verileriniz kısa süre önce geçersiz hale getirildi.</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">Android Anahtar Deposu Hatası</string>
   <!-- No internet alert message -->
@@ -47,7 +47,7 @@
   <!-- Send success alert header label (confirmation that the send happened) -->
   <string name="Alerts.sendSuccess">Gönderme Başarılı</string>
   <!-- Send success alert subheader label (e.g. the money was sent) -->
-  <string name="Alerts.sendSuccessSubheader">DigiByte Gönderildi!</string>
+  <string name="Alerts.sendSuccessSubheader">Noir Gönderildi!</string>
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">Parmak izi tanımlandı</string>
   <string name="all">Herşey</string>
@@ -110,7 +110,7 @@
   <!-- Email unavailable alert title -->
     <!-- Email unavailable alert title -->
     <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
-  <string name="ErrorMessages.loopingLockScreen.android">Android sürümünüzdeki bir hata nedeniyle DigiWallet kimlik doğrulaması yapılamaz. [Lütfen daha fazla bilgi için buraya dokunun.]</string>
+  <string name="ErrorMessages.loopingLockScreen.android">Android sürümünüzdeki bir hata nedeniyle NoirWallet kimlik doğrulaması yapılamaz. [Lütfen daha fazla bilgi için buraya dokunun.]</string>
   <!-- Messaging unavailable alert title -->
     <!-- Messaging unavailable alert title -->
     <!-- Fingerprint was not recognized by the scanner, please try scanning again -->
@@ -125,7 +125,7 @@
     <!-- Checking private key balance progress view text -->
   <string name="Import.checking">Özel anahtar bakiyesi kontrol ediliyor...</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">Bu özel anahtardan %1$s cüzdanınıza gönderilsin mi? DigiByte ağı %2$s kadar ücret alacaktır.</string>
+  <string name="Import.confirm">Bu özel anahtardan %1$s cüzdanınıza gönderilsin mi? Noir ağı %2$s kadar ücret alacaktır.</string>
   <!-- Duplicate key error message -->
     <!-- empty private key error message -->
   <string name="Import.Error.empty">Bu özel anahtar boş.</string>
@@ -138,7 +138,7 @@
     <!-- Importing wallet progress view label -->
     <!-- Caption for graphics -->
     <!-- Import wallet intro screen message -->
-  <string name="Import.message">Cüzdan içe aktarma diğer cüzdanınızdaki tüm parayı tek işlemde DigiWallet\'a aktarır.</string>
+  <string name="Import.message">Cüzdan içe aktarma diğer cüzdanınızdaki tüm parayı tek işlemde NoirWallet\'a aktarır.</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">Bu özel anahtar şifre korumalı.</string>
   <!-- password textfield placeholder -->
@@ -160,7 +160,7 @@
     Ignore jailbreak warning button
     Jailbreak warning message
     -->
-  <string name="JailbreakWarnings.messageWithoutBalance">Herhangi bir \'root\' uygulaması DigiWallet\'ın anahtar zincirine erişip DigiByte\'larınızı çalabilir! Lütfen DigiWallet\'ı sadece root yapılmamış cihazlarda kullanın.</string>
+  <string name="JailbreakWarnings.messageWithoutBalance">Herhangi bir \'root\' uygulaması NoirWallet\'ın anahtar zincirine erişip Noir\'larınızı çalabilir! Lütfen NoirWallet\'ı sadece root yapılmamış cihazlarda kullanın.</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">UYARI</string>
   <!-- Location services disabled error -->
@@ -201,7 +201,7 @@
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">Düğüm Bağlantı Durumu</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">DigiByte Düğümleri</string>
+  <string name="NodeSelector.title">Noir Düğümleri</string>
   <string name="no_limit">Limit yok</string>
   <string name="original_amount">Orijinal değeri: %s</string>
   <!-- Bad Payment request alert title -->
@@ -210,9 +210,9 @@
     <!-- Request expired payment protocol error message -->
     <!-- Payment too small alert title -->
     <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">DigiByte ödemeleri %1$s \'den aşağı olamaz.</string>
+  <string name="PaymentProtocol.Errors.smallPayment">Noir ödemeleri %1$s \'den aşağı olamaz.</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">DigiByte işlem çıktıları %1$s \'den aşağı olamaz.</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">Noir işlem çıktıları %1$s \'den aşağı olamaz.</string>
   <!-- Unsupported signature type payment protocol error message -->
     <!-- Untrusted certificate payment protocol error message -->
     <string name="processed">Işlenmiş</string>
@@ -236,7 +236,7 @@
   <!-- Upgrade PIN prompt body. -->
     <!-- Upgrade PIN prompt title. -->
     <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">İleride DigiByte dan özel haberler alabilmek için bildirimleri açın.</string>
+  <string name="PushNotifications.body">İleride Noir dan özel haberler alabilmek için bildirimleri açın.</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Anlık Bildirimler</string>
   <!-- Push notifications are off label -->
@@ -262,7 +262,7 @@
   <string name="RecoverWallet.header_reset_pin">PIN Kodunu Sıfırla</string>
   <!-- Enter paper key instruction -->
     <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">DigiWallet\'ınızı kurtarma anahtarınızı kullanarak geri yükleyin.</string>
+  <string name="RecoverWallet.intro">NoirWallet\'ınızı kurtarma anahtarınızı kullanarak geri yükleyin.</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">Girdiğiniz kurtarma anahtarı hatalı. Lütfen tüm kelimeleri iki kez kontrol ederek tekrar girin.</string>
   <!-- Previous button accessibility label -->
@@ -284,7 +284,7 @@
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 dakika</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Eğer işleminiz DigiByte ağında tamamlanmış göründüğü halde cüzdanınızda görünmüyorsa.</string>
+  <string name="ReScan.body2">Eğer işleminiz Noir ağında tamamlanmış göründüğü halde cüzdanınızda görünmüyorsa.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">Sürekli işleminiz reddedildi mesajı alıyorsanız.</string>
   <!-- Start Sync button label -->
@@ -304,26 +304,26 @@
     <!-- Security Center Info -->
   <string name="SecurityCenter.info">En üst düzeyde koruma için tüm güvenlik özelliklerini etkinleştirin.</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">Telefonunuzu kaybeder veya değiştirirseniz DigiByte\'larınıza tekrar erişmenizin tek yolu.</string>
+  <string name="SecurityCenter.paperKeyDescription">Telefonunuzu kaybeder veya değiştirirseniz Noir\'larınıza tekrar erişmenizin tek yolu.</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Kurtarma Anahtarı</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">DigiWallet\'ınızı yetkisiz kullanıcılardan koruyun.</string>
+  <string name="SecurityCenter.pinDescription">NoirWallet\'ınızı yetkisiz kullanıcılardan koruyun.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">6 Haneli PIN Kodu</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Güvenlik Merkezi</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">Uygun şekilde DigiWallet\'in kilidini açın ve belirlenen limit dahilinde gönderim yapın.</string>
+  <string name="SecurityCenter.touchIdDescription">Uygun şekilde NoirWallet\'in kilidini açın ve belirlenen limit dahilinde gönderim yapın.</string>
   <!-- Touch ID button title -->
     <!-- Security center fingerprint authentication button -->
   <string name="SecurityCenter.touchIdTitle.android">Parmak izi Doğrulaması</string>
   <!-- Send money amount label -->
     <!-- Balance: $4.00 -->
     <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">Kamera erişimine izin vermek için Ayarlar &gt; Uygulamalar &gt; DigiWallet &gt; İzinler\'e gidin.</string>
+  <string name="Send.cameraUnavailabeMessage.android">Kamera erişimine izin vermek için Ayarlar &gt; Uygulamalar &gt; NoirWallet &gt; İzinler\'e gidin.</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">DigiWallet\'a kameraya erişmek için izin verilmedi.</string>
+  <string name="Send.cameraUnavailabeTitle.android">NoirWallet\'a kameraya erişmek için izin verilmedi.</string>
   <!-- Camera not allowed message -->
     <!-- Camera not allowed alert title -->
     <!-- Warning when sending to self. -->
@@ -359,7 +359,7 @@
   <!-- Send money to label -->
   <string name="Send.toLabel">Alıcı</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">DigiByte adresleri yalnızca tek kullanım için tasarlanmıştır.</string>
+  <string name="Send.UsedAddress.firstLine">Noir adresleri yalnızca tek kullanım için tasarlanmıştır.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">Yeniden kullanım hem sizin hem de alıcının gizliliğini azaltır ve alıcı adresini doğrudan kontrol etmezse kayıplara neden olabilir.</string>
   <!-- Adress already used alert title -->
@@ -375,14 +375,14 @@
     <!-- Import wallet left message -->
   <string name="Settings.importLeftMessage">Aktarılacak Cüzdan</string>
   <!-- Import wallet right message -->
-  <string name="Settings.importRightMessage">Bu DigiWallet</string>
+  <string name="Settings.importRightMessage">Bu NoirWallet</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Cüzdanı İçe Aktar</string>
   <!-- Manage settings section header -->
   <string name="Settings.manage">Yönet</string>
   <!-- Notifications label -->
     <!-- Restore screen lower label. -->
-  <string name="Settings.restore_label">Bu Cihazdaki DigiWallet\'ınız</string>
+  <string name="Settings.restore_label">Bu Cihazdaki NoirWallet\'ınız</string>
   <!-- Leave review button label -->
     <!-- Share anonymous data label -->
     <!-- Sync blockchain label -->
@@ -424,7 +424,7 @@ Bir kağıda yazıp güvenli bir yerde saklamanız için şimdi size bir dizi ke
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">Parmak İzi Doğrulama Etkin Değil</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">DigiWallet\'in kilidini açmak ve belirlenen limit dahilinde gönderim yapmak için parmak izinizi kullanın.</string>
+  <string name="TouchIdSettings.label">NoirWallet\'in kilidini açmak ve belirlenen limit dahilinde gönderim yapmak için parmak izinizi kullanın.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
     <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Gönderim Limiti: %1$s (%2$s)</string>
@@ -496,7 +496,7 @@ Bir kağıda yazıp güvenli bir yerde saklamanız için şimdi size bir dizi ke
   <string name="UnlockScreen.touchIdTitle.android">Doğrulama gerekiyor</string>
   <!-- Wallet unlocked message -->
     <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">PIN kodunuzu aklınızda tutun, eğer unutursanız DigiByte\'larınıza erişemeyeceksiniz.</string>
+  <string name="UpdatePin.caption">PIN kodunuzu aklınızda tutun, eğer unutursanız Noir\'larınıza erişemeyeceksiniz.</string>
   <!-- PIN creation info. -->
   <string name="UpdatePin.createInstruction">PIN kodunuz cüzdanınızın kilidini açmak ve gönderimlerinizi onaylamak için kullanılacak.</string>
   <!-- Update PIN title -->
@@ -527,11 +527,11 @@ Bir kağıda yazıp güvenli bir yerde saklamanız için şimdi size bir dizi ke
     <!-- Updating webview message -->
   <string name="Webview.updating">Güncelleniyor...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">DigiWallet yepyeni bir görünüm ve yeni özellikler eklenerek güncellendi.
+  <string name="Welcome.body">NoirWallet yepyeni bir görünüm ve yeni özellikler eklenerek güncellendi.
 
 Eğer yardıma ihtiyaç duyarsanız, çoğu ekranın sağ üst köşede görebileceğiniz (?) simgesine bakın.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">DigiWallet\'a Hoş Geldiniz!</string>
+  <string name="Welcome.title">NoirWallet\'a Hoş Geldiniz!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Bu cüzdanı silmek istediğinizden emin misiniz?</string>
   <!-- Wipe wallet alert title -->
@@ -541,9 +541,9 @@ Eğer yardıma ihtiyaç duyarsanız, çoğu ekranın sağ üst köşede görebil
     <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">Bu cüzdanı silmek ve yeni bir tane başlatmak için bu cüzdana ait Kurtarma Anahtarını girin. Bakiyeniz bu Kurtarma Anahtarı üzerinde kalmaya devam edecek.</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">Başka bir cüzdan başlatmak veya kurtarmak, bu cihaz üzerinde farklı bir DigiWallet\'e erişmenizi ve yönetmenizi sağlar.</string>
+  <string name="WipeWallet.startMessage">Başka bir cüzdan başlatmak veya kurtarmak, bu cihaz üzerinde farklı bir NoirWallet\'e erişmenizi ve yönetmenizi sağlar.</string>
   <!-- Start wipe wallet view warning -->
-  <string name="WipeWallet.startWarning">Mevcut DigiWallet\'ınıza artık bu cihaz üzerinden erişemeyeceksiniz. Bakiye Kurtarma Anahtarı üzerinde kalmaya devam edecek.</string>
+  <string name="WipeWallet.startWarning">Mevcut NoirWallet\'ınıza artık bu cihaz üzerinden erişemeyeceksiniz. Bakiye Kurtarma Anahtarı üzerinde kalmaya devam edecek.</string>
   <!-- Wipe wallet navigation item title. -->
     <!-- Wipe wallet button title -->
   <string name="WipeWallet.wipe">Sil</string>

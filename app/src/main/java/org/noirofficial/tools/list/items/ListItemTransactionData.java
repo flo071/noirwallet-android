@@ -145,7 +145,7 @@ public class ListItemTransactionData extends BaseObservable implements Parcelabl
         } else {
             boolean isBTCPreferred = BRSharedPrefs.getPreferredBTC(NoirWallet.getContext());
             boolean received = transactionItem.getSent() == 0;
-            String iso = isBTCPreferred ? "DGB" : BRSharedPrefs.getIso(NoirWallet.getContext());
+            String iso = isBTCPreferred ? "NOR" : BRSharedPrefs.getIso(NoirWallet.getContext());
             long satoshisAmount = received ? transactionItem.getReceived() : (transactionItem.getSent() - transactionItem.getReceived());
             String transactionText;
             if (isBTCPreferred) {

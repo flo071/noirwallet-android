@@ -2,13 +2,13 @@
 <resources>
   <!-- App name -->
     <!-- About screen blog label -->
-  <string name="About.blog">https://digibyte.io/</string>
+  <string name="About.blog">https://noirofficial.org/</string>
   <!-- About screen footer -->
-  <string name="About.footer">Napravljeno od strane globalnog DigiWallet tima. Verzija %1$s</string>
+  <string name="About.footer">Napravljeno od strane globalnog NoirWallet tima. Verzija %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Pravila privatnosti</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/Noirofficial/</string>
   <!-- Terms of Use button label -->
     <!--
     Terms of Use button label
@@ -16,7 +16,7 @@
     -->
   <string name="About.title">O novčaniku</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/Noircoin</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">Zatvori</string>
   <!-- Support center accessibiliy label -->
@@ -27,9 +27,9 @@
   <!-- Error alert title -->
   <string name="Alert.error">Greška</string>
   <!-- Keystore error -->
-  <string name="Alert.keystore.generic.android">Postoji problem sa Vašim Android OS keystore, molimo kontaktirajte support@digibyte.io</string>
+  <string name="Alert.keystore.generic.android">Postoji problem sa Vašim Android OS keystore, molimo kontaktirajte support@noirofficial.org</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">Vaši DigiWallet kodirani podaci su nedavno poništeni jer je Android zaključavanje zaslona onemogućeno.</string>
+  <string name="Alert.keystore.invalidated.android">Vaši NoirWallet kodirani podaci su nedavno poništeni jer je Android zaključavanje zaslona onemogućeno.</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">Android KeyStore greška</string>
   <!-- No internet alert message -->
@@ -110,7 +110,7 @@
   <!-- Email unavailable alert title -->
     <!-- Email unavailable alert title -->
     <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
-  <string name="ErrorMessages.loopingLockScreen.android">DigiWallet ne može biti autentificiran zbog greške u Vašoj verziji Androida. [Dodirnite ovdje za više informacija.]</string>
+  <string name="ErrorMessages.loopingLockScreen.android">NoirWallet ne može biti autentificiran zbog greške u Vašoj verziji Androida. [Dodirnite ovdje za više informacija.]</string>
   <!-- Messaging unavailable alert title -->
     <!-- Messaging unavailable alert title -->
     <!-- Fingerprint was not recognized by the scanner, please try scanning again -->
@@ -125,7 +125,7 @@
     <!-- Checking private key balance progress view text -->
   <string name="Import.checking">Provjeravam stanje privatnog ključa...</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">Pošalji %1$s sa ovog privatnog ključa u Vaš novčanik? DigiByte mreža će dobiti naknadu od %2$s.</string>
+  <string name="Import.confirm">Pošalji %1$s sa ovog privatnog ključa u Vaš novčanik? Noir mreža će dobiti naknadu od %2$s.</string>
   <!-- Duplicate key error message -->
     <!-- empty private key error message -->
   <string name="Import.Error.empty">Ovaj privatni ključ je prazan.</string>
@@ -138,7 +138,7 @@
     <!-- Importing wallet progress view label -->
     <!-- Caption for graphics -->
     <!-- Import wallet intro screen message -->
-  <string name="Import.message">Uvoz novčanika prenosi sva sredstva u Vaš DigiWallet novčanik putem jedne transakcije.</string>
+  <string name="Import.message">Uvoz novčanika prenosi sva sredstva u Vaš NoirWallet novčanik putem jedne transakcije.</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">Ovaj privatni ključ je zaštićen lozinkom.</string>
   <!-- password textfield placeholder -->
@@ -160,7 +160,7 @@
     Ignore jailbreak warning button
     Jailbreak warning message
     -->
-  <string name="JailbreakWarnings.messageWithoutBalance">SIGURNOST UREĐAJA UGROŽENA\n Bilo koja \"jailbreak\" aplikacija može pristupiti DigiWallet lozinkama i ukrasti Vaše DigiByte-e! Molimo koristite DigiWallet samo na uređajima koji nisu jailbreak-ani.</string>
+  <string name="JailbreakWarnings.messageWithoutBalance">SIGURNOST UREĐAJA UGROŽENA\n Bilo koja \"jailbreak\" aplikacija može pristupiti NoirWallet lozinkama i ukrasti Vaše Noir-e! Molimo koristite NoirWallet samo na uređajima koji nisu jailbreak-ani.</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">UPOZORENJE</string>
   <!-- Location services disabled error -->
@@ -201,7 +201,7 @@
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">Status veze s čvorom</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">DigiByte čvorovi</string>
+  <string name="NodeSelector.title">Noir čvorovi</string>
   <string name="no_limit">Bez granica</string>
   <string name="original_amount">Original Vrednost: %s</string>
   <!-- Bad Payment request alert title -->
@@ -210,9 +210,9 @@
     <!-- Request expired payment protocol error message -->
     <!-- Payment too small alert title -->
     <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">DigiByte transakcije ne mogu iznositi manje od %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallPayment">Noir transakcije ne mogu iznositi manje od %1$s.</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">DigiByte transakcijski iznosi ne mogu biti manji od %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">Noir transakcijski iznosi ne mogu biti manji od %1$s.</string>
   <!-- Unsupported signature type payment protocol error message -->
     <!-- Untrusted certificate payment protocol error message -->
     <string name="processed">obrađeni</string>
@@ -236,7 +236,7 @@
   <!-- Upgrade PIN prompt body. -->
     <!-- Upgrade PIN prompt title. -->
     <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">Uključite obavještenja da primate posebne poruke od DigiWallet-a u budućnosti.</string>
+  <string name="PushNotifications.body">Uključite obavještenja da primate posebne poruke od NoirWallet-a u budućnosti.</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Push notifikacije</string>
   <!-- Push notifications are off label -->
@@ -262,7 +262,7 @@
   <string name="RecoverWallet.header_reset_pin">Resetovanje PIN koda</string>
   <!-- Enter paper key instruction -->
     <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">Povratite svoj DigiWallet novčanik pomoću papirnog ključa</string>
+  <string name="RecoverWallet.intro">Povratite svoj NoirWallet novčanik pomoću papirnog ključa</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">Papirni ključ koji ste unijeli nije ispravan. Molimo provjerite svaku riječ jos jednom i pokušajte ponovno.</string>
   <!-- Previous button accessibility label -->
@@ -284,7 +284,7 @@
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 minuta</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Ukoliko je transakcija označena kao završena u DigiByte mreži ali ne i u Vašem DigiWallet-u.</string>
+  <string name="ReScan.body2">Ukoliko je transakcija označena kao završena u Noir mreži ali ne i u Vašem NoirWallet-u.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">Uzastopno se prikazuje greška u kojoj piše da je Vaša transakcija odbijena.</string>
   <!-- Start Sync button label -->
@@ -308,22 +308,22 @@
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Papirni ključ</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">Štiti Vaš DigiWallet od neovlaštenih korisnika.</string>
+  <string name="SecurityCenter.pinDescription">Štiti Vaš NoirWallet od neovlaštenih korisnika.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">6-cifreni PIN</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Sigurnosni centar</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">Jednostavno otključajte svoj DigiWallet novčanik i šaljite novac do postavljenog ograničenja.</string>
+  <string name="SecurityCenter.touchIdDescription">Jednostavno otključajte svoj NoirWallet novčanik i šaljite novac do postavljenog ograničenja.</string>
   <!-- Touch ID button title -->
     <!-- Security center fingerprint authentication button -->
   <string name="SecurityCenter.touchIdTitle.android">Autentifikacija otiskom prsta</string>
   <!-- Send money amount label -->
     <!-- Balance: $4.00 -->
     <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">Dozvolite pristup kameri u \"Postavke\" &gt; \"Aplikacije\" &gt; \"DigiWallet\" &gt; \"Dozvole\"</string>
+  <string name="Send.cameraUnavailabeMessage.android">Dozvolite pristup kameri u \"Postavke\" &gt; \"Aplikacije\" &gt; \"NoirWallet\" &gt; \"Dozvole\"</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">DigiWallet nema dopuštenje za pristup kameri</string>
+  <string name="Send.cameraUnavailabeTitle.android">NoirWallet nema dopuštenje za pristup kameri</string>
   <!-- Camera not allowed message -->
     <!-- Camera not allowed alert title -->
     <!-- Warning when sending to self. -->
@@ -359,7 +359,7 @@
   <!-- Send money to label -->
   <string name="Send.toLabel">Na</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">DigiByte adrese su namijenjene za individualno korištenje.</string>
+  <string name="Send.UsedAddress.firstLine">Noir adrese su namijenjene za individualno korištenje.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">Ponovno korištenje smanjuje privatnost za Vas i primaoca i može rezultirati gubitkom sredstava ukoliko ne postoji direktna kontrola nad adresama.</string>
   <!-- Adress already used alert title -->
@@ -375,14 +375,14 @@
     <!-- Import wallet left message -->
   <string name="Settings.importLeftMessage">Novčanik za uvoz</string>
   <!-- Import wallet right message -->
-  <string name="Settings.importRightMessage">Vaš DigiWallet novčanik</string>
+  <string name="Settings.importRightMessage">Vaš NoirWallet novčanik</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Uvoz novčanika</string>
   <!-- Manage settings section header -->
   <string name="Settings.manage">Upravljanje</string>
   <!-- Notifications label -->
     <!-- Restore screen lower label. -->
-  <string name="Settings.restore_label">Vaš DigiWallet na ovom uređaju</string>
+  <string name="Settings.restore_label">Vaš NoirWallet na ovom uređaju</string>
   <!-- Leave review button label -->
     <!-- Share anonymous data label -->
     <!-- Sync blockchain label -->
@@ -400,7 +400,7 @@
     <!-- Share data switch label. -->
     <!-- button label -->
     <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">Vaš papirni ključ je jedini način da povratite svoje DigiWallet-e u slučaju krađe, gubitka, oštećenja ili zamjene uređaja. \n\nPrikazat ćemo Vam listu riječi koje trebate zapisati na papir i čuvati na sigurnom mjestu.</string>
+  <string name="StartPaperPhrase.body">Vaš papirni ključ je jedini način da povratite svoje NoirWallet-e u slučaju krađe, gubitka, oštećenja ili zamjene uređaja. \n\nPrikazat ćemo Vam listu riječi koje trebate zapisati na papir i čuvati na sigurnom mjestu.</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">Prikaži papirni ključ</string>
   <!-- Argument is date -->
@@ -422,7 +422,7 @@
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">Autentifikacija otiskom prsta nije omogućena.</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">Koristite otisak prsta da otključajte svoj DigiWallet novčanik i šaljete novac do postavljenog limita.</string>
+  <string name="TouchIdSettings.label">Koristite otisak prsta da otključajte svoj NoirWallet novčanik i šaljete novac do postavljenog limita.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
     <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Ograničenje potrošnje: %1$s (%2$s)</string>
@@ -494,9 +494,9 @@
   <string name="UnlockScreen.touchIdTitle.android">Potrebna provjera autentičnosti</string>
   <!-- Wallet unlocked message -->
     <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">Zapamtite ovaj PIN. Ukoliko ga zaboravite, nećete moći pristupiti svoj DigiByteu.</string>
+  <string name="UpdatePin.caption">Zapamtite ovaj PIN. Ukoliko ga zaboravite, nećete moći pristupiti svoj Noiru.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">Ovaj PIN će se koristiti za otključavanje DigiWallet novčanika i slanje novca.</string>
+  <string name="UpdatePin.createInstruction">Ovaj PIN će se koristiti za otključavanje NoirWallet novčanika i slanje novca.</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">Postavi PIN</string>
   <!-- Update PIN title -->
@@ -525,9 +525,9 @@
     <!-- Updating webview message -->
   <string name="Webview.updating">Osvježavam...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">DigiWallet ima potpuno novi izgled i nove značajke.\n\nUkoliko trebate pomoć, potražite (?) u gornjem desnom uglu većine prozora.</string>
+  <string name="Welcome.body">NoirWallet ima potpuno novi izgled i nove značajke.\n\nUkoliko trebate pomoć, potražite (?) u gornjem desnom uglu većine prozora.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">Dobrodošli u DigiWallet novčanik!</string>
+  <string name="Welcome.title">Dobrodošli u NoirWallet novčanik!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Da li ste sigurni da želite obrisati ovaj novčanik?</string>
   <!-- Wipe wallet alert title -->
@@ -537,7 +537,7 @@
     <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">Da biste napravili novi ili povratili postojeći novčanik, prvo morate obrisati trenutno instalirani novčanik. Da biste nastavili, unesite papirni ključ trenutno aktuelnog novčanika.</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">Pravljenje novog ili povrat drugog novčanika Vam dozvoljava pristup i upravljanje drugim DigiWallet novčanicima na ovom uređaju.</string>
+  <string name="WipeWallet.startMessage">Pravljenje novog ili povrat drugog novčanika Vam dozvoljava pristup i upravljanje drugim NoirWallet novčanicima na ovom uređaju.</string>
   <!-- Start wipe wallet view warning -->
   <string name="WipeWallet.startWarning">Aktuelni novčanik će biti uklonjen s ovog uređaja. Ukoliko želite da ga povratite u budućnosti, trebat će Vam papirni ključ.</string>
   <!-- Wipe wallet navigation item title. -->

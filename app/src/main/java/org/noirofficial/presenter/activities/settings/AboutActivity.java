@@ -48,25 +48,25 @@ public class AboutActivity extends BRActivity {
 
         redditShare.setOnClickListener(v -> {
             Intent browserIntent = new Intent(Intent.ACTION_VIEW,
-                    Uri.parse("https://reddit.com/r/digibyte/"));
+                    Uri.parse("https://reddit.com/r/Noirofficial/"));
             startActivity(browserIntent);
             overridePendingTransition(R.anim.enter_from_bottom, R.anim.empty_300);
         });
 
         twitterShare.setOnClickListener(v -> {
             Intent browserIntent = new Intent(Intent.ACTION_VIEW,
-                    Uri.parse("https://twitter.com/digibytecoin"));
+                    Uri.parse("https://twitter.com/Noircoin"));
             startActivity(browserIntent);
             overridePendingTransition(R.anim.enter_from_bottom, R.anim.empty_300);
         });
         blogShare.setOnClickListener(v -> {
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://digibyte.io"));
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://noirofficial.org"));
             startActivity(browserIntent);
             overridePendingTransition(R.anim.enter_from_bottom, R.anim.empty_300);
         });
         policyText.setOnClickListener(v -> {
             Intent browserIntent = new Intent(Intent.ACTION_VIEW,
-                    Uri.parse("https://digibyte.io/digibyte-privacy-policy"));
+                    Uri.parse("https://noirofficial.org/privacy-policy"));
             startActivity(browserIntent);
             overridePendingTransition(R.anim.enter_from_bottom, R.anim.empty_300);
         });

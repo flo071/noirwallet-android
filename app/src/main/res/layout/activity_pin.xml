@@ -24,6 +24,7 @@
         android:gravity="center_horizontal"
         android:orientation="vertical"
         android:textDirection="locale"
+        android:background="@color/noir_light"
         tools:context="org.noirofficial.presenter.activities.LoginActivity">
 
         <LinearLayout
@@ -36,6 +37,8 @@
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/touch_image"
                 android:layout_marginTop="24dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
                 android:layout_marginBottom="12dp"
                 android:layout_width="wrap_content"
                 android:padding="4dp"
@@ -44,7 +47,7 @@
                 android:scaleType="fitCenter"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:onClick="@{() -> callback.onFingerprintClick()}"
-                android:src="@drawable/ic_digiid"/>
+                android:src="@drawable/noir_slogan_icon"/>
 
         </LinearLayout>
 

@@ -2,21 +2,21 @@
 <resources>
   <!-- App name -->
     <!-- About screen blog label -->
-  <string name="About.blog">https://digibyte.io/</string>
+  <string name="About.blog">https://noirofficial.org/</string>
   <!-- About screen footer -->
-  <string name="About.footer">Tämän on valmistanut globaali DigiWallet tiimi. Versio %1$s</string>
+  <string name="About.footer">Tämän on valmistanut globaali NoirWallet tiimi. Versio %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Yksityisyyskäytäntö</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/Noirofficial/</string>
   <!-- Terms of Use button label -->
     <!--
     Terms of Use button label
     About screen title
     -->
-  <string name="About.title">DigiWallet Androidille on DigiByten mobiili lompakko.</string>
+  <string name="About.title">NoirWallet Androidille on Noirn mobiili lompakko.</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/Noircoin</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">Sulje</string>
   <!-- Support center accessibiliy label -->
@@ -27,9 +27,9 @@
   <!-- Error alert title -->
   <string name="Alert.error">Virhe</string>
   <!-- Keystore error -->
-  <string name="Alert.keystore.generic.android">Sinun Android OS keystoressa on ongelma, ole hyvä ja ota yhteyttä support@digibyte.io</string>
+  <string name="Alert.keystore.generic.android">Sinun Android OS keystoressa on ongelma, ole hyvä ja ota yhteyttä support@noirofficial.org</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">Sinun DigiWalletin salatut tiedot ovat juuri mitätöity, koska sinun Androidin näytönlukitus on otettu pois käytöstä.</string>
+  <string name="Alert.keystore.invalidated.android">Sinun NoirWalletin salatut tiedot ovat juuri mitätöity, koska sinun Androidin näytönlukitus on otettu pois käytöstä.</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">Android KeyStore virhe</string>
   <!-- No internet alert message -->
@@ -47,7 +47,7 @@
   <!-- Send success alert header label (confirmation that the send happened) -->
   <string name="Alerts.sendSuccess">Lähetys vahvistettu</string>
   <!-- Send success alert subheader label (e.g. the money was sent) -->
-  <string name="Alerts.sendSuccessSubheader">DigiByte lähetetty!</string>
+  <string name="Alerts.sendSuccessSubheader">Noir lähetetty!</string>
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">Sormenjälki tunnistettu</string>
   <string name="all">Kaikki</string>
@@ -110,7 +110,7 @@
   <!-- Email unavailable alert title -->
     <!-- Email unavailable alert title -->
     <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
-  <string name="ErrorMessages.loopingLockScreen.android">DigiWallettia ei voida todentaa sinun Android versiossa olevan bugin takia. [Napauta tähän saadaksesi lisää tietoa.]</string>
+  <string name="ErrorMessages.loopingLockScreen.android">NoirWallettia ei voida todentaa sinun Android versiossa olevan bugin takia. [Napauta tähän saadaksesi lisää tietoa.]</string>
   <!-- Messaging unavailable alert title -->
     <!-- Messaging unavailable alert title -->
     <!-- Fingerprint was not recognized by the scanner, please try scanning again -->
@@ -125,7 +125,7 @@
     <!-- Checking private key balance progress view text -->
   <string name="Import.checking">Tarkistetaan yksityisen avaimen saldo...</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">Lähetä %1$s tästä yksityisestä avaimesta lompakkoosi?  DigiByte-verkko tulee saamaan %2$s suuruisen palkkion.</string>
+  <string name="Import.confirm">Lähetä %1$s tästä yksityisestä avaimesta lompakkoosi?  Noir-verkko tulee saamaan %2$s suuruisen palkkion.</string>
   <!-- Duplicate key error message -->
     <!-- empty private key error message -->
   <string name="Import.Error.empty">Tämä yksityinen avain on tyhjä.</string>
@@ -138,7 +138,7 @@
     <!-- Importing wallet progress view label -->
     <!-- Caption for graphics -->
     <!-- Import wallet intro screen message -->
-  <string name="Import.message">Lompakon tuonti siirtää kaikki rahat toisesta lompakostasi sinun DigiWallettiin käyttäen yhtä transaktiota.</string>
+  <string name="Import.message">Lompakon tuonti siirtää kaikki rahat toisesta lompakostasi sinun NoirWallettiin käyttäen yhtä transaktiota.</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">Tämä yksityinen avain on salasanasuojattu.</string>
   <!-- password textfield placeholder -->
@@ -160,7 +160,7 @@
     Ignore jailbreak warning button
     Jailbreak warning message
     -->
-  <string name="JailbreakWarnings.messageWithoutBalance">LAITTEEN TURVALLISUUS VAARANNETTU\nMikä tahansa \'jailbreak\' app voi päästä käsiksi DigiWalletin keychain tietoihin ja varastaa sinun DigiBytet! Ole hyvä ja käytä DigiWallet:tia vain laitteeella joka ei ole jailbroken.</string>
+  <string name="JailbreakWarnings.messageWithoutBalance">LAITTEEN TURVALLISUUS VAARANNETTU\nMikä tahansa \'jailbreak\' app voi päästä käsiksi NoirWalletin keychain tietoihin ja varastaa sinun Noirt! Ole hyvä ja käytä NoirWallet:tia vain laitteeella joka ei ole jailbroken.</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">VAROITUS</string>
   <!-- Location services disabled error -->
@@ -201,7 +201,7 @@
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">Noden yhteyden tila</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">DigiByte Nodet</string>
+  <string name="NodeSelector.title">Noir Nodet</string>
   <string name="no_limit">Ei rajoitusta</string>
   <string name="original_amount">Alkuperäinen arvo: %s</string>
   <!-- Bad Payment request alert title -->
@@ -210,9 +210,9 @@
     <!-- Request expired payment protocol error message -->
     <!-- Payment too small alert title -->
     <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">DigiByte-maksut eivät voi olla vähemmän kuin %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallPayment">Noir-maksut eivät voi olla vähemmän kuin %1$s.</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">DigiByte-transaktion ulostulot eivät voi olla vähemmän kuin %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">Noir-transaktion ulostulot eivät voi olla vähemmän kuin %1$s.</string>
   <!-- Unsupported signature type payment protocol error message -->
     <!-- Untrusted certificate payment protocol error message -->
     <string name="processed">Jalostettu</string>
@@ -236,7 +236,7 @@
   <!-- Upgrade PIN prompt body. -->
     <!-- Upgrade PIN prompt title. -->
     <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">Ota käyttöön ilmoitukset, että voit vastaanottaa tulevaisuudessa erikoisviestejä DigiWalletista.</string>
+  <string name="PushNotifications.body">Ota käyttöön ilmoitukset, että voit vastaanottaa tulevaisuudessa erikoisviestejä NoirWalletista.</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Push ilmoitukset</string>
   <!-- Push notifications are off label -->
@@ -262,7 +262,7 @@
   <string name="RecoverWallet.header_reset_pin">Nollaa PIN-koodi</string>
   <!-- Enter paper key instruction -->
     <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">Palauta DigiWalletisi sinun henkilökohtaisella palautusavaimella.</string>
+  <string name="RecoverWallet.intro">Palauta NoirWalletisi sinun henkilökohtaisella palautusavaimella.</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">Syöttämäsi henkilökohtainen palautusavain ei ole kelvollinen. Ole hyvä ja tarkista jokainen sana ja yritä uudelleen.</string>
   <!-- Previous button accessibility label -->
@@ -271,7 +271,7 @@
   <!-- Reset PIN with paper key: more information button. -->
     <!-- Next button accessibility label -->
     <!-- Recover wallet sub-header -->
-  <string name="RecoverWallet.subheader">Syötä sen DigiWallet lompakon henkilökohtainen palautusavain jonka haluat palauttaa.</string>
+  <string name="RecoverWallet.subheader">Syötä sen NoirWallet lompakon henkilökohtainen palautusavain jonka haluat palauttaa.</string>
   <!-- Reset PIN with paper key: sub-header -->
   <string name="RecoverWallet.subheader_reset_pin">Nollataksesi PIN-koodisi, kirjoita sanat henkilökohtaisesta palautusavaimesta allaoleviin laatikoihin.</string>
   <!-- No amount entered error message. -->
@@ -284,7 +284,7 @@
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 minuuttia</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Jos transaktio näkyy valmiina DigiByte verkossa, mutta ei sinun DigiWalletissa.</string>
+  <string name="ReScan.body2">Jos transaktio näkyy valmiina Noir verkossa, mutta ei sinun NoirWalletissa.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">Saat toistuvasti virheen, jossa sanotaan, että sinun transaktiosi on hylätty.</string>
   <!-- Start Sync button label -->
@@ -304,26 +304,26 @@
     <!-- Security Center Info -->
   <string name="SecurityCenter.info">Ota käyttöön kaikki turvaominaisuudet maksimoidaksesi suojan.</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">Ainoa tapa päästä käsiksi sinun DigiByteihin jos kadotat tai vaihdat puhelinta.</string>
+  <string name="SecurityCenter.paperKeyDescription">Ainoa tapa päästä käsiksi sinun Noirihin jos kadotat tai vaihdat puhelinta.</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Henkilökohtainen palautusavain</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">Suojaa sinun DigiByte-lompakkoasi luvattomilta käyttäjiltä.</string>
+  <string name="SecurityCenter.pinDescription">Suojaa sinun Noir-lompakkoasi luvattomilta käyttäjiltä.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">6-numeroinen PIN-koodi</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Turvakeskus</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">Poista helposti DigiWallet lukosta ja lähetä rahaa asetettuun rajaan asti.</string>
+  <string name="SecurityCenter.touchIdDescription">Poista helposti NoirWallet lukosta ja lähetä rahaa asetettuun rajaan asti.</string>
   <!-- Touch ID button title -->
     <!-- Security center fingerprint authentication button -->
   <string name="SecurityCenter.touchIdTitle.android">Sormenjälkitunnistus</string>
   <!-- Send money amount label -->
     <!-- Balance: $4.00 -->
     <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">Salli kameralle pääsy \"Asetukset\" &gt; \"Sovellukset\" &gt; \"DigiWallet\" &gt; \"Oikeudet\"</string>
+  <string name="Send.cameraUnavailabeMessage.android">Salli kameralle pääsy \"Asetukset\" &gt; \"Sovellukset\" &gt; \"NoirWallet\" &gt; \"Oikeudet\"</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">DigiWallet ei ole sallittu käyttämään kameraa</string>
+  <string name="Send.cameraUnavailabeTitle.android">NoirWallet ei ole sallittu käyttämään kameraa</string>
   <!-- Camera not allowed message -->
     <!-- Camera not allowed alert title -->
     <!-- Warning when sending to self. -->
@@ -359,7 +359,7 @@
   <!-- Send money to label -->
   <string name="Send.toLabel">Kenelle</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">DigiByte-osoitteet ovat tarkoitettu vain kertakäyttöä varten.</string>
+  <string name="Send.UsedAddress.firstLine">Noir-osoitteet ovat tarkoitettu vain kertakäyttöä varten.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">Uudelleenkäyttäminen heikentää yksityisyyttä sinun ja myös vastaanottajan kohdalla ja voi johtaa tappioon jos vastaanottaja ei suoraan hallitse osoitetta.</string>
   <!-- Adress already used alert title -->
@@ -375,14 +375,14 @@
     <!-- Import wallet left message -->
   <string name="Settings.importLeftMessage">Lompakko joka tuodaan</string>
   <!-- Import wallet right message -->
-  <string name="Settings.importRightMessage">Sinun DigiWallet</string>
+  <string name="Settings.importRightMessage">Sinun NoirWallet</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Tuo lompakko</string>
   <!-- Manage settings section header -->
   <string name="Settings.manage">Hallinnoi</string>
   <!-- Notifications label -->
     <!-- Restore screen lower label. -->
-  <string name="Settings.restore_label">Sinun DigiWallettisi tällä laitteella</string>
+  <string name="Settings.restore_label">Sinun NoirWallettisi tällä laitteella</string>
   <!-- Leave review button label -->
     <!-- Share anonymous data label -->
     <!-- Sync blockchain label -->
@@ -400,7 +400,7 @@
     <!-- Share data switch label. -->
     <!-- button label -->
     <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">Sinun henkilökohtainen palautusavain on ainoa tapa palauttaa DigiWalletisi jos puhelimesi katoaa, varastetaan, menee rikki tai päivität sen.\n\nMe näytämme sinulle listan sanoja, jotka sinun tulee kirjoittaa paperille jonka pidät turvassa.</string>
+  <string name="StartPaperPhrase.body">Sinun henkilökohtainen palautusavain on ainoa tapa palauttaa NoirWalletisi jos puhelimesi katoaa, varastetaan, menee rikki tai päivität sen.\n\nMe näytämme sinulle listan sanoja, jotka sinun tulee kirjoittaa paperille jonka pidät turvassa.</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">Kirjoita henkilökohtainen palautusavain talteen</string>
   <!-- Argument is date -->
@@ -422,7 +422,7 @@
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">Sormenjälkitunnistus ei ole käytössä</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">Käytä sormenjälkeä avataksesi DigiWalletisi lukosta ja lähetä rahaa asetettuun rajaan asti.</string>
+  <string name="TouchIdSettings.label">Käytä sormenjälkeä avataksesi NoirWalletisi lukosta ja lähetä rahaa asetettuun rajaan asti.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
     <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Käyttöraja: %1$s (%2$s)</string>
@@ -494,9 +494,9 @@
   <string name="UnlockScreen.touchIdTitle.android">Tunnistautuminen vaaditaan</string>
   <!-- Wallet unlocked message -->
     <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">Muista tämä PIN-koodi. Jos unohdat sen, et pysty pääsemään käsiksi sinun DigiByteihisi.</string>
+  <string name="UpdatePin.caption">Muista tämä PIN-koodi. Jos unohdat sen, et pysty pääsemään käsiksi sinun Noirihisi.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">Sinun PIN-koodia käytetään avaamaan lukitus sinun DigiWalletista ja lähettämään rahaa.</string>
+  <string name="UpdatePin.createInstruction">Sinun PIN-koodia käytetään avaamaan lukitus sinun NoirWalletista ja lähettämään rahaa.</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">Aseta PIN-koodi</string>
   <!-- Update PIN title -->
@@ -525,9 +525,9 @@
     <!-- Updating webview message -->
   <string name="Webview.updating">Päivitetään...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">DigiWalletilla on uusi ulkoasu ja muutamia uusia ominaisuuksia.\n\nJos tarvitset apua etsi (?) merkki joka löytyy useilla sivuilla oikeasta ylänurkasta.</string>
+  <string name="Welcome.body">NoirWalletilla on uusi ulkoasu ja muutamia uusia ominaisuuksia.\n\nJos tarvitset apua etsi (?) merkki joka löytyy useilla sivuilla oikeasta ylänurkasta.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">Tervetuloa DigiWallettiin!</string>
+  <string name="Welcome.title">Tervetuloa NoirWallettiin!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Oletko varma, että haluat tuhota tämän lompakon?</string>
   <!-- Wipe wallet alert title -->
@@ -537,7 +537,7 @@
     <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">Aloittaaksesi uuden lompakon tai palauttaaksesi vanhan sinun tulee ensin pyyhkiä lompakko joka on tällähetkellä asennettu. Jatkaaksesi syötä tämän hetkisen lompakkosi henkilökohtainen palautusavain.</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">Toisen lompakon aloittaminen tai palauttaminen sallii sinulle pääsyn jollekin toiselle DigiWalletille tällä laitteella.</string>
+  <string name="WipeWallet.startMessage">Toisen lompakon aloittaminen tai palauttaminen sallii sinulle pääsyn jollekin toiselle NoirWalletille tällä laitteella.</string>
   <!-- Start wipe wallet view warning -->
   <string name="WipeWallet.startWarning">Sinun tämänhetkinen lompakko poistetaan tältä laitteelta. Jos haluat palauttaa sen tulevaisuudessa, sinun tarvitsee syöttää henkilökohtainen palautusavain.</string>
   <!-- Wipe wallet navigation item title. -->

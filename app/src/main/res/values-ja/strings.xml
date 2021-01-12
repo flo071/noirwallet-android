@@ -2,21 +2,21 @@
 <resources>
   <!-- App name -->
     <!-- About screen blog label -->
-  <string name="About.blog">https://digibyte.io/</string>
+  <string name="About.blog">https://noirofficial.org/</string>
   <!-- About screen footer -->
-  <string name="About.footer">制作　グローバルDigiWalletチーム　バージョン %1$s</string>
+  <string name="About.footer">制作　グローバルNoirWalletチーム　バージョン %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">プライバシーポリシー</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/Noirofficial/</string>
   <!-- Terms of Use button label -->
     <!--
     Terms of Use button label
     About screen title
     -->
-  <string name="About.title">高速でシンプルそして安全です！：DigiWallet for Android でデジバイトの送受信を簡単に開始する事が出来ます。新規ユーザーとヘビーユーザーの両方を対象に設計されたDigiWallet for Android は初心者にはシンプルでありながら、ヘビーユーザーにとっても十分なパフォーマンスを発揮します。</string>
+  <string name="About.title">高速でシンプルそして安全です！：NoirWallet for Android でデジバイトの送受信を簡単に開始する事が出来ます。新規ユーザーとヘビーユーザーの両方を対象に設計されたNoirWallet for Android は初心者にはシンプルでありながら、ヘビーユーザーにとっても十分なパフォーマンスを発揮します。</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/Noircoin</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">閉じる</string>
   <!-- Support center accessibiliy label -->
@@ -27,9 +27,9 @@
   <!-- Error alert title -->
   <string name="Alert.error">エラー</string>
   <!-- Keystore error -->
-  <string name="Alert.keystore.generic.android">Android OSキーストアに問題があります。support@digibyte.io までご連絡ください。</string>
+  <string name="Alert.keystore.generic.android">Android OSキーストアに問題があります。support@noirofficial.org までご連絡ください。</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">Androidロック画面が無効になっているため、DigiWalletで暗号化されたデータが無効になりました。</string>
+  <string name="Alert.keystore.invalidated.android">Androidロック画面が無効になっているため、NoirWalletで暗号化されたデータが無効になりました。</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">Android キーストアのエラー</string>
   <!-- No internet alert message -->
@@ -110,7 +110,7 @@
   <!-- Email unavailable alert title -->
     <!-- Email unavailable alert title -->
     <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
-  <string name="ErrorMessages.loopingLockScreen.android">あなたのAndroidバージョンのバグのためにDigiWalletを認証することはできません。 [詳細はここをタップしてください]</string>
+  <string name="ErrorMessages.loopingLockScreen.android">あなたのAndroidバージョンのバグのためにNoirWalletを認証することはできません。 [詳細はここをタップしてください]</string>
   <!-- Messaging unavailable alert title -->
     <!-- Messaging unavailable alert title -->
     <!-- Fingerprint was not recognized by the scanner, please try scanning again -->
@@ -125,7 +125,7 @@
     <!-- Checking private key balance progress view text -->
   <string name="Import.checking">秘密鍵の残高チェック中...</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">この秘密鍵から %1$s をあなたのWalletに送りますか？ DigiByteネットワークに %2$s の手数料が加算されます。</string>
+  <string name="Import.confirm">この秘密鍵から %1$s をあなたのWalletに送りますか？ Noirネットワークに %2$s の手数料が加算されます。</string>
   <!-- Duplicate key error message -->
     <!-- empty private key error message -->
   <string name="Import.Error.empty">この秘密鍵は空です。</string>
@@ -138,7 +138,7 @@
     <!-- Importing wallet progress view label -->
     <!-- Caption for graphics -->
     <!-- Import wallet intro screen message -->
-  <string name="Import.message">別のWalletからDigiWalletに全額インポートします</string>
+  <string name="Import.message">別のWalletからNoirWalletに全額インポートします</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">この秘密鍵はパスワードで保護されています。</string>
   <!-- password textfield placeholder -->
@@ -160,7 +160,7 @@
     Ignore jailbreak warning button
     Jailbreak warning message
     -->
-  <string name="JailbreakWarnings.messageWithoutBalance">デバイスセキュリティの警告 : すべての脱獄アプリは、DigiWalletのキーチェーンデータにアクセスし、あなたのDigiByteを盗むことができます。 DigiWalletは、非脱獄デバイスでのみ使用してください。</string>
+  <string name="JailbreakWarnings.messageWithoutBalance">デバイスセキュリティの警告 : すべての脱獄アプリは、NoirWalletのキーチェーンデータにアクセスし、あなたのNoirを盗むことができます。 NoirWalletは、非脱獄デバイスでのみ使用してください。</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">警告</string>
   <!-- Location services disabled error -->
@@ -201,7 +201,7 @@
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">ノード接続ステータス</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">DigiByteノード</string>
+  <string name="NodeSelector.title">Noirノード</string>
   <string name="no_limit">制限なし</string>
   <string name="original_amount">元の値 : %s</string>
   <!-- Bad Payment request alert title -->
@@ -210,9 +210,9 @@
     <!-- Request expired payment protocol error message -->
     <!-- Payment too small alert title -->
     <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">DigiByteの支払いは %1$s 未満では出来ません。</string>
+  <string name="PaymentProtocol.Errors.smallPayment">Noirの支払いは %1$s 未満では出来ません。</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">DigiByteのトランザクション出力は %1$s より小さくすることはできません。</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">Noirのトランザクション出力は %1$s より小さくすることはできません。</string>
   <!-- Unsupported signature type payment protocol error message -->
     <!-- Untrusted certificate payment protocol error message -->
     <string name="processed">処理された</string>
@@ -236,7 +236,7 @@
   <!-- Upgrade PIN prompt body. -->
     <!-- Upgrade PIN prompt title. -->
     <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">DigiWalletから特別なメッセージを受け取るように通知をオンにしてください。</string>
+  <string name="PushNotifications.body">NoirWalletから特別なメッセージを受け取るように通知をオンにしてください。</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">プッシュ通知</string>
   <!-- Push notifications are off label -->
@@ -262,7 +262,7 @@
   <string name="RecoverWallet.header_reset_pin">PINのリセット</string>
   <!-- Enter paper key instruction -->
     <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">ペーパーキーでDigiWalletを復元します。</string>
+  <string name="RecoverWallet.intro">ペーパーキーでNoirWalletを復元します。</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">入力したペーパーキーは無効です。 各単語を再度確認してから、もう一度お試しください。</string>
   <!-- Previous button accessibility label -->
@@ -284,13 +284,13 @@
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 分</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">取引がDigiByteネットワーク上で完了と表示されるが、DigiWalletでは表示されない場合。</string>
+  <string name="ReScan.body2">取引がNoirネットワーク上で完了と表示されるが、NoirWalletでは表示されない場合。</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">トランザクションが拒否されたというエラーが繰り返し表示される場合。</string>
   <!-- Start Sync button label -->
   <string name="ReScan.buttonTitle">同期開始</string>
   <!-- Sync blockchain view footer -->
-  <string name="ReScan.footer">ブロックチェーンとの同期中にDigiByteを送金することはできません。</string>
+  <string name="ReScan.footer">ブロックチェーンとの同期中にNoirを送金することはできません。</string>
   <!-- Sync Blockchain view header -->
     <!-- Subheader label -->
   <string name="ReScan.subheader1">予定時刻</string>
@@ -304,26 +304,26 @@
     <!-- Security Center Info -->
   <string name="SecurityCenter.info">セキュリティレベルを最高にする為に、すべてのセキュリティ機能を有効にしてください。</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">スマートフォンを紛失や更新した際、DigiByteにアクセスする為の唯一の方法です。</string>
+  <string name="SecurityCenter.paperKeyDescription">スマートフォンを紛失や更新した際、Noirにアクセスする為の唯一の方法です。</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">ペーパーキー</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">許可されていないユーザーからDigiWalletを保護します。</string>
+  <string name="SecurityCenter.pinDescription">許可されていないユーザーからNoirWalletを保護します。</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">６桁のPIN</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">セキュリティセンター</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">DigiWalletのロックを簡単に解除し、設定された上限まで送金できます。</string>
+  <string name="SecurityCenter.touchIdDescription">NoirWalletのロックを簡単に解除し、設定された上限まで送金できます。</string>
   <!-- Touch ID button title -->
     <!-- Security center fingerprint authentication button -->
   <string name="SecurityCenter.touchIdTitle.android">指紋認証</string>
   <!-- Send money amount label -->
     <!-- Balance: $4.00 -->
     <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">[設定]&gt; [アプリ]&gt; [DigiWallet]&gt; [権限]でカメラへのアクセスを許可する</string>
+  <string name="Send.cameraUnavailabeMessage.android">[設定]&gt; [アプリ]&gt; [NoirWallet]&gt; [権限]でカメラへのアクセスを許可する</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">DigiWalletはカメラにアクセスできません</string>
+  <string name="Send.cameraUnavailabeTitle.android">NoirWalletはカメラにアクセスできません</string>
   <!-- Camera not allowed message -->
     <!-- Camera not allowed alert title -->
     <!-- Warning when sending to self. -->
@@ -359,7 +359,7 @@
   <!-- Send money to label -->
   <string name="Send.toLabel">To</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">DigiByteのアドレスは1回限りの使用を目的としています。</string>
+  <string name="Send.UsedAddress.firstLine">Noirのアドレスは1回限りの使用を目的としています。</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">アドレスの再利用は、あなたと受取人の双方のプライバシーを低下させ、受取人がアドレスを直接管理しない場合に損失を招く可能性があります。</string>
   <!-- Adress already used alert title -->
@@ -375,14 +375,14 @@
     <!-- Import wallet left message -->
   <string name="Settings.importLeftMessage">インポートされるWallet</string>
   <!-- Import wallet right message -->
-  <string name="Settings.importRightMessage">あなたのDigiWallet</string>
+  <string name="Settings.importRightMessage">あなたのNoirWallet</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Walletのインポート</string>
   <!-- Manage settings section header -->
   <string name="Settings.manage">管理</string>
   <!-- Notifications label -->
     <!-- Restore screen lower label. -->
-  <string name="Settings.restore_label">このデバイス上のDigiByte</string>
+  <string name="Settings.restore_label">このデバイス上のNoir</string>
   <!-- Leave review button label -->
     <!-- Share anonymous data label -->
     <!-- Sync blockchain label -->
@@ -400,7 +400,7 @@
     <!-- Share data switch label. -->
     <!-- button label -->
     <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">スマートフォンを紛失、盗難、破損、または更新した場合、DigiWalletを復元する唯一の方法はペーパーキーです。安全に保管する単語のリストを表示しますので書き留めてください。</string>
+  <string name="StartPaperPhrase.body">スマートフォンを紛失、盗難、破損、または更新した場合、NoirWalletを復元する唯一の方法はペーパーキーです。安全に保管する単語のリストを表示しますので書き留めてください。</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">ペーパーキーを書き留めてください</string>
   <!-- Argument is date -->
@@ -422,7 +422,7 @@
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">指紋認証が有効でありません</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">指紋認証でDigiWalletのロック解除、設定額まで送金が出来ます。</string>
+  <string name="TouchIdSettings.label">指紋認証でNoirWalletのロック解除、設定額まで送金が出来ます。</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
     <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">利用設定 : %1$s ( %2$s )</string>
@@ -494,9 +494,9 @@
   <string name="UnlockScreen.touchIdTitle.android">認証が必要です</string>
   <!-- Wallet unlocked message -->
     <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">このPINを忘れないでください。 忘れてしまった場合あなたのDigiByteにアクセスすることができなくなります。</string>
+  <string name="UpdatePin.caption">このPINを忘れないでください。 忘れてしまった場合あなたのNoirにアクセスすることができなくなります。</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">PINは、DigiWalletのロックを解除してDigiByteを送金するために使用されます。</string>
+  <string name="UpdatePin.createInstruction">PINは、NoirWalletのロックを解除してNoirを送金するために使用されます。</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">PINの設定</string>
   <!-- Update PIN title -->
@@ -525,9 +525,9 @@
     <!-- Updating webview message -->
   <string name="Webview.updating">更新中...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">DigiWalletはまったく新しい外観といくつかの新機能を備えています。ヘルプが必要な場合は、画面の右上にある？をタップして下さい。</string>
+  <string name="Welcome.body">NoirWalletはまったく新しい外観といくつかの新機能を備えています。ヘルプが必要な場合は、画面の右上にある？をタップして下さい。</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">DigiWalletへようこそ！</string>
+  <string name="Welcome.title">NoirWalletへようこそ！</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">このWalletを削除してもよろしいですか？</string>
   <!-- Wipe wallet alert title -->
@@ -537,7 +537,7 @@
     <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">新しいWalletを開始するか、既存のWalletをリストアするには、まず現在インストールされているWalletを削除する必要があります。 続行するには、現在のWalletのペーパーキーを入力します。</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">別のWalletを開始または復旧すると、このデバイスで別のDigiWalletにアクセスして管理することができます。</string>
+  <string name="WipeWallet.startMessage">別のWalletを開始または復旧すると、このデバイスで別のNoirWalletにアクセスして管理することができます。</string>
   <!-- Start wipe wallet view warning -->
   <string name="WipeWallet.startWarning">現在のWalletはこの端末から削除されます。 復元したい場合は、ペーパーキーを入力する必要があります。</string>
   <!-- Wipe wallet navigation item title. -->

@@ -149,8 +149,8 @@ public abstract class BRActivity extends AppCompatActivity implements FragmentMa
                     return;
                 }
                 if (AssetsHelper.Companion.getInstance().pendingAssetTx != null) {
-                    result = result.replace("digibyte://", "");
-                    result = result.replace("digibyte:", "");
+                    result = result.replace("noir://", "");
+                    result = result.replace("noir:", "");
                     if (BRWalletManager.validateAddress(result)) {
                         AssetsHelper.Companion.getInstance().pendingAssetTx.setDestinationAddress(result);
                         AssetsHelper.Companion.getInstance().sendPendingAssetTx(this);

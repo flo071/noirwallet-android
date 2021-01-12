@@ -156,13 +156,13 @@ public class LoginActivity extends BRActivity implements BRWalletManager.OnBalan
             for (NdefRecord ndefRecord : records) {
                 try {
                     String record = new String(ndefRecord.getPayload());
-                    if (record.contains("digiid")) {
+                    if (record.contains("noirid")) {
                         Log.d(LoginActivity.class.getSimpleName(),
-                                record.substring(record.indexOf("digiid")));
-                        BRBitId.digiIDAuthPrompt(this, record.substring(record.indexOf("digiid")), false);
-                    } else if (record.contains("digibyte")) {
+                                record.substring(record.indexOf("noirid")));
+                        BRBitId.digiIDAuthPrompt(this, record.substring(record.indexOf("noirid")), false);
+                    } else if (record.contains("noir")) {
                         BRAnimator.showOrUpdateSendFragment(this,
-                                record.substring(record.indexOf("digibyte")));
+                                record.substring(record.indexOf("noir")));
                     }
 
                 } catch (Exception e) {

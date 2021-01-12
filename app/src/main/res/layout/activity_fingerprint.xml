@@ -37,6 +37,7 @@
                     style="@style/Text.Description.Top"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/noir_jupiter_grey"
                     android:text="@string/TouchIdSettings.label"/>
 
                 <LinearLayout
@@ -53,6 +54,7 @@
                         android:layout_weight="1"
                         android:gravity="center_vertical"
                         android:layout_height="match_parent"
+                        android:textColor="@color/noir_jupiter_grey"
                         android:text="@string/TouchIdSettings.switchLabel.android"/>
 
                     <androidx.appcompat.widget.SwitchCompat
@@ -78,6 +80,7 @@
                     android:id="@+id/limit_exchange"
                     style="@style/Text.Description"
                     android:layout_width="wrap_content"
+                    android:textColor="@color/noir_jupiter_grey"
                     android:layout_height="wrap_content"/>
 
                 <TextView
@@ -85,6 +88,7 @@
                     style="@style/Text.Description"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/noir_jupiter_grey"
                     android:text="@string/TouchIdSettings.customizeText.android"/>
 
             </LinearLayout>

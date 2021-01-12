@@ -32,6 +32,7 @@
                     style="@style/Text.Description.Top"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/noir_jupiter_grey"
                     android:text="@string/UpdatePin.createInstruction"
                     android:visibility="@{confirmPin ? View.GONE : View.VISIBLE}"/>
 

@@ -15,6 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:filterTouchesWhenObscured="true"
+        android:background="@color/noir_moolight_grey"
         android:fitsSystemWindows="true">
 
         <FrameLayout
@@ -33,7 +34,7 @@
                     android:id="@+id/toolbar_layout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/background">
+                    android:background="@color/noir_light">
 
                     <com.google.android.material.appbar.CollapsingToolbarLayout
                         android:layout_width="match_parent"
@@ -165,29 +166,33 @@
                         app:lottie_autoPlay="false"
                         app:lottie_enableMergePathsForKitKatAndAbove="true"
                         app:lottie_fileName="node_connection.json"
-                        app:lottie_loop="true" />
+                        app:lottie_loop="true"
+                        android:background="@color/noir_light"/>
 
                     <TextView
                         android:id="@+id/height_check"
                         android:layout_gravity="center_horizontal"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:gravity="center_horizontal"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:background="@color/noir_light"/>
 
                     <org.noirofficial.presenter.customviews.BRTabLayout
                         android:id="@+id/tab_layout"
                         style="@style/MyCustomTabLayout"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:background="@color/noir_light"
                         app:tabGravity="fill"
                         app:tabMode="fixed" />
 
                     <androidx.viewpager.widget.ViewPager
                         android:id="@+id/tx_pager"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:adapter="@{pagerAdapter}" />
+                        android:adapter="@{pagerAdapter}"
+                        android:background="@color/noir_moolight_grey" />
                 </LinearLayout>
 
             </androidx.coordinatorlayout.widget.CoordinatorLayout>
@@ -197,43 +202,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_gravity="bottom"
-                android:background="@drawable/bottom_bg"
+                android:background="@drawable/bottom_bg_new"
                 android:clickable="true"
                 android:focusable="true"
                 android:paddingStart="16dp"
-                android:paddingEnd="16dp"
-                android:paddingBottom="14dp">
+                android:paddingEnd="16dp">
 
-                <LinearLayout
-                    android:id="@+id/nav_drawer"
-                    android:layout_width="30dp"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentBottom="true"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:orientation="vertical">
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="2dp"
-                        android:layout_marginBottom="8dp"
-                        android:background="#ffffff" />
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="2dp"
-                        android:layout_marginBottom="8dp"
-                        android:background="#ffffff" />
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="2dp"
-                        android:layout_marginBottom="4dp"
-                        android:background="#ffffff" />
-
-                </LinearLayout>
 
                 <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/nav_drawer"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentTop="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:src="@drawable/ic_nav" />
+
+                <!--androidx.appcompat.widget.AppCompatImageView
                     android:id="@+id/assets_action"
                     android:layout_width="45dp"
                     android:layout_height="45dp"
@@ -242,19 +228,19 @@
                     android:layout_marginEnd="10dp"
                     android:layout_toStartOf="@id/main_action"
                     android:foreground="?android:attr/selectableItemBackground"
-                    android:src="@drawable/ic_assets" />
+                    android:src="@drawable/ic_assets" /-->
 
                 <androidx.appcompat.widget.AppCompatImageView
                     android:id="@+id/main_action"
                     android:layout_width="55dp"
                     android:layout_height="55dp"
                     android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="10dp"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:src="@drawable/ic_main_action" />
 
-                <androidx.appcompat.widget.AppCompatImageView
+                <!--androidx.appcompat.widget.AppCompatImageView
                     android:id="@+id/digiid_button"
                     android:layout_width="45dp"
                     android:layout_height="45dp"
@@ -263,16 +249,17 @@
                     android:layout_marginTop="10dp"
                     android:layout_toEndOf="@id/main_action"
                     android:foreground="?android:attr/selectableItemBackground"
-                    android:src="@drawable/ic_digi_id" />
+                    android:src="@drawable/ic_digi_id" /-->
 
                 <androidx.appcompat.widget.AppCompatImageView
                     android:id="@+id/qr_button"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentBottom="true"
+                    android:layout_alignParentTop="true"
                     android:foreground="?android:attr/selectableItemBackground"
-                    android:src="@drawable/ic_qrcode" />
+                    android:src="@drawable/ic_qr" />
 
             </org.noirofficial.presenter.customviews.BRRelativeLayout>
         </FrameLayout>
@@ -374,7 +361,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="start"
-            android:background="#191a2a">
+            android:background="@color/noir_moolight_grey">
 
             <ScrollView
                 android:layout_width="match_parent"
@@ -412,7 +399,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="@string/MenuButton.security"
-                            android:textColor="#8b8ca7"
+                            android:textColor="@color/noir_jupiter_grey"
                             android:textSize="20sp" />
                     </LinearLayout>
 
@@ -440,7 +427,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="@string/MenuButton.settings"
-                            android:textColor="#8b8ca7"
+                            android:textColor="@color/noir_jupiter_grey"
                             android:textSize="20sp" />
                     </LinearLayout>
 
@@ -467,7 +454,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="@string/MenuButton.lock"
-                            android:textColor="#8b8ca7"
+                            android:textColor="@color/noir_jupiter_grey"
                             android:textSize="20sp" />
                     </LinearLayout>
 
@@ -480,14 +467,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:paddingTop="36dp">
+                android:background="@color/noir_light">
 
                 <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="100dp"
-                    android:layout_height="150dp"
+                    android:layout_height="100dp"
                     android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="50dp"
-                    android:src="@drawable/digi_byte_symbol" />
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="40dp"
+                    android:src="@drawable/logo_circle" />
 
             </FrameLayout>
 

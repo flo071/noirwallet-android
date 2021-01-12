@@ -2,13 +2,13 @@
 <resources>
   <!-- App name -->
     <!-- About screen blog label -->
-  <string name="About.blog">https://digibyte.io/</string>
+  <string name="About.blog">https://noirofficial.org/</string>
   <!-- About screen footer -->
   <string name="About.footer">Versionବିଶ୍ୱ ଡ଼ିଜିବ୍ଳଲେଟ ଦଳ ଦ୍ୱାରା ନିର୍ମିତ Version %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">"ଗୋପନତ ନୀତି "</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/Noirofficial/</string>
   <!-- Terms of Use button label -->
     <!--
     Terms of Use button label
@@ -16,7 +16,7 @@
     -->
   <string name="About.title">"ଆନଡ୍ରୟାଡ୍ ଡିଭାଇସ୍ ୱାଲେଟ୍ "</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/Noircoin</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">"ବନ୍ଦ "</string>
   <!-- Support center accessibiliy label -->
@@ -29,7 +29,7 @@
   <!-- Error alert title -->
   <string name="Alert.error">ତ୍ରୁଟି</string>
   <!-- Keystore error -->
-  <string name="Alert.keystore.generic.android">ଆପଣନ୍କ୍ ଆନଡ୍ରୟେଡ ଓ.ଏସ୍. କି-ଷ୍ଟୋର୍ ରେ ତ୍ରୁଟି ଅଛି. ଦୟା କରି ଏହି ଲିନ୍କ  support@digibyte.io  ରେ ସଂସ୍ପର୍ଶ  କରନ୍ତୁ</string>
+  <string name="Alert.keystore.generic.android">ଆପଣନ୍କ୍ ଆନଡ୍ରୟେଡ ଓ.ଏସ୍. କି-ଷ୍ଟୋର୍ ରେ ତ୍ରୁଟି ଅଛି. ଦୟା କରି ଏହି ଲିନ୍କ  support@noirofficial.org  ରେ ସଂସ୍ପର୍ଶ  କରନ୍ତୁ</string>
   <!-- KeyStore error, keys are invalidated -->
   <string name="Alert.keystore.invalidated.android">ଆନଡ୍ରୟାଡ୍ ଲୋକ୍ ସ୍କ୍ରିନ୍ ବଳହୀନ ହୋଇ ପଡିବାରୁ,  ଆପଣନ୍କ ୱାଲେଟ୍  ଏନକ୍ରିପ୍ସନ୍ ଡାଟା ଅବିଧିମାନ୍ୟ ହୋଇଛି .</string>
   <!-- Keystore error title -->
@@ -49,7 +49,7 @@
   <!-- Send success alert header label (confirmation that the send happened) -->
   <string name="Alerts.sendSuccess">"	ପୁଷ୍ଟିକରଣ ପଠାନ୍ତୁ"</string>
   <!-- Send success alert subheader label (e.g. the money was sent) -->
-  <string name="Alerts.sendSuccessSubheader">"DigiByte ପଠାଇଲୁ "</string>
+  <string name="Alerts.sendSuccessSubheader">"Noir ପଠାଇଲୁ "</string>
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">"ଟିପ ଚିହ୍ନ ଚିହ୍ନିଲାଉ "</string>
   <string name="all">ସମସ୍ତ</string>
@@ -214,7 +214,7 @@
     <!-- Request expired payment protocol error message -->
     <!-- Payment too small alert title -->
     <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">"DigiByte ପ୍ରଦାନ %1$s ରୁ କାମ ରହି ପାରିବନୀ "</string>
+  <string name="PaymentProtocol.Errors.smallPayment">"Noir ପ୍ରଦାନ %1$s ରୁ କାମ ରହି ପାରିବନୀ "</string>
   <!-- Output too small error message. -->
   <string name="PaymentProtocol.Errors.smallTransaction">ସମ୍ପାଦନ ଫଳ %1$s ରୁ କମ୍ ଗ୍ରହଣୀୟ ନୁହଁ
 </string>
@@ -329,7 +329,7 @@
     <!-- Instructions how to allow the camera access for the app -->
   <string name="Send.cameraUnavailabeMessage.android">କ୍ୟାମେରା ପ୍ରାପ୍ତ ପାଇଁ ଅନୁମତି \"ସେଟ୍ଟିନ୍ଗସ୍\"&gt;&gt;\"ଆପ୍ପସ୍\"&gt;&gt;\"ଅନୁମତି</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">"DigiWallet କୁ କ୍ୟାମେରା ବ୍ୟବହାର କରିବା ପାଇଁ ଅନୁମତି ନୁହେ  "</string>
+  <string name="Send.cameraUnavailabeTitle.android">"NoirWallet କୁ କ୍ୟାମେରା ବ୍ୟବହାର କରିବା ପାଇଁ ଅନୁମତି ନୁହେ  "</string>
   <!-- Camera not allowed message -->
     <!-- Camera not allowed alert title -->
     <!-- Warning when sending to self. -->
@@ -365,7 +365,7 @@
   <!-- Send money to label -->
   <string name="Send.toLabel">"କୁ "</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">"Digibyte ଠିକଣା ଗୋଟି ଉପଯୋଗ ପାଇଁ ବ୍ୟବହାର ହୁଏ  "</string>
+  <string name="Send.UsedAddress.firstLine">"Noir ଠିକଣା ଗୋଟି ଉପଯୋଗ ପାଇଁ ବ୍ୟବହାର ହୁଏ  "</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">ପୁନଃ ବ୍ୟବହାର ଆପଣନ୍କ  ଏବଂ ନେଲା ବାଲା ର  ଏକାନ୍ତତା  ରେ ବାଧା ସୃଷ୍ଟି କରେ,ଯଦି ନେଲା ବାଲା  
  ତା ଠିକଣା ସିଧାସଳଖ ନିୟନ୍ତ୍ରଣ ନ କରେ.</string>
@@ -431,7 +431,7 @@
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">ଫିନ୍ଗରପ୍ରିଣ୍ଟ  ପ୍ରମାଣ ଯୋଗ୍ୟ ନୁହଁ</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">"DigiWallet ର ଛବି ଖୋଲିବା ପାଇଁ ଆପଣାର ଟିପ ଚିହ୍ନ ର ବ୍ୟବହହର କରନ୍ତୁ  "</string>
+  <string name="TouchIdSettings.label">"NoirWallet ର ଛବି ଖୋଲିବା ପାଇଁ ଆପଣାର ଟିପ ଚିହ୍ନ ର ବ୍ୟବହହର କରନ୍ତୁ  "</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
     <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">ଖର୍ଚ ସୀମା: %୧$s (%୨$s)</string>
@@ -503,9 +503,9 @@
   <string name="UnlockScreen.touchIdTitle.android">"ଦୃଢ଼ୀକରଣ ଦରକାର "</string>
   <!-- Wallet unlocked message -->
     <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">"pin କୁ ମନେ ରଖିବା ,ଅଥବା digibyte ରେ ପ୍ରବେଶ କରି ପାରିବ ନି "</string>
+  <string name="UpdatePin.caption">"pin କୁ ମନେ ରଖିବା ,ଅଥବା Noir ରେ ପ୍ରବେଶ କରି ପାରିବ ନି "</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">"DigiWallet ର ତାଲା ଖୋଲିବା ପାଇଁ ଆପଣାର ର ବ୍ୟବହୃତ କର  ଏବଂ  DigiByte କୁ ପଠାଇବା  "</string>
+  <string name="UpdatePin.createInstruction">"NoirWallet ର ତାଲା ଖୋଲିବା ପାଇଁ ଆପଣାର ର ବ୍ୟବହୃତ କର  ଏବଂ  Noir କୁ ପଠାଇବା  "</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">"ସେଟ PIN "</string>
   <!-- Update PIN title -->
@@ -534,7 +534,7 @@
     <!-- Updating webview message -->
   <string name="Webview.updating">ଅପଡେଟ ଚାଲିଛି</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">"digiwallet ର ନୂତନ ଦୃଷ୍ଟିପାତ ଅଥବା ଲକ୍ଷଣ ଅଛି | \n\n ଯଦି ତମକୁ ସାହାଯ୍ୟ ଦରକାର , ଏଇ ଚିହ୍ନ (?) ପାଇଁ ଉପରେ ଦକ୍ଷିଣ ଭାଗ ରେ ଦେଖିବା   "</string>
+  <string name="Welcome.body">"NoirWallet ର ନୂତନ ଦୃଷ୍ଟିପାତ ଅଥବା ଲକ୍ଷଣ ଅଛି | \n\n ଯଦି ତମକୁ ସାହାଯ୍ୟ ଦରକାର , ଏଇ ଚିହ୍ନ (?) ପାଇଁ ଉପରେ ଦକ୍ଷିଣ ଭାଗ ରେ ଦେଖିବା   "</string>
   <!-- Top title of welcome screen -->
   <string name="Welcome.title">ସ୍ୱାଗତ</string>
   <!-- Wipe wallet alert message -->
